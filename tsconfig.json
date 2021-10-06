@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "outDir": "./dist",
+        "sourceMap": true,
+        "noUnusedLocals": false,
+        "allowUnusedLabels": true,
+        "noUnusedParameters": false
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

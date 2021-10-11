@@ -22,6 +22,6 @@ web1:
     }
   authUrl: https://www.instapaper.com/user/login?next=%2Fu
   authActions:
-    - "type #username fdoctor00@gmail.com"
-    - "type #password yunfeng0409"
+    - "type #username xxx@xxx.com"
+    - "type #password xxxxx"
     - "click #log_in"

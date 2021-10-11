@@ -91,7 +91,6 @@ class Spider {
     const { next } = this.config;
     const _next = next.split(" ").map((v) => v.trim());
     const [actionName, slectorName] = _next;
-    await this.addJquery();
     try {
       await this.page.waitForSelector(slectorName, { timeout: 1000 });
       await this.page[actionName](slectorName);

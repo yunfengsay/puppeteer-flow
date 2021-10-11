@@ -67,12 +67,21 @@ class Spider {
       }
       return;
     }
+    await this.listenLog();
     if (authUrl) {
       await page.goto(authUrl);
       await page.waitForTimeout(10000);
     }
   }
-
+  async listenLog() {
+    this.page.on("console", (msg) => console.log("PAGE LOG:", msg.text()));
+    // this.page.on("pageerror", ({ message }) => console.log(message));
+  }
+  async addJquery() {
+    await this.page.addScriptTag({
+      url: "https://code.jquery.com/jquery-3.2.1.min.js",
+    });
+  }
   async loadUntil(url: string, until: string) {
     await this.page.goto(url, { waitUntil: "domcontentloaded" });
     await this.page.waitForSelector(until);
@@ -82,35 +91,51 @@ class Spider {
     const { next } = this.config;
     const _next = next.split(" ").map((v) => v.trim());
     const [actionName, slectorName] = _next;
-    await this.page[actionName](slectorName);
+    await this.addJquery();
+    try {
+      await this.page.waitForSelector(slectorName, { timeout: 1000 });
+      await this.page[actionName](slectorName);
+      await this.listenLog();
+      return true;
+    } catch (e) {
+      log("--- end");
+      return false;
+    }
+  }
+  async getItemData(confing, resultList = []) {
+    const { dataItemFunc } = confing;
+    // get data item
+    const _dataItemFunc = getDataItemFunc(dataItemFunc);
+    try {
+      await this.page.exposeFunction("_dataItemFunc", _dataItemFunc);
+      await this.page.exposeFunction("myConsole", console);
+    } catch (e) {}
+    const data = await this.page.evaluate(() => {
+      // @ts-ignore
+      return window._dataItemFunc({});
+    });
+    console.log(data);
+    resultList.push(...(data || []));
   }
 
   async run(config, resultList = []) {
-    const { url, wait, until, next, dataItemFunc } = config;
+    const { url, wait } = config;
 
     // load url and wait until element
-    await this.loadUntil(url, wait);
-    log("☺");
-    // get data item
-    const _dataItemFunc = getDataItemFunc(dataItemFunc);
-    await this.page.exposeFunction("_dataItemFunc", _dataItemFunc);
-    await this.page.evaluate(() => {
-      _dataItemFunc({ page: this.page }).then((data) => {
-        resultList.push(data);
-      });
-    });
+    if (url) {
+      await this.loadUntil(url, wait);
+    }
     // if next is not null, run next, else break
-
+    await this.getItemData(config, resultList);
     // get next page url
-    await this.gotoNext();
-
-    config.url = this.run(next, resultList);
-    log(`start url --> ${config.url}`);
-    this.run(config, resultList);
+    const isOk = await this.gotoNext();
+    if (isOk) {
+      await this.run(config, resultList);
+    }
   }
   async runAll() {
     const resultList = [];
-    this.run(this.config, resultList);
+    await this.run({ ...this.config, url: null }, resultList);
     return resultList;
   }
 }
@@ -132,6 +157,7 @@ const main = async () => {
     await instance.init();
     const data = await instance.runAll();
     result[key] = data;
+    console.log(result);
   }
   writeToFile(result);
   log("--- done");

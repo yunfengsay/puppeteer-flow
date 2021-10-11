@@ -1,0 +1,27 @@
+web1:
+  url: https://www.instapaper.com/u
+  wait: .paginate_older
+  until: not .paginate_older
+  next: click .paginate_older
+  dataItemFunc: (args) => {
+    return new Promise((resolve) =>{
+    const itemList = $('article_item');
+    const data = itemList.map(v =>{
+    const find = (className) =>  $(v).find(className)[0] ||{};
+    const title = find('.article_title').text;
+    const desc =  find('.article_preview').text;
+    const originUrl = find('.js_domain_linkout').href
+    const result = {
+    data,
+    title,
+    desc,
+    }
+    resolve(result)
+    })
+    })
+    }
+  authUrl: https://www.instapaper.com/user/login?next=%2Fu
+  authActions:
+    - "type #username fdoctor00@gmail.com"
+    - "type #password yunfeng0409"
+    - "click #log_in"

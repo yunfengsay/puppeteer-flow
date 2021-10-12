@@ -32,7 +32,7 @@ const log = (message: any) => {
   console.log(message);
 };
 
-const getConfig = (path = "./config.yml"): IConfig => {
+const getConfig = (path = `${__dirname}/../config.yml`): IConfig => {
   const file = fs.readFileSync(path, "utf8");
   return YAML.parse(file);
 };
@@ -168,13 +168,13 @@ export const main = async (args: IArgs) => {
     result[key] = data;
     console.log(result);
   }
-  writeToFile(result, args.out);
+  writeToFile(result, args.output);
   log("--- done");
 };
 
 interface IArgs {
   config: string;
   log: string;
-  out: string;
+  output: string;
   jquery: string;
 }

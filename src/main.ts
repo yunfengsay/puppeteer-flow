@@ -43,13 +43,6 @@ const getFuncString = (func: string) => {
   }
   return func;
 };
-const getDataItemFunc = (func: string, args = {}) => {
-  func = getFuncString(func);
-  return vm.runInNewContext(func, {
-    console,
-    ...args,
-  });
-};
 
 class Spider {
   config: IConfigItem = {} as IConfigItem;
@@ -70,7 +63,7 @@ class Spider {
     this.page = page;
     const { authActions, authUrl, url } = this.config;
     if (authActions) {
-      await page.goto(authUrl, { waitUntil: "networkidle0" });
+      await page.goto(authUrl, { waitUntil: "domcontentloaded" });
       for (const action of authActions) {
         const [actionName, selector, value] = action
           .split(" ")
@@ -82,16 +75,22 @@ class Spider {
     }
     if (authUrl) {
       await page.goto(authUrl);
-      await page.waitForTimeout(4000);
+      await page.waitForTimeout(10000);
       await page.goto(url, { waitUntil: "domcontentloaded" });
     }
     await this.listenLog();
   }
   async listenLog() {
+    if (String(global.args.log) !== "true") {
+      return;
+    }
     this.page.on("console", (msg) => console.log("PAGE LOG:", msg.text()));
     this.page.on("pageerror", ({ message }) => console.log(message));
   }
   async addJquery() {
+    if (String(global.args.jquery) !== "true") {
+      return;
+    }
     await this.page.addScriptTag({
       url: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
     });
@@ -117,21 +116,16 @@ class Spider {
   }
   async getItemData(config: IConfigItem) {
     const resultList = [];
-    // await this.addJquery();
+    await this.addJquery();
     const { dataItemFunc } = config;
-    // get data item
-    // const _dataItemFunc = getDataItemFunc(dataItemFunc);
-    try {
-      await this.page.addScriptTag({ content: getFuncString(dataItemFunc) });
-      // await this.page.exposeFunction("_dataItemFunc", _dataItemFunc);
-    } catch (e) {
-      log(e);
-    }
+    await this.page.waitForTimeout(1000);
+    await this.page.addScriptTag({ content: getFuncString(dataItemFunc) });
+    // await this.page.exposeFunction("_dataItemFunc", _dataItemFunc);
+    await this.page.waitForFunction("window.$main");
     const data = await this.page.evaluate(function () {
       // @ts-ignore
       return $main({});
     });
-    console.log(data);
     resultList.push(...(data || []));
     return resultList;
   }
@@ -162,8 +156,9 @@ const writeToFile = (content: any, path = "./result.json") => {
   fs.writeFileSync(path, content, "utf-8");
 };
 
-const main = async () => {
-  const config = getConfig();
+export const main = async (args: IArgs) => {
+  global.args = args;
+  const config = getConfig(args.config);
   const result = {};
   for (let key in config) {
     log(`--- start ${key}`);
@@ -173,8 +168,13 @@ const main = async () => {
     result[key] = data;
     console.log(result);
   }
-  writeToFile(result);
+  writeToFile(result, args.out);
   log("--- done");
 };
 
-main();
+interface IArgs {
+  config: string;
+  log: string;
+  out: string;
+  jquery: string;
+}

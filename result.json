@@ -1,3 +1,3204 @@
 {
-  "web1": []
+  "web1": [
+    {
+      "title": "\nHTTP 代理原理及实现（一） | JerryQu 的小站\n",
+      "desc": "\n文章目录 普通代理 隧道代理 提醒：本文最后更新于 1265 天前，文中所描述的信息可能已发生改变，请谨慎使用。 Web 代理是一种存在于网络中间的实体，提供各式各样的功能。现代网络系统中，Web 代理无处不在。我之前有关 HTTP 的博文中，多次提到了代理对 HTTP 请求及响应的影响。今天这篇文章，我打算谈谈…\n",
+      "originUrl": "https://imququ.com/post/web-proxy.html"
+    },
+    {
+      "title": "\n内核中的kfifo的例子 - CSDN博客\n",
+      "desc": "\n关于内核的kfifo介绍，可参考 http://www.cnblogs.com/Anker/p/3481373.html 咱玩一点理论性没这么强的东西，先那个例子来跑一下就知道是怎么回事了。这里以内核下的samples/kfifo/record-example.c为例 /* * Sample dynamic sized…\n",
+      "originUrl": "https://blog.csdn.net/mike8825/article/details/50982982"
+    },
+    {
+      "title": "\n树莓派Android Things使用人体红外感应模块HC-SR501\n",
+      "desc": "\n前言 在上一篇 树莓派Android Things使用超声波测距模块HC-SR04 文章中，简单的介绍了超声波模块的使用，本篇介绍下人体红外感应模块HC-SR501在刷入了Android Things的树莓派中的使用方法。由于上一篇已经介绍了树莓派和Android…\n",
+      "originUrl": "https://www.jianshu.com/p/d86df57b57b8"
+    },
+    {
+      "title": "\nReact Native性能之谜 – ThoughtWorks洞见\n",
+      "desc": "\n在PhoneGap、RubyMotion、Xamarin、Ionic一众跨平台开发工具中，React Native能够杀出一条血路，获得目前这么大的影响力，除了React社区生态圈的加持和Facebook的大力推广以外，另外一个最主要的原因就是其在开发效率和应用性能方面取得了一个比较好的平衡：…\n",
+      "originUrl": "https://insights.thoughtworks.cn/the-react-native-mystery/"
+    },
+    {
+      "title": "\n一道并发和锁的golang面试题 - CSDN博客\n",
+      "desc": "\ngolang go 面试题 04-15 golang go面试题 下载 记腾讯失败的面试经历 09-17 最近秋招了，有的人很随意的收到OFFER，有的人则不停的奔波于各个笔试，宣讲会和面试之间..而弱弱额楼主就是后者！ 看到网上有许多小伙伴写了面经，有成功的有失败的，楼主就把这次腾讯失败的面试经历总结下 论坛 面试题…\n",
+      "originUrl": "https://blog.csdn.net/qq_28163175/article/details/75287877"
+    },
+    {
+      "title": "\n阿言聊语言之Go性能分析与优化一\n",
+      "desc": "\n前言…\n",
+      "originUrl": "http://zhuanlan.zhihu.com/p/32906395"
+    },
+    {
+      "title": "\nGolang开发支持平滑升级（优雅重启）的HTTP服务 - tabalt的博客\n",
+      "desc": "\n前段时间用Golang在做一个HTTP的接口，因编译型语言的特性，修改了代码需要重新编译可执行文件，关闭正在运行的老程序，并启动新程序。对于访问量较大的面向用户的产品，关闭、重启的过程中势必会出现无法访问的情况，从而影响用户体验。…\n",
+      "originUrl": "http://tabalt.net/blog/graceful-http-server-for-golang/"
+    },
+    {
+      "title": "\n带css样式的console.log() ，进来了解一下 - 掘金\n",
+      "desc": "\n无聊的时候，喜欢打开一些无聊的网页，搞一下chrome爸爸的控制台。 常规操作 开发前端页面过程中，少不了的就是开启控制台，打印一些定义的东西，看看到底输出是什么； 打个断点，让代码飞慢一点，一步步的……深.……入……； 瞅一瞅network的加载资源，静态资源、参数、请求头，如果实用，顺势扒下来模拟一下，做个小东西；…\n",
+      "originUrl": "https://juejin.im/post/5ae189bf6fb9a07aa113e5bc?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n一个 Go 程序系统线程暴涨的问题\n",
+      "desc": "\n最近 fix 了一个 Go 程序系统线程数量暴增的问题，线程数量维持在2，3万个，有时候甚至更多，这情况明显不符合 Go 的并发原理。第一次发现线程数巨多是因为这个程序突然 crash 了，由于设置了程序可用的最大线程数，所以线程数一太多就会crash。 这个程序其实就是现在挺火热的 Swarm，Swarm…\n",
+      "originUrl": "http://zhuanlan.zhihu.com/p/22474724"
+    },
+    {
+      "title": "\n前端周刊\n",
+      "desc": "\n在前端领域跟上时代的脚步，广度和深度不断精进 王仕军 、 muwoo ・关于专栏\n",
+      "originUrl": "https://zhuanlan.zhihu.com/feweekly"
+    },
+    {
+      "title": "\nGo面试题答案与解析_清屏网_在线知识学习平台\n",
+      "desc": "\n1、写出下面代码输出内容。 package mainimport (\"fmt\")func main() {defer_call()}func defer_call() {defer func() { fmt.Println(\"打印前\") }()defer func() { fmt.Println(\"打印中\")…\n",
+      "originUrl": "http://www.qingpingshan.com/jb/go/303057.html"
+    },
+    {
+      "title": "\n有限状态机FSM原理与GO实现_清屏网_在线知识学习平台\n",
+      "desc": "\n有限状态机(Finite-state machine, 简写FSM)又可以称作有限状态自动机。它必须是可以附着在某种事物上的，且该事物的状态是有限的，通过某些触发事件，会让其状态发生转换。为此，有限状态机就是描述这些有限的状态和触发事件及转换行为的数学模型。 有限状态机组成…\n",
+      "originUrl": "http://www.qingpingshan.com/jb/go/303606.html"
+    },
+    {
+      "title": "\nmacOS Sierra 软件提示‘软件已损坏’，或‘不是Mac Appstore下载的’解决办法\n",
+      "desc": "\n如果你有想运行的软件，但是打开的时候提示已经损坏，或是提示不是App Store下载的： 无法运行 想要运行第三方未经认证的软件只要下面几步骤： 打开设置 解锁🔓 允许任意软件运行 然而macOS Sierra不是这样的 不再有第三个选项 macOS Sierra…\n",
+      "originUrl": "https://www.jianshu.com/p/3d47a1675f69"
+    },
+    {
+      "title": "\n从零开始搭建前端脚手架 - 前端 - 掘金\n",
+      "desc": "\nVue.js 是目前比较流行的前端框架之一，那么开发一个基于 Vue.js 的组件是每个前端的心愿。在每次开发新的 Vue.js 组件的时候，都会做的事情有下面几项： 创建项目目录 git 初始化 npm 初始化 搭建开发环境 语法检测 代码编译 代码打包 本地预览及热重载 搭建生产环境 语法检测 代码编译…\n",
+      "originUrl": "https://juejin.im/entry/5ad6e189518825557b4d452b?utm_medium=fe&utm_source=weixinqun"
+    },
+    {
+      "title": "\n看了都知道继承也就那么回事儿 - 掘金\n",
+      "desc": "\n前言 各位大佬们都来了就花点时间看看吧 看了之后来个小心心吧 不然没有动力继续写下去呀 哈哈 开始 预备知识 原型链知识 ---话不多说先上图，一图胜千言 现在来写一个基本的函数实例来解释这幅图 function Test () { this.name = 'test' ; }var fn = new…\n",
+      "originUrl": "https://juejin.im/post/5ad6efeb5188255c272275e1?utm_medium=fe&utm_source=weixinqun"
+    },
+    {
+      "title": "\nGo Channel 源码剖析\n",
+      "desc": "\n\n",
+      "originUrl": "http://yoursite.com/2017/08/06/golang-channel-implement/index.html"
+    },
+    {
+      "title": "\n认识 WebAssembly - 前端开发之道 - SegmentFault 思否\n",
+      "desc": "\n自从Brendan…\n",
+      "originUrl": "https://segmentfault.com/a/1190000012110615"
+    },
+    {
+      "title": "\ndocker安装PostgreSQL - CSDN博客\n",
+      "desc": "\ndocker 安装 问题,循环 安装 12-02 - 问答 本地的pgAdmin可以连 postgresql 的 docker 镜像吗？ 04-11 - 问答 设计制作学习 机器学习教程 Objective-C培训 交互设计视频教程 颜色模型 mysql关联查询两次本表 native底部 react extjs…\n",
+      "originUrl": "https://blog.csdn.net/liuyueyi1995/article/details/61204205"
+    },
+    {
+      "title": "\nDocker与Golang的巧妙结合 - DockOne.io\n",
+      "desc": "\nGolang Docker Docker与Golang的巧妙结合 【编者的话】这是一个展示在使用Go语言时如何让Docker更有用的提示与技巧的简辑。例如，如何使用不同版本的Go工具链来编译Go代码，如何交叉编译到不同的平台（并且测试结果！），或者如何制作真正小的容器镜像。…\n",
+      "originUrl": "http://dockone.io/article/1712"
+    },
+    {
+      "title": "\n重新理解JS的6种继承方式 | 黯羽轻扬\n",
+      "desc": "\n写在前面 一直不喜欢JS的OOP，在学习阶段好像也用不到，总觉得JS的OOP不伦不类的，可能是因为先接触了Java，所以对JS的OO部分有些抵触。 偏见归偏见，既然面试官问到了JS的OOP，那么说明这东西肯定是有用的，应该抛开偏见，认真地了解一下 约定 P.S.下面将展开一个有点长的故事，所以有必要提前约定共同语言：…\n",
+      "originUrl": "http://www.ayqy.net/blog/%e9%87%8d%e6%96%b0%e7%90%86%e8%a7%a3js%e7%9a%846%e7%a7%8d%e7%bb%a7%e6%89%bf%e6%96%b9%e5%bc%8f/"
+    },
+    {
+      "title": "\n浏览器的 16ms 渲染帧\n",
+      "desc": "\n由于现在广泛使用的屏幕都有固定的刷新率（比如最新的一般在 60Hz），在两次硬件刷新之间浏览器进行两次重绘是没有意义的只会消耗性能。浏览器会利用这个间隔 16ms（1000ms/60）适当地对绘制进行节流，因此 16ms 就成为页面渲染优化的一个关键时间。尤其在 异步渲染 中，要利用 流式渲染…\n",
+      "originUrl": "http://harttle.land/2017/08/15/browser-render-frame.html"
+    },
+    {
+      "title": "\ngit 常用操作总结 - 掘金\n",
+      "desc": "\n使用Git差不多有一年了，命令行也用的越来越多，所以把工作中常用到的操作在这里总结一下，以便更好的回顾与查询。 我司Git基本工作流程： $ git co(checkout) -b develop # → 创建开发分支develop $ git push # → 推送当前分支（develop）到远端仓库…\n",
+      "originUrl": "https://juejin.im/post/5a2cdfe26fb9a0452936b07f?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n一个简单的Golang实现的HTTP Proxy | 飞雪无情的博客\n",
+      "desc": "\n本文为原创文章，转载注明出处，欢迎扫码关注公众号 flysnow_org 或者网站 http://www.flysnow.org/ ，第一时间看后续精彩文章。觉得好的话，顺手分享到朋友圈吧，感谢支持。…\n",
+      "originUrl": "http://www.flysnow.org/2016/12/24/golang-http-proxy.html"
+    },
+    {
+      "title": "\nCentos 7和 Centos 6开放查看端口 防火墙关闭打开 - eaglezb - 博客园\n",
+      "desc": "\nCentos 7 firewall 命令： 查看已经开放的端口： firewall -cmd -- list -ports 开启端口 命令含义： –zone #作用域 –add-port=80/tcp #添加端口，格式为：端口/通讯协议 –permanent #永久生效，没有此参数重启后失效 重启防火墙…\n",
+      "originUrl": "https://www.cnblogs.com/eaglezb/p/6073739.html"
+    },
+    {
+      "title": "\npackage md5 | Go 标准库 中文参考\n",
+      "desc": "\nGo 标准库 中文参考 介紹 1. 库 2. package achive 2.1. package tar 2.2. package zip 3. package bufio 4. package builtin 5. package bytes 6. package compress 6.1. package…\n",
+      "originUrl": "https://wizardforcel.gitbooks.io/golang-stdlib-ref/content/26.html"
+    },
+    {
+      "title": "\ngolang 如何验证struct字段的数据格式\n",
+      "desc": "\n假设我们有如下结构体： type User struct { Id int Name string Bio string Email string } 我们需要对结构体内的字段进行验证合法性： ▪ Id的值在某一个范围内。 ▪ Name的长度在某一个范围内。 ▪ Email格式正确。 我们可能会这么写： user :=…\n",
+      "originUrl": "https://mp.weixin.qq.com/s/YL3WggDtbYehko3R8nNTmQ"
+    },
+    {
+      "title": "\n清新脱俗的 Web 服务器 Caddy - 某熊的全栈之路 - SegmentFault 思否\n",
+      "desc": "\n清新脱俗的 Web 服务器 Caddy 从属于笔者的 服务端应用程序开发与系统架构 ，我司之前一直使用 Nginx，不过其配置包括一些特性支持相较于 Caddy 略显复杂，可以参考笔者的 Nginx 基本配置备忘 。 清新脱俗的 Web 服务器 Caddy 作为新兴 Web 服务器，Caddy…\n",
+      "originUrl": "https://segmentfault.com/a/1190000008742322"
+    },
+    {
+      "title": "\nCaddy 部署实践 · Issue #11 · Unknwon/wuwen.org\n",
+      "desc": "\nCopy link Owner Unknwon commented Nov 22, 2016 • edited 日期： 2015-11-13 更新： 2016-11-21 TL'DR Caddy 就是用 Go 语言实现的一款 Web 服务器 我最早接触到 Caddy 是偶然发现国内某个博客的简单介绍，然后上到…\n",
+      "originUrl": "https://github.com/Unknwon/wuwen.org/issues/11"
+    },
+    {
+      "title": "\nGo语言参数传递是传值还是传引用\n",
+      "desc": "\n本文为原创文章，转载注明出处，欢迎扫码关注公众号 flysnow_org 或者网站http://www.flysnow.org/，第一时间看后续精彩文章。觉得好的话，顺手分享到朋友圈吧，感谢支持。 对于了解一门语言来说，会关心我们在函数调用的时候，参数到底是传的值，还是引用？…\n",
+      "originUrl": "https://mp.weixin.qq.com/s/ziJACXic4NDb7gHvCuYAkA"
+    },
+    {
+      "title": "\n丘奇先生—在线播放—《丘奇先生》—电影—优酷网，视频高清在线观看\n",
+      "desc": "\n剧集 电影 综艺 来疯 少儿 音乐 直播 片库 全部频道 剧集 电影 综艺 动漫 娱乐 生活 少儿 来疯 音乐 搞笑 直播 片库 纪实 公益 体育 汽车 科技 财经 文化 旅游 时尚 亲子 教育 游戏 会员 VR 产品大全 来疯直播 大鱼号精选 客户端 移动APP PC客户端 小小优酷 优酷VR 来疯APP VIP…\n",
+      "originUrl": "http://v.youku.com/v_show/id_XMzM4NTA4MTY5Ng==.html?spm=a2hmv.20009921.posterMovieGrid86981.5%7E5%7E5%7E1%7E3%212%7EA"
+    },
+    {
+      "title": "\n一起炫起来 -- 3D粒子动画篇 - 掘金\n",
+      "desc": "\n作者简介 Coco 蚂蚁金服·数据体验技术团队 效果演示 3D粒子动画效果如下： 本示例所构成并不复杂，主要分成以下几部分： 渐变的背景 不断切换的3D粒子模型(入场的散点也是粒子模型的一种形态) 同时切换的文字…\n",
+      "originUrl": "https://juejin.im/post/5a1e7e7e51882503eb4b0a80"
+    },
+    {
+      "title": "\nHTML5 简介（三）：利用 History API 无刷新更改地址栏 - Blog - Renfei Song\n",
+      "desc": "\nHTML5 新增的历史记录 API 可以实现无刷新更改地址栏链接，配合 AJAX 可以做到无刷新跳转。 简单来说：假设当前页面为 renfei.org/ ，那么执行下面的 JavaScript 语句： window . history . pushState ( null , null , \"/profile/\" );…\n",
+      "originUrl": "https://www.renfei.org/blog/html5-introduction-3-history-api.html"
+    },
+    {
+      "title": "\nGitalk Demo | Aotu.io「凹凸实验室」\n",
+      "desc": "\nGITALK 一个基于 Github Issue 和 Preact 开发的评论插件 开始使用 GITHUB 演示\n",
+      "originUrl": "https://gitalk.github.io/"
+    },
+    {
+      "title": "\n第三方评论系统推荐 • 水八口记\n",
+      "desc": "\n6,768° Apr 11, 2017 22:37 •2017• 4,934字 •评论 第三方评论系统推荐 写在前面 Disqus HyperComments 来必力 IntenseDebate 畅言 网易云跟帖（已停止服务） 友言（已停止服务） Remarkbox Vuukle Muut Vicomi Civil…\n",
+      "originUrl": "https://blog.shuiba.co/comment-systems-recommendation"
+    },
+    {
+      "title": "\nhttp://market.wapa.taobao.com/apps/market/chatting/index.html?wh_ttid=native\n",
+      "desc": "\n// {\"framework\" : \"Rax\"} (function(){ var isDowngrade = false; define('__rax_downgrade', function(require) { isDowngrade = true; var instanceWrap =…\n",
+      "originUrl": "http://market.wapa.taobao.com/apps/market/chatting/index.html?wh_ttid=native"
+    },
+    {
+      "title": "\nMac配置iTerm2+Zsh+OhMyZsh终端环境 | Sense 7\n",
+      "desc": "\n\n",
+      "originUrl": "https://blog.seventhsense.cn/2017/04/07/Mac%E9%85%8D%E7%BD%AE-iTerm2-Zsh-OhMyZsh-%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/index.html"
+    },
+    {
+      "title": "\n18000点入市比特币，利润200%！\n",
+      "desc": "\n我是一名硅谷软件工程师，研究量化交易有几个月了，18年1月我从18000点入市比特币， 3周后比特币下跌到11000点，我的策略实现了200%的利润，投入2200刀，提现6700刀。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/33848504?utm_medium=social&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n穿越NAT来见你-树莓派远程控制\n",
+      "desc": "\n关于 树莓派B+是14年买回来的，本来想通过其学习linux，却一直在角落堆灰。这次拿出来一是想配置一下 ssh ，想搭建一个家庭24*7服务器，不料由于各种原因困难重重。本科计算机网络知识大部分停留在理论阶段，刚好借此机会，通过配置树莓派学习一些远程控制的概念、方法以及涉及的网络知识。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/33662021?utm_medium=social&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nCentOS 7 安装PostgreSQL 9.6\n",
+      "desc": "\nCentOS Yum 工具安装，简单方便，官方源列表， RPM LIST 。 添加RPM yum install https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-centos96-9.6-3.noarch.rpm…\n",
+      "originUrl": "https://www.jianshu.com/p/342f887838c8"
+    },
+    {
+      "title": "\n从2.4万篇文章中挑出的最棒的 JavaScript 学习指南（2018版） - 前端 - 掘金\n",
+      "desc": "\n原文 - Learn React.js from Top 45 Tutorials for the past year (v.2018) 原文作者 - Mybridge 原文地址 - javascript-tutorial 译者 - hijiangtao 译文地址 - [译]从2.4万篇文章中挑出的最棒的…\n",
+      "originUrl": "https://juejin.im/entry/5a69db996fb9a01caa20bb23?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\nIntroduction to Computer Organization\n",
+      "desc": "\nIntroduction to Computer Organization with x86-64 Assembly Language \\& GNU/Linux Robert G. Plantz Paperback and PDF versions of this book are also available.…\n",
+      "originUrl": "https://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html"
+    },
+    {
+      "title": "\n来点儿编译原理（1）实现一个小型四则运算编译器\n",
+      "desc": "\n暑假的时候曾经翻译过一篇很不错的关于编译器的文章： 用 JavaScript 写一个超小型编译器 但这篇文章真的太简略了，其中编译器前端最重要的文法分析只是一笔带过，没有介绍任何理论和方法，虽然最后确实实现了一个超简单的编译器，但我感觉还远远不够。…\n",
+      "originUrl": "http://zhuanlan.zhihu.com/p/24035780"
+    },
+    {
+      "title": "\n用NodeJs来控制硬件（基于Raspberry Pi）（二） - CNode技术社区\n",
+      "desc": "\n作者 yourke 积分: 85 “ 这家伙很懒，什么个性签名都没有留下。 ” 作者其它话题 【原创分享】Nodejs跨平台轻量级图片编解码库【增加Jpeg质量调整】 用NodeJs来控制硬件（基于Raspberry Pi）（一） Node.js DNS 代理 用NodeJs来控制硬件（基于Raspberry…\n",
+      "originUrl": "https://cnodejs.org/topic/509aa674637ffa41553d4efb"
+    },
+    {
+      "title": "\nSQL语句大全 - 作业部落 Cmd Markdown 编辑阅读器\n",
+      "desc": "\n@Great-Chinese 2017-04-04T03:24:52.000000Z 字数 5581 阅读 594 SQL语句大全SQL 语句大全1.1 SQL DML 和 DDL可以把 SQL 分为两个部分：数据操作语言 (DML) 和 数据定义语言 (DDL)。 查询和更新指令构成了 SQL 的 DML 部分：…\n",
+      "originUrl": "https://www.zybuluo.com/Great-Chinese/note/708229"
+    },
+    {
+      "title": "\nPostGIS 查询附近的人 - 博客\n",
+      "desc": "\n关于 PostGIS PostGIS 是 PostGreSQL 关系型数据库中一个特别的数据库组件。增加了对地理位置对象的支持，并允许用 SQL 对位置信息的查询。 笔者因为要开发一个约炮软件，遇到了这个需求，发现 MySQL 中巨坑爹的用矩形来把不同地理位置信息进行划分，不能忍就换了…\n",
+      "originUrl": "http://gonjay.github.io/blog/2015/05/15/postgis-cha-xun-fu-jin-de-ren"
+    },
+    {
+      "title": "\nlinux下如何统计一个目录下的文件个数以及代码总行数的命令 - CSDN博客\n",
+      "desc": "\nlinux下如何统计一个目录下的文件个数以及代码总行数的命令 知道指定后缀名的文件总个数命令： find . -name \"*.cpp\" | wc -l 知道一个目录下代码总行数以及单个文件行数： find . -name \"*.h\" | xargs wc -l find . -name \"*.c\" | xargs…\n",
+      "originUrl": "https://blog.csdn.net/tianmohust/article/details/7061512"
+    },
+    {
+      "title": "\n如何使用 Docker 安裝 PostgreSQL ?\n",
+      "desc": "\n若要在 Mac 使用 PostgreSQL，最簡單的方式就是使用 Docker 。本文分別使用 docker run 與 docker-compose 兩種方式。 Version macOS High Sierra 10.13.6 Docker for Mac 18.03.1-ce-mac65 (24312)…\n",
+      "originUrl": "https://oomusou.io/docker/postgres/index.html"
+    },
+    {
+      "title": "\n树莓派：你是我的眼 - Vamei - 博客园\n",
+      "desc": "\n作者：Vamei 出处：http://www.cnblogs.com/vamei 严禁任何形式转载。 树莓派官方出品有小型摄像头，用于录制视频或拍摄图片。娇小的树莓派和小型摄像头，可以制作一个很好用的移动摄影装置。当前的摄像头版本是V2，配有8M像素的Sony…\n",
+      "originUrl": "http://www.cnblogs.com/vamei/p/6206331.html"
+    },
+    {
+      "title": "\n从命令行启动Xcode模拟器\n",
+      "desc": "\n一、Xcode允许我们使用xcrun命令运行模拟器 1、列出你安装的所有可用的设备 xcrun instruments -s 终端显示结果： Apple TV (11.2) [E08E425C-ACE2-49EE-9451-2F8DE1606B44] (Simulator)Apple TV 4K (11.2)…\n",
+      "originUrl": "https://www.jianshu.com/p/c5ad2e2be367"
+    },
+    {
+      "title": "\n在Xcode中的ios模拟器上安装.ipa包\n",
+      "desc": "\n修改包的扩展名为”.zip” 解压 启动模拟器 终端cd进入解压后.app所在文件夹 运行命令：xcrun simctl install booted APP_NAME.app\n",
+      "originUrl": "http://codevin.com/xcode/ios/simulator/2017/10/17/%E5%9C%A8Xcode%E4%B8%AD%E7%9A%84ios%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8A%E5%AE%89%E8%A3%85.ipa%E5%8C%85.html"
+    },
+    {
+      "title": "\nWeex 事件传递的那些事儿\n",
+      "desc": "\n前言 在前两篇文章里面分别谈了Weex如何在Native端初始化的和Weex是如何高效的渲染Native的原生UI的。Native这边还缺一块，那就是Native产生的一些事件，是怎么传回给JS的。这篇文章就详细分析这一部分。 目录 1.Weex的事件类型 2.Weex的事件传递 一.Weex的事件类型…\n",
+      "originUrl": "http://halfrost.com/weex_event/"
+    },
+    {
+      "title": "\nWeex 中别具匠心的 JS Framework\n",
+      "desc": "\n前言 Weex为了提高Native的极致性能，做了很多优化的工作 为了达到所有页面在用户端达到秒开，也就是网络（JS Bundle下载）和首屏渲染（展现在用户第一屏的渲染时间）时间和小于1s。 手淘团队在对Weex进行性能优化时，遇到了很多问题和挑战： JS Bundle下载慢，压缩后60k左右大小的JS…\n",
+      "originUrl": "https://github.com/halfrost/Halfrost-Field/blob/master/contents/iOS/Weex/Weex_ingenuity_JS_framework.md"
+    },
+    {
+      "title": "\nWeex 是如何在 iOS 客户端上跑起来的\n",
+      "desc": "\n前言 2016年4月21日，阿里巴巴在Qcon大会上宣布跨平台移动开发工具Weex开放内测邀请。Weex能够完美兼顾性能与动态性，让移动开发者通过简捷的前端语法写出Native级别的性能体验，并支持iOS、安卓、YunOS及Web等多端部署。 近一年来，ReactNative 和 Weex…\n",
+      "originUrl": "https://www.jianshu.com/p/41cde2c62b81"
+    },
+    {
+      "title": "\nNative Extensions for the Standalone Dart VM\n",
+      "desc": "\nDart 2.0 is now available! Install Dart. Written by William Hesse May 2012 Dart programs running on the standalone Dart VM ( command-line apps ) can call Cor…\n",
+      "originUrl": "https://www.dartlang.org/articles/dart-vm/native-extensions"
+    },
+    {
+      "title": "\nWide - Team development, anytime, anywhere\n",
+      "desc": "\nFile Create File Create Dir Delete Rename Find in Files Refresh Git Clone Import Export Open Delete Rename darwin_amd64 linux_amd64 windows_amd64 linux_arm…\n",
+      "originUrl": "http://118.25.13.120:7070/"
+    },
+    {
+      "title": "\n从AST编译解析谈到写babel插件 - 掘金\n",
+      "desc": "\n之前一直在掘金上看到一些关于面试写babel插件的文章，最近也在学，以下就是学习后的总结。 关键词：AST编译解析， babel AST编译解析 AST [维基百科]:在 计算机科学 中， 抽象语法树 （ A bstract S yntax T ree，AST），或简称 语法树 （Syntax tree），是 源代码…\n",
+      "originUrl": "https://juejin.im/post/5b56e5636fb9a04fd26098bd?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\nFlutter如何和Native通信-Android视角 - 掘金\n",
+      "desc": "\n前言 我们都知道Flutter开发的app是可以同时在iOS和Android系统上运行的。显然Flutter需要有和Native通信的能力。比如说，你的Flutter…\n",
+      "originUrl": "https://juejin.im/post/5b4c3c9a5188251ac446d915"
+    },
+    {
+      "title": "\n用js实现一门简单语言\n",
+      "desc": "\n1.前言 假如我们要来实现一门语言，语言有int,string,char,bool等类型，写其他类型会报错 用 ~ 表示字符串，支持常见表达式，for循环，条件语句，注释等，每个语句需要 ; 结束 且函数定义用关键字 def ,类似于js的function,函数调用利用invoke关键字，如下面的声明了一个函数…\n",
+      "originUrl": "http://07lyt.com/2018/02/27/%E7%94%A8js%E5%AE%9E%E7%8E%B0%E4%B8%80%E9%97%A8%E7%AE%80%E5%8D%95%E8%AF%AD%E8%A8%80/index.html"
+    },
+    {
+      "title": "\n用25行JavaScript语句实现一个简单的编译器 - 前端 - 掘金\n",
+      "desc": "\n译者注：即使对于专业程序员来说，构造一个编译器也是颇具挑战性的任务，本文将会引导你抽丝剥茧，一探究竟！ 我已经写了几篇与编程语言开发相关的文章，这让我非常兴奋！例如，在 “关于 Angular 2 和 TypeScript 项目中的静态代码分析”…\n",
+      "originUrl": "https://juejin.im/entry/59cdbe11f265da06633d4ac2"
+    },
+    {
+      "title": "\nGo语言的GC优化技巧\n",
+      "desc": "\nGC只要不出问题，就不会有人关心GC的问题，但如果GC出了问题，想要优化它却不是一件容易的事情。我最近就遇到了Golang GC问题，经过一系列的尝试终于将应用性能优化了300%的。你一定会觉得性能优化300%，那之前的代码得写的多烂啊。坦白的说，之前的代码虽然未做优化，但并没有大的问题。…\n",
+      "originUrl": "http://guileen.github.io/2016/06/15/how-did-i-optimize-golang-gc/index.html"
+    },
+    {
+      "title": "\nDart:mirror in flutter - Google 网上论坛\n",
+      "desc": "\n.\n",
+      "originUrl": "https://groups.google.com/d/topic/flutter-dev/ZmX5gZHhU24"
+    },
+    {
+      "title": "\n面试官：请简述一下vue-cli命令行工具，你能自己手写一个吗？ - 掘金\n",
+      "desc": "\n还记得我们在写vue 项目的时候用脚手架vue-init的主要作用是根据指定模板生成项目原型嘛？那么vue-init怎么实现的呢？ 其实就是在vue-cli package.json中增加下面的代码 { \"bin\" : { \"vue\" : \"bin/vue\" , \"vue-init\" : \"bin/vue-init\"…\n",
+      "originUrl": "https://juejin.im/post/5b4168bf6fb9a04f83462f6c?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n如何将golang的并发编程运用到实际开发 - 掘金\n",
+      "desc": "\n前言：这几天在写一个工具脚本分析线上的大量的日志文件，本来应该是索然无味的一个工作，但是本着做到极致的原则，激发了我不断思考如何优化。本文将从开发过程中的最开始版本，一点点讲解优化的过程，最终用golang实现了一个类似java的worker线程池，收获满满。 一，无脑开goroutine阶段…\n",
+      "originUrl": "https://juejin.im/post/5a11a3c76fb9a04512388a50"
+    },
+    {
+      "title": "\n为现有 iOS项目集成 Flutter-云栖社区\n",
+      "desc": "\nFlutter 在经过一番洗礼后终于迎来了 Release Preview 1版本，也吸引了更多人的关注。使用 Flutter从头开始写一个 App非常轻松，但越来越多的人发现 Flutter貌似并不很友好地支持现有的 App接入。所以本文带大家了解一下如何让现有 App支持 Flutter。 环境…\n",
+      "originUrl": "https://yq.aliyun.com//articles/608599"
+    },
+    {
+      "title": "\n深入理解flutter的编译原理与优化-云栖社区\n",
+      "desc": "\n闲鱼技术-正物 问题背景 对于开发者而言，什么是Flutter？它是用什么语言编写的，包含哪几部分，是如何被编译，运行到设备上的呢？Flutter如何做到Debug模式Hot…\n",
+      "originUrl": "https://yq.aliyun.com/articles/604052"
+    },
+    {
+      "title": "\n云风的 BLOG\n",
+      "desc": "\nMisc 留言本 用 email 联系我 Github 我不用微信 我不用 QQ Search Categories 读书 (27) 概率与桥牌 (17) 技术 (42) ECS (7) Erlang (1) Go 语言 (7) Unix (3) Windows (20) X Window (6) build tool…\n",
+      "originUrl": "https://blog.codingnow.com/"
+    },
+    {
+      "title": "\n从零开始写一个Javascript解析器 - CNode技术社区\n",
+      "desc": "\n最近在研究 AST, 之前有一篇文章 面试官: 你了解过 Babel 吗？写过 Babel 插件吗? 答: 没有。卒 为什么要去了解它? 因为懂得 AST 真的可以为所欲为 简单点说，使用 Javascript 运行Javascript代码。 这篇文章来告诉你，如何写一个最简单的解析器。…\n",
+      "originUrl": "https://cnodejs.org/topic/5aa2a128ce4a27f867526f7e"
+    },
+    {
+      "title": "\ngolang 高效字符串拼接 - CSDN博客\n",
+      "desc": "\n字符串与一个int型变量相加的问题 11-26 如果有如下定义 int i = 0； string str = “abc”； 那么 string s1 = str + i； 和 string s2 = str + i.toString(); 有区别 论坛 go语言编程 08-02…\n",
+      "originUrl": "https://blog.csdn.net/u012210379/article/details/45110705"
+    },
+    {
+      "title": "\n前端面试考点多？看这些文章就够了 - 掘金\n",
+      "desc": "\n金三银四跳槽季，offer快到碗里来，前端面试考点众多，而网上各个知识点的博客文章又太多，看的眼花缭乱……所以便整理了一下常见知识点的精华文章，每个知识点的文章控制在3篇以内，尽量覆盖该知识点的下容易被面试到的所有内容，文章都是之前自己读过的，确定是精华干货。文章会一直更新，也欢迎大家推荐精华文章，大家共同学习进步！…\n",
+      "originUrl": "https://juejin.im/post/5aae076d6fb9a028cc6100a9"
+    },
+    {
+      "title": "\n一个Vue页面的内存泄露分析 - 掘金\n",
+      "desc": "\n…\n",
+      "originUrl": "https://juejin.im/post/5b2fd09ee51d45588576f429"
+    },
+    {
+      "title": "\n2018上半年GitHub上最热门的开源项目\n",
+      "desc": "\n关注GitHub的人都知道，这个平台上面有太多优秀的值得学习的开源项目了，这里总结了2018上半年GitHub上最热门的开源项目。 1： tensorflow https:// github.com/tensorflow/t ensorflow TensorFlow…\n",
+      "originUrl": "http://zhuanlan.zhihu.com/p/37986549"
+    },
+    {
+      "title": "\njustjavac\n",
+      "desc": "\n原文: JavaScript engine fundamentals: Shapes and Inline Caches 地址：https://mathiasbynens.be/notes/shapes-ics 作者：@Benedikt 和 @Mathias 译者：hijiangtao 前言：本文也可以被称做…\n",
+      "originUrl": "https://mp.weixin.qq.com/s/X2YweYiIf_SEe8hgXfxE0Q"
+    },
+    {
+      "title": "\n用最短的CSS样式，勾勒大数据演示屏 - 掘金\n",
+      "desc": "\n先看案例效果，再看心得与总结 前段时间撸了一个演示平台，输入任一手机号，可追踪其行迹，类似《人民的名义》追踪丁义珍的效果，很明显涉密了，因此特意克隆了一个，并把后端阉割了，目前查询号码写死为我的号码，数据替换为静态的： 演示地址(阉割后端) 本文github地址,持续更新...... 效果预览 ↓↓↓…\n",
+      "originUrl": "https://juejin.im/post/5b1e2b50f265da6e5546c15d?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n拆解 Youtube 影片下載位置\n",
+      "desc": "\n分享科技與遊戲 by HKGoldenMr.A 透過錯誤經驗，分享科技與遊戲當中的技術，提醒自己及瀏覽此網誌的人，避免踏進相同的陷阱。 本網誌只提供技術概要及合法軟件連結(如有)；如閣下因下載、安裝、設定資料等操作，導致任何損失，請自行處理，在下不會負責。 2013年5月23日星期四 坊間有不少下載 Youtube…\n",
+      "originUrl": "http://hkgoldenmra.blogspot.com/2013/05/youtube.html"
+    },
+    {
+      "title": "\nGolang开源项目\n",
+      "desc": "\nhttps://github.com/muesli/cache2go\n",
+      "originUrl": "http://www.bilibili.com/read/cv477152/"
+    },
+    {
+      "title": "\n正则表达式30分钟入门教程\n",
+      "desc": "\n目录 跳过目录 本文目标 如何使用本教程 正则表达式到底是什么东西？ 入门 测试正则表达式 元字符 字符转义 重复 字符类 分枝条件 反义 分组 后向引用 零宽断言 负向零宽断言 注释 贪婪与懒惰 处理选项 平衡组/递归匹配 还有些什么东西没提到 联系作者 网上的资源及本文参考文献 更新纪录 本文目标…\n",
+      "originUrl": "https://www.barretlee.com/tools/reg/"
+    },
+    {
+      "title": "\ngo http 服务器编程\n",
+      "desc": "\n1. 初识 http 是典型的 C/S 架构，客户端向服务端发送请求（request），服务端做出应答（response）。 golang 的标准库 net/http 提供了 http 编程有关的接口，封装了内部TCP连接和报文解析的复杂琐碎的细节，使用者只需要和 http.request 和…\n",
+      "originUrl": "http://cizixs.com/2016/08/17/golang-http-server-side"
+    },
+    {
+      "title": "\nCSS实现宽高等比例自适应矩形 - 掘金\n",
+      "desc": "\n本文首发于 虾哔哔的Blog 概述 今天遇到一个很有趣的问题： 如何实现一个宽度自适应，高度为宽度的一半的矩形 。 经过搜索引擎的筛选和自己的反复试验,发现使用 padding-bottom 是最完美的解决方案。 解决方案 首先我们要明白， padding 和 margin…\n",
+      "originUrl": "https://juejin.im/post/5b0784566fb9a07abd0e14ae?utm_medium=fe&utm_source=weixinqun"
+    },
+    {
+      "title": "\nGolang动手写一个Http Proxy\n",
+      "desc": "\n本文主要使用Golang实现一个可用但不够标准，支持basic authentication的http代理服务。 为何说不够标准，在 HTTP/1.1 RFC 中，有些关于代理实现标准的条目在本文中不考虑。 Http Proxy是如何代理我们的请求 Http 请求的代理如下图，Http…\n",
+      "originUrl": "http://yangxikun.github.io/http/2017/09/16/http-proxy.html"
+    },
+    {
+      "title": "\n为什么rsync能够快速删除400000文件-dsheng-ChinaUnix博客\n",
+      "desc": "\ndsheng 博客访问： 201675 博文数量： 82 博客积分： 1810 博客等级： 上尉 技术积分： 730 用 户 组： 普通用户 注册时间： 2008-05-25 17:38 文章分类 全部博文（82） linux sched（1） Python（3） 阅读计划（0） machine lea（5）…\n",
+      "originUrl": "http://blog.chinaunix.net/uid-10705106-id-3879288.html"
+    },
+    {
+      "title": "\n前缀树和后缀树 - xy的博客 - CSDN博客\n",
+      "desc": "\n原 前缀树和后缀树 2017年09月21日 19:49:04 lmjy 阅读数：6853 版权声明：本文为博主原创文章，未经博主允许不得转载。https://blog.csdn.net/u013949069/article/details/78056102…\n",
+      "originUrl": "https://blog.csdn.net/u013949069/article/details/78056102"
+    },
+    {
+      "title": "\n海外淘宝客怎么做？一个赚美金的蓝海市场！\n",
+      "desc": "\n在国外其实并没有一个像国内某宝联盟一样有极高统治力的平台，所以海外 淘宝客 的模式在国外一直是属于一个小众操作的模式，不过越是这样就意味着这块蛋糕越大。 那么今天我就来详细地给大家分享一个国外的 “某宝联盟” ，一个赚美金的海外淘客玩法。 1. Amazon Affiliate…\n",
+      "originUrl": "http://powerwz.com/4053.html"
+    },
+    {
+      "title": "\n看了秒会！高手才懂的自动挡驾驶技巧！\n",
+      "desc": "\n你是不是觉得自动档车，简直就是”傻瓜”车，踩油门就走，踩刹车就停。可你真的了解自动档车的驾驶方法吗?接下来小编就说说高手是怎么开自动挡汽车的，你是这样的吗? 1、起步时 新手：踩刹车-打火-挂挡(P到D)-松手刹-抬脚刹-给油-起步。 高手：先接通电源 (不打着发动机)…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/32924867"
+    },
+    {
+      "title": "\n第五章 自动化扫描 · Kali Linux Web 渗透测试秘籍\n",
+      "desc": "\n作者：Gilberto Najera-Gutierrez 译者： 飞龙 简介…\n",
+      "originUrl": "https://wizardforcel.gitbooks.io/kali-linux-web-pentest-cookbook/content/ch5.html"
+    },
+    {
+      "title": "\nLinux---vi/vim复制剪切粘贴以及常用命令小结 - geek的博客 - CSDN博客\n",
+      "desc": "\nvim 如何在输入命令的区域 复制 和 粘贴 04-19 如题 论坛 设计制作学习 机器学习教程 Objective-C培训 交互设计视频教程 颜色模型 mysql关联查询两次本表 native底部 react extjs glyph 图标 大数据培训小结 java课程设计小结 没有更多推荐了， 返回首页\n",
+      "originUrl": "https://blog.csdn.net/netdxy/article/details/50553543"
+    },
+    {
+      "title": "\n[译] 使用 Proxy 来监测 Javascript 中的类 - 掘金\n",
+      "desc": "\n原文作者： Amir Harel 译文出自： 掘金翻译计划 本文永久链接： github.com/xitu/gold-m… 译者： SHERlocked93 校对者： salomezhang , cyuamber Photo by Fabian Grohs on Unsplash Proxy 对象（ Proxy ）是…\n",
+      "originUrl": "https://juejin.im/post/5c484b76e51d45522b4f5f7d?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\nMacOS安装Nginx+ffmpeg（rtmp直播服务器搭建） - 个人文章 - SegmentFault 思否\n",
+      "desc": "\n参考来源： https://github.com/denji/home... 相关文章： H5视频直播原理 1.安装Homebrew： 需要先在应用商店手动安装Xcode，再进行以下操作 ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/…\n",
+      "originUrl": "https://segmentfault.com/a/1190000016933860"
+    },
+    {
+      "title": "\nffmpeg-给视频添加水印常用命令\n",
+      "desc": "\n1.实现每隔10秒交替出现logo ffmpeg -y -t 60 -i input.mp4 -i logo1.png -i logo2.png -filter_complex \"overlay=x=if(lt(mod(t\\,20)\\,10)\\,10\\,NAN…\n",
+      "originUrl": "https://www.jianshu.com/p/9b3375c2e2c1"
+    },
+    {
+      "title": "\n深度解密HTTP通信细节\n",
+      "desc": "\n本文作者：饶全成，中科院计算所硕士，滴滴出行后端研发工程师。 上一篇文章 中，我们学会了用wireshark和tcpdump来分析TCP的“三次握手，四次挥手”，非常好用。这哥俩就是传说中的 锤子 ，拿着 锤子 ，看什么都像 钉子 ！在这篇文章中，我对准了 HTTP 这颗钉子砸下去，咳咳。…\n",
+      "originUrl": "https://mp.weixin.qq.com/s/4p0Hff3G9wnaa8EaOTelEQ"
+    },
+    {
+      "title": "\nCNN(卷积神经网络)是什么？有入门简介或文章吗？ - 知乎\n",
+      "desc": "\n摘要： CNN基础知识介绍及TensorFlow具体实现，对于初学者或者求职者而言是一份不可多得的资料。 定义： 简而言之， 卷积神经网络（Convolutional Neural Networks）…\n",
+      "originUrl": "https://www.zhihu.com/question/52668301/answer/536176496?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n机器学习原来这么有趣！第三章:图像识别【鸟or飞机】？深度学习与卷积神经网络\n",
+      "desc": "\n作者： Adam Geitgey 译者：巡洋舰科技——赵95 校对：离线Offline——林沁 转载请联系译者。 你是不是看烦了各种各样有关深度学习的报道，却仍不知其所云？让我们一起来改变这个现状吧！ 这一次，我们将应用深度学习技术，来写一个识别图像中物体的程序。换句话说，我们会解释 Google…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/24524583"
+    },
+    {
+      "title": "\n怎样写一个解释器\n",
+      "desc": "\n写一个解释器，通常是设计和实现程序语言的第一步。解释器是简单却又深奥的东西，以至于好多人都不会写，所以我决定写一篇这方面的入门读物。 虽然我试图从最基本的原理讲起，尽量不依赖于其它知识，但这并不是一本编程入门教材。我假设你已经理解 Scheme…\n",
+      "originUrl": "http://www.yinwang.org/blog-cn/2012/08/01/interpreter"
+    },
+    {
+      "title": "\nLinux文件系统中各个inode之间的关系是怎么样的？ - 知乎\n",
+      "desc": "\n楼上说的很清楚了，我教你个不问人的办法，打开代码 linux代码 ，然后搜你感兴趣的符号，上面有定义和用的地方。你可以学会用codeviz之类画内核的call…\n",
+      "originUrl": "https://www.zhihu.com/question/290415985/answer/470658237?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n机器学习：一步步教你理解反向传播方法\n",
+      "desc": "\n在阅读反向传播方法的时候，看到了这篇通过示例给出反向传播的博文 A Step by Step Backpropagation Example ，在这篇博文中，作者通过一个简单的示例，给出了反向传播的过程的过程，非常的清晰，遂结合自己的理解翻译之，希望对反向传播方法有所理解的朋友有些许帮助。 背景…\n",
+      "originUrl": "http://yongyuan.name/blog/back-propagtion.html?utm_medium=referral&utm_source=tuicool"
+    },
+    {
+      "title": "\n性能之殇：从冯·诺依曼瓶颈谈起\n",
+      "desc": "\n机器之心专栏，作者：JohnLui。 本文作者根据自己的认知，讨论了人们为提高性能做出的种种努力，包括硬件层面的 CPU、RAM、磁盘，操作系统层面的并发、并行、事件驱动，软件层面的多进程、多线程，网络层面的分布式等。 本文共分为七个部分： 天才冯·诺依曼与冯·诺依曼瓶颈 分支预测、流水线与多核 CPU…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/52721155"
+    },
+    {
+      "title": "\n重构以改进模块化与错误处理 - Rust 程序设计语言 简体中文版\n",
+      "desc": "\n重构改进模块性和错误处理 ch12-03-improving-error-handling-and-modularity.md commit 1fedfc4b96c2017f64ecfcf41a0a07e2e815f24f 为了改善我们的程序这里有四个问题需要修复，而且他们都与程序的组织方式和如何处理潜在错误有关。…\n",
+      "originUrl": "https://kaisery.github.io/trpl-zh-cn/ch12-03-improving-error-handling-and-modularity.html"
+    },
+    {
+      "title": "\n如何评价斯坦福的新操作系统课程CS140e？ - 知乎\n",
+      "desc": "\n在CS140e中，你会 写一个GPIO的驱动，并用它来点灯 写一个UART驱动，并用它来连接你的电脑和树莓派，实现对树莓派的控制/输入/输出 写一个文件传输协议，并用它来安装你的的系统内核 写一个只读文件系统（fat32） 写一个内存分配器（可以自己设计细节哦，如何减少碎片，如何加快分配速度，如何。。。）…\n",
+      "originUrl": "https://www.zhihu.com/question/265653828/answer/480126552?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n有哪些事实没有一定计算机知识的人不会相信？ - 知乎\n",
+      "desc": "\n1，下载一个15K的文件，和下载一个28K的文件，时间其实几乎是一样的，但下载一个15K的文件和一个14K的文件，前者比后者耗时几乎多了一倍。这是因为一个TCP请求窗口在绝大部分情况下是1480*10/1024=14.45K。（为啥是这个值呢？下边2里会讲。）…\n",
+      "originUrl": "https://www.zhihu.com/question/288115796/answer/483284593?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n深入理解编译器\n",
+      "desc": "\n\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/50169095"
+    },
+    {
+      "title": "\n使用 Go 来入门 WebAssembly 开发\n",
+      "desc": "\n如果你想了解 WebAssembly ，又不想学习 C++ 或者 Rust ，刚好又对 Go 感兴趣，那你可以继续看下去。 目标: 使用 Go + WebAssembly 技术编写一个简单的小游戏，在固定画板上随机生成若干条横线，点击画板重新生成 环境: Go 1.11 及以上环境 第一步: 准备一个 html 和一个…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/50189676"
+    },
+    {
+      "title": "\nTensorFlow.js入门教程（4）图像训练\n",
+      "desc": "\n（本文翻译自 TensorFlow.js ） （未经作者同意，请勿转载） 在本教程中，我们将构建一个TensorFlow.js模型，用卷积神经网络对手写数字进行分类。首先，我们将通过让“看”数以千计的手写数字图像及其标签来训练分类器。然后，我们将使用该模型从未见过的测试数据来评估分类器的准确性。 先决条件…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/35872177"
+    },
+    {
+      "title": "\nReact骚操作——jsx遇到template-directive - 掘金\n",
+      "desc": "\n“React 和 Vue 哪个更好？”…\n",
+      "originUrl": "https://juejin.im/post/5b86d26bf265da43506e9f57"
+    },
+    {
+      "title": "\n让我们手动实现 React Hooks\n",
+      "desc": "\n前言 本人是个 React 小白，用了快一个月时间 React 了，感觉还挺好用的。最近刚好看到了新的 React Hooks API 貌似讨论挺激烈，就顺便看了一眼，简单说下感觉。 方便了很多 更方便组件拆得更小 更方便把数据、业务逻辑拆到组件外面 基本上就是真香预定了。 不过呢，最让我惊讶的是，我一直以为…\n",
+      "originUrl": "http://zhuanlan.zhihu.com/p/50358654"
+    },
+    {
+      "title": "\nRxJS 入门\n",
+      "desc": "\nRxJS是什么？ 官方：RxJS 是 Reactive Extensions for JavaScript 的缩写，起源于 Reactive Extensions，是一个基于可观测数据流在异步编程应用中的库。RxJS 是 Reactive Extensions 在 JavaScript 上的实现。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/28226392"
+    },
+    {
+      "title": "\n在 JavaScript 和 WebAssembly 之间调用执行速度终于快了\n",
+      "desc": "\nCalls between JavaScript and WebAssembly are finally fast 🎉 – Mozilla Hacks - the Web developer blog ​ hacks.mozilla.org 在 Mozilla，我们希望 WebAssembly…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/47089990"
+    },
+    {
+      "title": "\ndt-fe/weekly\n",
+      "desc": "\n1 引言 本周精读的文章是 speedy-introduction-to-web-workers ，是一篇 Web Workers 快速入门的文章，借精读这篇文章的机会，谈谈对 Web Workers 的理解与运用。 2 概述…\n",
+      "originUrl": "https://github.com/dt-fe/weekly/blob/00513c9e5a1d5dca84116dcf2c75ce94ffb8fc79/76.%E7%B2%BE%E8%AF%BB%E3%80%8A%E8%B0%88%E8%B0%88%20Web%20Workers%E3%80%8B.md"
+    },
+    {
+      "title": "\n前端人工智能？TensorFlow.js 学会游戏通关\n",
+      "desc": "\n原文发表在 知乎《前端零栈》专栏 关键字： Tensorflow，JavaScript，AI，前端开发，人工智能，神经网络，遗传算法 先上最终效果( 请移步至知乎查看图片和视频 ) T-Rex Runner 是隐藏在 Chrome 中的彩蛋游戏，最近我用刚推出的 TensorFlow.js…\n",
+      "originUrl": "https://www.atatech.org/articles/108797"
+    },
+    {
+      "title": "\nUsing WebAssembly with React\n",
+      "desc": "\nWebAssembly (WASM) is a binary format for the executable code in the browsers.In this article, we will create a simple web application using React library,…\n",
+      "originUrl": "https://brightinventions.pl/blog/using-wasm-with-react/"
+    },
+    {
+      "title": "\nReact, Powered by WebAssembly\n",
+      "desc": "\nReact, Powered by WebAssembly Upcoming SlideShare Loading in … 5 × 1 1 of 132 Embed Size (px) Start on Show related SlideShares at end WordPress Shortcode Link…\n",
+      "originUrl": "https://www.slideshare.net/jayphelps/react-powered-by-webassembly"
+    },
+    {
+      "title": "\n前端黑科技：美团网页首帧优化实践 - 掘金\n",
+      "desc": "\n前言 自JavaScript诞生以来，前端技术发展非常迅速。移动端白屏优化是前端界面体验的一个重要优化方向，Web 前端诞生了 SSR 、CSR、预渲染等技术。在美团支付的前端技术体系里，通过预渲染提升网页首帧优化，从而优化了白屏问题，提升用户体验，并形成了最佳实践。 在前端渲染领域，主要有以下几种方式可供选择：…\n",
+      "originUrl": "https://juejin.im/post/5bee7dd4e51d451f5b54cbb4?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n你不知道的Virtual DOM（二）：Virtual Dom的更新 - 前端大宝剑 - SegmentFault 思否\n",
+      "desc": "\n一、前言 目前最流行的两大前端框架，React 和 Vue，都不约而同的借助 Virtual DOM 技术提高页面的渲染效率。那么，什么是 Virtual DOM ？它是通过什么方式去提升页面渲染效率的呢？本系列文章会详细讲解 Virtual DOM 的创建过程，并实现一个简单的 Diff…\n",
+      "originUrl": "https://segmentfault.com/a/1190000016145981"
+    },
+    {
+      "title": "\n如何实现 C/C++ 与 Python 的通信？ - 知乎\n",
+      "desc": "\n########## 以下所有文字均为答主手敲，转载请注明出处和作者 ########## ## 更新：关于ctypes，见拙作 聊聊Python ctypes 模块 - 蛇之魅惑 - 知乎专栏 属于混合编程的问题。较全面的介绍一下，不仅限于题主提出的问题。…\n",
+      "originUrl": "https://www.zhihu.com/question/23003213/answer/56121859?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nWebGL BOF 2018 ( 业界发展 )\n",
+      "desc": "\n2018年的 GDC 和 SIGGRAPH 已经结束，看了下网上的文章大多围绕 Technique Paper 和 NVIDIA 的 RTX 等，缺少 WebGL 的相关总结。本文将针对18年两大会公开的资料对 WebGL 目前的发展情况进行总结。首先什么是BOF？其实是 Birds of a…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/45682197"
+    },
+    {
+      "title": "\nflex bison 笔记 - 程序园\n",
+      "desc": "\n前言 flex选择更长的匹配，如果两个模式都匹配，选择首先出现的模式； 文法与语法分析：构建语法分析树，找出输入记号之间的关系； 上下文无关语法，bison中token一般使用大写字母。bison包含三部分构成：声明部分+ 规则部分和C代码部分。使用分号代表规则的结束；…\n",
+      "originUrl": "http://www.voidcn.com/article/p-ncsbbpjf-sw.html"
+    },
+    {
+      "title": "\ngolang实现p2p之UDP打洞\n",
+      "desc": "\n当今互联网到处存在着一些中间件(MIddleBoxes)，如NAT和防火墙，导致两个(不在同一内网)中的客户端无法直接通信。 这些问题即便是到了IPV6时代也会存在，因为即使不需要NAT，但还有其他中间件如防火墙阻挡了链接的建立。…\n",
+      "originUrl": "http://zhuanlan.zhihu.com/p/38300602"
+    },
+    {
+      "title": "\n【Get】用深度学习识别手写数字 - 掘金\n",
+      "desc": "\n前置参考读物： 《机器学习，看完就明白了》传送门 获取数据源 训练数据直接使用开源的手写数据集MNIST。 MNIST数据集是一个开源的手写数据库。它提供了大量的数据样本作为训练集和验证集。这个数据集拥有 60000 个训练样本，和 10000 个测试样本。 MNIST 官网（一个很 low…\n",
+      "originUrl": "https://juejin.im/post/5bc9747ce51d450e905a52d9?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n[mll语言系列]flex 和 bison 入门指南\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.atatech.org/articles/87177"
+    },
+    {
+      "title": "\n如何愉快地写个小parser\n",
+      "desc": "\n（一） 在前几日的文章『软件随想录』里，我随性写了一句：「现在似乎已经不是lex/yacc 或 bison/flex的时代了。我亲眼看见一个同事在费力地用perl一行行解析某个系统的数据文件，却压根没想到写个BNF。BNF对他来说，不是一种选择。」 很多同学不解，问我：lex/yacc不是写编译器 [1]…\n",
+      "originUrl": "http://zhuanlan.zhihu.com/p/20178871"
+    },
+    {
+      "title": "\n虚拟机随谈（一）：解释器，树遍历解释器，基于栈与基于寄存器，大杂烩 - Script Ahead, Code Behind - ITeye博客\n",
+      "desc": "\nRednaxelaFX 浏览: 2511421 次 性别: 来自: 海外 博主相关 博客 微博 相册 收藏 留言 关于我 文章分类 全部博客 (430) Programming Languages (23) Compiler (20) Virtual Machine (57) Garbage Collection…\n",
+      "originUrl": "http://rednaxelafx.iteye.com/blog/492667?utm_medium=social&utm_oi=686868376059916288&utm_source=wechat_session"
+    },
+    {
+      "title": "\nImplementing a Simple Compiler on 25 Lines of JavaScript\n",
+      "desc": "\nI already wrote a couple of essays related to the development of programming languages that I was extremely excited about! For instance, in “ Static Code…\n",
+      "originUrl": "https://blog.mgechev.com/2017/09/16/developing-simple-interpreter-transpiler-compiler-tutorial/"
+    },
+    {
+      "title": "\nCode-server：在瀏覽器上執行雲端 VS Code\n",
+      "desc": "\nCode-server 可以讓你在伺服器上建立一個 Visual Studio Code 環境，並讓你在遠端使用瀏覽器連線進去使用。 之前有用過類似的 Cloud 9 IDE ，一樣可以讓你在自己的電腦（甚至 Raspberry Pi）…\n",
+      "originUrl": "https://noob.tw/code-server/"
+    },
+    {
+      "title": "\nentr(1)\n",
+      "desc": "\nRun arbitrary commands when files change bitbucket/overview |download 4.2|man page Examples Rebuild project if sources change $ ag -l | entr make Rebuild…\n",
+      "originUrl": "http://eradman.com/entrproject/"
+    },
+    {
+      "title": "\n解决类似 /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found 的问题 - IT笔录\n",
+      "desc": "\n源码编译升级安装了 gcc 后，编译程序或运行其它程序时，有时会出现类似 /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found 的问题。这是因为升级 gcc 时，生成的动态库没有替换老版本 gcc 的动态库导致的，将 gcc…\n",
+      "originUrl": "https://itbilu.com/linux/management/NymXRUieg.html"
+    },
+    {
+      "title": "\n使用Nomad和OpenFaaS提供FaaS服务 - 勇往直前的专栏 - CSDN博客\n",
+      "desc": "\n将应用程序分解为由AWS…\n",
+      "originUrl": "https://blog.csdn.net/zl1zl2zl3/article/details/82965529"
+    },
+    {
+      "title": "\n2. 预备知识 — 《动手学深度学习》 文档\n",
+      "desc": "\n2. 预备知识 在动手学习之前，我们需要获取本书的代码，并安装运行本书的代码所需要的软件。作为动手学深度学习的基础，我们还需要了解如何对内存中的数据进行操作，以及对函数求梯度的方法。最后，我们应养成主动查阅文档来学习代码的良好习惯。 2.1. 获取和运行本书的代码 2.1.1. 获取代码并安装运行环境 2.1.2.…\n",
+      "originUrl": "https://zh.d2l.ai/chapter_prerequisite/index.html"
+    },
+    {
+      "title": "\n大亨影院智能解析\n",
+      "desc": "\n站长统计\n",
+      "originUrl": "http://api.oopw.top/"
+    },
+    {
+      "title": "\n零基础入门深度学习(1) - 感知器 - 作业部落 Cmd Markdown 编辑阅读器\n",
+      "desc": "\n机器学习 深度学习入门 无论即将到来的是大数据时代还是人工智能时代，亦或是传统行业使用人工智能在云上处理大数据的时代，作为一个有理想有追求的程序员，不懂深度学习（Deep…\n",
+      "originUrl": "https://www.zybuluo.com/hanbingtao/note/433855"
+    },
+    {
+      "title": "\nthree.js - Javascript 3D library\n",
+      "desc": "\nfeatured projects submit project\n",
+      "originUrl": "https://threejs.org/"
+    },
+    {
+      "title": "\n100,000 Stars\n",
+      "desc": "\nSun Alpha Andromedae Beta Cassiopeiae Gamma Pegasi Alpha Phoenicis Shedir Beta Ceti 96 G. Piscium Van Maanen's Star Beta Andromedae Achernar p Eridani Alpha…\n",
+      "originUrl": "http://stars.chromeexperiments.com/"
+    },
+    {
+      "title": "\nTensorFlow强化学习入门（4）——深度Q网络（DQN）及其扩展 - 云+社区 - 腾讯云\n",
+      "desc": "\nArrayZoneYour 字节跳动 · 前端开发 (已认证) 云+社区翻译社勋章: LV 1 发表于 ArrayZoneYour的专栏 4.4K 在这篇文章中： 一个聪明的游戏agent可以学会避开危险的陷阱…\n",
+      "originUrl": "https://cloud.tencent.com/developer/article/1048358"
+    },
+    {
+      "title": "\nWebAssembly Performance Demo\n",
+      "desc": "\nHTMLCSSJavaScriptBehavior Add External Stylesheets/Pens Any URL's added here will be added as  s in order, and before the CSS in the editor. If you link to…\n",
+      "originUrl": "https://codepen.io/jtiscione/details/yxybjX"
+    },
+    {
+      "title": "\nVim Cheat Sheet\n",
+      "desc": "\nAdditional Resources Languages العربية Deutsch English Español Persian Français Bahasa Indonesia 日本語 한국어 Nederlands Italiano Polski Português - Brasil Português…\n",
+      "originUrl": "https://vim.rtorr.com/lang/zh_cn"
+    },
+    {
+      "title": "\n强化学习在美团“猜你喜欢”的实践\n",
+      "desc": "\n1 概述 “猜你喜欢”是美团流量最大的推荐展位，位于首页最下方，产品形态为信息流，承担了帮助用户完成意图转化、发现兴趣、并向美团点评各个业务方导流的责任。经过多年迭代，目前“猜你喜欢”基线策略的排序模型是业界领先的流式更新的Wide&Deep模型 [1]…\n",
+      "originUrl": "https://tech.meituan.com/2018/11/15/reinforcement-learning-in-mt-recommend-system.html"
+    },
+    {
+      "title": "\nJavascript Racer - v4 (final)\n",
+      "desc": "\nUse the arrow keys to drive the car.\n",
+      "originUrl": "https://codeincomplete.com/games/racer/v4-final/"
+    },
+    {
+      "title": "\nHow to build a racing game\n",
+      "desc": "\nFri, Jun 22, 2012 I wasn’t really much for going to the arcades when I was younger… I didn’t need ‘em withawesome C64 games sitting at home… but there were 3…\n",
+      "originUrl": "https://codeincomplete.com/posts/javascript-racer/"
+    },
+    {
+      "title": "\n首页 | 冰蓝记录思考的地方\n",
+      "desc": "\n健康工作—智能久坐提醒软件 学习DQN（Deep Q-Learning Network） 高效工作—优雅的阅读微信公众号 配置SSD进行目标检测 豆瓣离线备份-Shell脚本 Ubuntu下搭建CUDA开发环境 高效工作—快捷键整理 链家爬虫 Python的文件操作与输入输出 Python的映射和集合类型…\n",
+      "originUrl": "http://lanbing510.info/"
+    },
+    {
+      "title": "\n深度强化学习（Deep Reinforcement Learning）入门：RL base & DQN-DDPG-A3C introduction\n",
+      "desc": "\n过去的一段时间在深度强化学习领域投入了不少精力，工作中也在应用DRL解决业务问题。子曰：温故而知新，在进一步深入研究和应用DRL前，阶段性的整理下相关知识点。本文集中在DRL的model-free方法的Value-based和Policy-base方法，详细介绍下RL的基本概念和Value-based…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/25239682"
+    },
+    {
+      "title": "\nVIM语法高亮、VIM代码补全、VIM结构化视图功能的配置实现（1） - G_BrightBoy的专栏 - CSDN博客\n",
+      "desc": "\n=========================================== 【简介】 为了更加方便的学习和研究一个开源c++项目（当然linux环境下），特地花了一两周的时间研究vim及其插件的配置和使用方法，整理出来：一来做个记录便于日后回顾查看，二来分享出来为大家提供方便。 vim是什么…\n",
+      "originUrl": "https://blog.csdn.net/G_BrightBoy/article/details/14229139"
+    },
+    {
+      "title": "\nA quick tip on debugging ts-node in WebStorm\n",
+      "desc": "\nUse ts-node to run typescript NodeJS project ts-node saves time to build ts project to js and use node xxx.js to run, it compiles the ts files on the fly but…\n",
+      "originUrl": "http://blog.mimimi.fun/a-quick-tip-on-debugging-ts-node-in-webst/"
+    },
+    {
+      "title": "\ngolang实现p2p之UDP打洞\n",
+      "desc": "\n当今互联网到处存在着一些中间件(MIddleBoxes)，如NAT和防火墙，导致两个(不在同一内网)中的客户端无法直接通信。 这些问题即便是到了IPV6时代也会存在，因为即使不需要NAT，但还有其他中间件如防火墙阻挡了链接的建立。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/38300602"
+    },
+    {
+      "title": "\n浅谈什么是张量tensor - So What - CSDN博客\n",
+      "desc": "\nhttps://hackernoon.com/learning-ai-if-you-suck-at-math-p4-tensors-illustrated-with-cats-27f0002c9b32\n",
+      "originUrl": "https://blog.csdn.net/qq_31821675/article/details/79188449"
+    },
+    {
+      "title": "\nLearning AI if You Suck at Math — P4 — Tensors Illustrated (with Cats!)\n",
+      "desc": "\nWelcome to part four of Learning AI if You Suck at Math. If you missed parts 1, 2, 3, 5, 6 and 7 be sure to check them out.\nMaybe you’ve downloaded TensorFlow…\n",
+      "originUrl": "https://hackernoon.com/learning-ai-if-you-suck-at-math-p4-tensors-illustrated-with-cats-27f0002c9b32"
+    },
+    {
+      "title": "\nRust的内存安全革命\n",
+      "desc": "\n介绍 Rust是一种年轻的编程语言，为程序代码带来了新的质量。 你可能听说过它是快速的、安全的或容易实现并发的。 本文集中介绍Rust最重要的核心特性：内存管理。 该核心特性是Rust的主要创新之一，它的许多独特的特点是基于这种核心特性的。…\n",
+      "originUrl": "http://szpzs.oschina.io/2018/04/28/rust-memory-safety-revolution/index.html"
+    },
+    {
+      "title": "\n字节、字、位、比特，这四者之间的关系 - cx_wzp的专栏 - CSDN博客\n",
+      "desc": "\n设计制作学习 机器学习教程 Objective-C培训 交互设计视频教程 颜色模型 mysql关联查询两次本表 native底部 react extjs glyph 图标 比特实验室物联网价格 大数据学习系列四 没有更多推荐了， 返回首页\n",
+      "originUrl": "https://blog.csdn.net/cx_wzp/article/details/8104224"
+    },
+    {
+      "title": "\n清新脱俗的 Web 服务器 Caddy\n",
+      "desc": "\n清新脱俗的 Web 服务器 Caddy 从属于笔者的 服务端应用程序开发与系统架构** ，我司之前一直使用 Nginx，不过其配置包括一些特性支持相较于 Caddy 略显复杂，可以参考笔者的 Nginx 基本配置备忘 。 清新脱俗的 Web 服务器 Caddy 作为新兴 Web 服务器，Caddy…\n",
+      "originUrl": "https://www.jianshu.com/p/34936193c9e1"
+    },
+    {
+      "title": "\nSearch / Observable\n",
+      "desc": "\nObservable Teams New © 2019 Observable, Inc. Terms Open Source IntroductionTutorials Forum Feedback & bugs\n",
+      "originUrl": "https://observablehq.com/search?query="
+    },
+    {
+      "title": "\nAMD，CMD，CommonJS和ES6的对比\n",
+      "desc": "\n随着前端js代码复杂度的提高，JavaScript模块化这个概念便被提出来，前端社区也不断地实现前端模块化，直到es6对其进行了规范，下面就介绍JavaScript模块化。 我们在理解的时候伴随着一下几个问题进行对比分析 什么是AMD，CMD，CommonJS 他们之间有什么区别 项目中如何使用 1、AMD…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/34093119"
+    },
+    {
+      "title": "\nSQL数据库关键字之group by 小结 - ミ﹏过客ジ - 博客园\n",
+      "desc": "\n1、解释：Group By语句从英文的字面意义上理解就是“根据(by)一定的规则进行分组(Group)”。它的作用是根据给定数据列的每个成员对查询结果进行分组统计，最终得到一个分组汇总表 2、常见用法： 创建客户信息库（customers） create table customers( customersid int…\n",
+      "originUrl": "https://www.cnblogs.com/lovemewoxjm/archive/2013/01/06/group_by.html"
+    },
+    {
+      "title": "\n修改国外godaddy注册域名的dns为国内|随身笔记\n",
+      "desc": "\nf1g1ns2.dnspod.net.\n",
+      "originUrl": "http://www.xgllseo.com/?p=5755"
+    },
+    {
+      "title": "\n算法篇——ML（Maximum Likehood）算法\n",
+      "desc": "\nML算法，即Maximum Likehood，极大似然估计算法。 本文分为六部分： 简要概括 理论基础 实际问题 极大似然估计 举例 总结 全文较为枯燥，若时间不够，可挑1与6看，其它部分收藏再看。 用途：用于分类 假设： 1、样本分布能代表样本的真实分布。 2、每个样本集中的样本都是独立的随机变量。 3、概率模型。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/59133092"
+    },
+    {
+      "title": "\nRacket - 在线文档 - 手册网\n",
+      "desc": "\nRacket 其中 Y=racket 源代码下载： learnracket-zh.rkt Racket是Lisp/Scheme家族中的一个通用的，多范式的编程语言。 非常期待您的反馈！你可以通过 @th3rac25 或以用户名为 th3rac25 的Google邮箱服务和我取得联系 #lang racket ;…\n",
+      "originUrl": "http://www.shouce.ren/api/view/a/15120"
+    },
+    {
+      "title": "\nhttps://killercup.github.io/trpl-ebook/trpl-2015-05-13-a4.pdf\n",
+      "desc": "\n\n",
+      "originUrl": "https://killercup.github.io/trpl-ebook/trpl-2015-05-13-a4.pdf"
+    },
+    {
+      "title": "\nGolang 编译原理 计算器(通俗易懂) - Go语言中文网 - Golang中文社区\n",
+      "desc": "\n您的账号铜币不足，不允许发布内容，可 领取 初始资本，或去 充值 首页 文章 OhBonsai · 2月之前 · 309 次点击 · 预计阅读时间 13 分钟 · 8分钟之前 开始浏览 本文不需要你掌握任何编译原理的知识。 只需要看懂简单的golang语言即可， 完整的代码示例在 GIT…\n",
+      "originUrl": "https://studygolang.com/"
+    },
+    {
+      "title": "\n编译原理中的逆波兰表达式（数据流图中运算变量的流程） - qq_18182057的博客 - CSDN博客\n",
+      "desc": "\n编译原理 四元式和逆波兰式 08-11 编译原理的中间代码生成阶段的逆波兰式和四元式算法实现，vc++6.0编写， 下载 编译原理 ----------算符优先下的逆波兰算法 06-11 JAVA编写 用算符优先验证了式子的正确性 下载 编译原理 逆波兰式程序 05-22…\n",
+      "originUrl": "https://blog.csdn.net/qq_18182057/article/details/53248587"
+    },
+    {
+      "title": "\n安全验证 - 知乎\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.zhihu.com/account/unhuman?message=%E7%B3%BB%E7%BB%9F%E6%A3%80%E6%B5%8B%E5%88%B0%E6%82%A8%E7%9A%84%E5%B8%90%E5%8F%B7%E6%88%96IP%E5%AD%98%E5%9C%A8%E5%BC%82%E5%B8%B8%E6%B5%81%E9%87%8F%EF%BC%8C%E8%AF%B7%E8%BF%9B%E8%A1%8C%E9%AA%8C%E8%AF%81%E7%94%A8%E4%BA%8E%E7%A1%AE%E8%AE%A4%E8%BF%99%E4%BA%9B%E8%AF%B7%E6%B1%82%E4%B8%8D%E6%98%AF%E8%87%AA%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%8F%91%E5%87%BA%E7%9A%84&need_login=true&type=unhuman"
+    },
+    {
+      "title": "\nYouTube 上有哪些计算机方面的值得推荐的公开课？ - 知乎\n",
+      "desc": "\n看到这个问题我必须拿出我收藏多年，不到关键时刻不示人的计算机之神：Ravindrababu Ravula，数据结构和算法、编译原理、操作系统、计算机网络全都懂，懂还就算了，讲课还非常棒！ https://www. youtube.com/channel/UCJ jC1hn78yZqTf0vdTC6wAQ…\n",
+      "originUrl": "https://www.zhihu.com/question/49071324/answer/153213375?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n杨超越身后的码农们（写给杨超越杯编程大赛的小故事）\n",
+      "desc": "\n本文应用MIT license, 任何组织或个人可以自由使用、复制、修改、合并、出版发行、散布、再许可和/或贩售原件及副本，及授予被供应人同等权利。转载无需署名也无需包含本版权声明。 ===================================…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/58735174"
+    },
+    {
+      "title": "\n计算机领域有哪些短小精悍的轮子？(仅用于教学)？ - 知乎\n",
+      "desc": "\n如果对好玩的东西有兴趣，非常推荐下面的三大新一代轮子。它们的核心思想都可用极简短的代码实现，效果特别直观，并且拥有无数的后续改进。因为这三者都属于易入门，但很难真正做完善。 UPDATE：对人工智能有兴趣的朋友，欢迎关注我的专栏： 技术备忘录 ​ zhuanlan.zhihu.com 2018年更新：补充几个新轮子：…\n",
+      "originUrl": "https://www.zhihu.com/question/38737972/answer/89475985?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n一千行 MySQL 详细学习笔记（值得学习与收藏）\n",
+      "desc": "\n阅读本文大概需要 3 + 分钟。 来源：https://shockerli.net/post/1000-line-mysql-note/ Windows服务 -- 启动MySQL net start mysql -- 创建Windows服务 sc create mysql binPath=…\n",
+      "originUrl": "https://mp.weixin.qq.com/s?__biz=MzUyNDkzNzczNQ%3D%3D&chksm=fa24f768cd537e7e055f1c5d9a2b0868f04449877d7e4a9a2d26137f1201f92a35ddbb362119&idx=1&mid=2247485440&scene=21&sn=068d918afea5b554e5d944a4dc192048&utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nBUILD YOUR OWN WEBPACK by Ronen Amiel\n",
+      "desc": "\nMost of us don't have to think too much about module bundlers in our day jobs. However, module bundlers are all around us, and if you’re a web developer you are…\n",
+      "originUrl": "https://www.youtube.com/watch?v=Gc9-7PBqOC8&list=LLHK1mTHpwrUeYgF5gu-Kd4g"
+    },
+    {
+      "title": "\n一个极简的神经元网络助你入门(RELU) - MAILLIBIN的专栏 - CSDN博客\n",
+      "desc": "\n原 一个极简的神经元网络助你入门(RELU) 2019年05月07日 20:50:20 一粒马豆 阅读数 213 import numpy as npimport matplotlib.pyplot as plt#此示例神经网络的样本输入输出分别是二进制和十进制0-8#输入样本X=np.array([ [0,0,0],…\n",
+      "originUrl": "https://blog.csdn.net/MAILLIBIN/article/details/89929164"
+    },
+    {
+      "title": "\nReLU激活函数：简单之美 - 对半独白 - CSDN博客\n",
+      "desc": "\nBP神经网络， relu 做 激活函数 ，求大神帮忙 01-10 - 问答 机器学习教程 Objective-C培训 交互设计视频教程 颜色模型 设计制作学习 mysql关联查询两次本表 native底部 react extjs glyph 图标 复杂美区块链 美霖设计培训 没有更多推荐了， 返回首页\n",
+      "originUrl": "https://blog.csdn.net/cherrylvlei/article/details/53149381"
+    },
+    {
+      "title": "\nkeras系列︱Sequential与Model模型、keras基本结构功能（一） - 素质云笔记/Recorder... - CSDN博客\n",
+      "desc": "\n不得不说，这深度学习框架更新太快了尤其到了Keras2.0版本，快到Keras中文版好多都是错的，快到官方文档也有旧的没更新，前路坑太多。 到发文为止，已经有theano/tensorflow/CNTK支持keras,虽然说tensorflow造势很多，但是笔者认为接下来Keras才是正道。…\n",
+      "originUrl": "https://blog.csdn.net/sinat_26917383/article/details/72857454"
+    },
+    {
+      "title": "\ngRPC网关 · go-micro 微服务开发中文手册 · 看云\n",
+      "desc": "\nGRPC网关 本指南有助于将grpc网关与go-micro服务结合使用。 grpc-gateway 是 protoc 的插件。它读取 gRPC 服务定义，并生成将RESTful JSON API转换为gRPC的反向代理服务器。 我们使用 go-grpc…\n",
+      "originUrl": "https://www.kancloud.cn/linimbus/go-micro/529025"
+    },
+    {
+      "title": "\nLearn Prolog Now!\n",
+      "desc": "\nWe have made a setof slides available which follows the chapter-by-chapterbreakdown of the book. Enjoy! But this doesn't meanwe don't want your slides too. On…\n",
+      "originUrl": "http://www.learnprolognow.org/lpnpage.php?pageid=teaching"
+    },
+    {
+      "title": "\nReal World Programming in SWI-Prolog\n",
+      "desc": "\nThis is a hopefully ever expanding collection of tutorials on aspects of the SWI-Prolog environment.Our emphasis is on learning to write real world applications…\n",
+      "originUrl": "http://www.pathwayslms.com/swipltuts/"
+    },
+    {
+      "title": "\nhttps://www.metalevel.at/lisprolog/lisprolog.pl\n",
+      "desc": "\n/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Lisprolog -- Interpreter for a simple Lisp. Written in Prolog. Written Nov. 26th,…\n",
+      "originUrl": "https://www.metalevel.at/lisprolog/lisprolog.pl"
+    },
+    {
+      "title": "\n第六章 PROLOG语言\n",
+      "desc": "\n第六章 Prolog 语言 上 一章 下一章 返回人工智能教学主页 本章学习重点 ● 无论是问题和系统的任务描述或是知识经验的表示以至推理决策，都离不开智能语言。因此，研究和使用智能语言是人工智能的中心任务之一。对于同一问题的编程可以使用多种不同的语言、有多种不同的方法实现。 Prolog…\n",
+      "originUrl": "http://210.34.136.253:8488/AIteach/chapt6.htm"
+    },
+    {
+      "title": "\nTau Prolog Sandbox\n",
+      "desc": "\nLook at built-in predicates and modules supported by Tau Prolog. lists :-use_module(library(lists)). random :-use_module(library(random)). statistics…\n",
+      "originUrl": "http://tau-prolog.org/sandbox/"
+    },
+    {
+      "title": "\nTinyFlow: Build Your Own DL System in 2K Lines\n",
+      "desc": "\nTinyFlow is \"example code\" for NNVM . It demonstrates how can we build a clean, minimum and powerful computationalgraph based deep learning system with same API…\n",
+      "originUrl": "https://github.com/tqchen/tinyflow?utm_source=ZHShareTargetIDMore&utm_medium=social&utm_oi=686868376059916288"
+    },
+    {
+      "title": "\n那迷人的被遗忘的语言：Prolog\n",
+      "desc": "\n在进入正题之前，我们先一起思考一个问题：当我们在编程时，我们在做什么？ 看到这个问题，有些同学可能会第一时间要回答： 在听音乐 在打字 在发呆 在装作很忙的样子 …… 呃，我不是那个意思，说认真的：当我们在编程时，我们在做什么？ 我们在把所想的「解决方案」转换成计算机可理解的「计算机语言」。 JavaScript,…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/41908829"
+    },
+    {
+      "title": "\n【箭厂】那些被裁员的90后，有人每天在家撸猫，有人回老家卖车创业\n",
+      "desc": "\nYouTube Premium Loading... Get YouTube without the ads. Working... 1 month free Find out why 箭廠視頻 Loading... Unsubscribe from 箭廠視頻? Working... 52K Loading...…\n",
+      "originUrl": "https://www.youtube.com/watch?v=5x5UMylO1-g"
+    },
+    {
+      "title": "\n长的好看的女生\n",
+      "desc": "\n…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/47412471"
+    },
+    {
+      "title": "\nAnswer set programming - Wikipedia\n",
+      "desc": "\nNot to be confused with Active Server Pages. Answer set programming ( ASP ) is a form of declarative programming oriented towards difficult (primarily NP-hard)…\n",
+      "originUrl": "https://en.wikipedia.org/wiki/Answer_set_programming"
+    },
+    {
+      "title": "\n背个X啊\n",
+      "desc": "\n转换 我的收藏 日 / 夜 IOS Android 关于我们 由于此web端是最早期的版本，没有及时更新迭代，功能上有所欠缺，推荐您使用微信小程序 “背个X” 或下载App , 此web端会尽快更新 >_ 1 1\n",
+      "originUrl": "https://faded12.github.io/conversion/?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n优雅的提交你的 Git Commit Message - 掘金\n",
+      "desc": "\n题注：如果喜欢我们的文章别忘了点击关注阿里南京技术专刊呦~ 本文转载自 阿里南京技术专刊-知乎 ，欢迎大牛小牛投递阿里南京前端/后端开发等职位，详见 阿里南京诚邀前端小伙伴加入~ 。 commit message 是开发的日常操作, 写好 log 不仅有助于他人 review, 还可以有效的输出 CHANGELOG,…\n",
+      "originUrl": "https://juejin.im/post/5afc5242f265da0b7f44bee4"
+    },
+    {
+      "title": "\n一文搞懂Raft算法 - xybaby - 博客园\n",
+      "desc": "\n目录 raft算法概览 leader election term 选举过程详解 log replication Replicated state machines 请求完整流程 safety corner case stale leader State Machine Safety leader crash 总结…\n",
+      "originUrl": "https://www.cnblogs.com/xybaby/p/10124083.html"
+    },
+    {
+      "title": "\n编译 Rust 为 WebAssembly\n",
+      "desc": "\n如果你写了一些 Rust 代码，你可以把它编译成 WebAssembly！这份教程将带你编译 Rust 项目为 wasm 并在一个现存的 web 应用中使用它。 Rust 和 WebAssembly 用例 节 Rust 和 WebAssembly 有两大主要用例： 构建完整应用 —— 整个 Web 应用都基于 Rust…\n",
+      "originUrl": "https://developer.mozilla.org/zh-CN/docs/WebAssembly/Rust_to_wasm"
+    },
+    {
+      "title": "\nLinux Signal及Golang中的信号处理\n",
+      "desc": "\n信号(Signal)是Linux, 类Unix和其它POSIX兼容的操作系统中用来进程间通讯的一种方式。一个信号就是一个异步的通知，发送给某个进程，或者同进程的某个线程，告诉它们某个事件发生了。 当信号发送到某个进程中时，操作系统会中断该进程的正常流程，并进入相应的信号处理函数执行操作，完成后再回到中断的地方继续执行。…\n",
+      "originUrl": "https://colobu.com/2015/10/09/Linux-Signals/"
+    },
+    {
+      "title": "\nKoa源码浅析\n",
+      "desc": "\nKoa源码十分精简，只有不到2k行的代码，总共由4个模块文件组成，非常适合我们来学习。 4个文件 参考代码: learn-koa2 我们先来看段原生Node实现Server服务器的代码： const http = require ( 'http' ); const server = http .…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/70985017"
+    },
+    {
+      "title": "\nWW Neuron maps\n",
+      "desc": "\n: : :\n",
+      "originUrl": "http://wormwiring.org/apps/neuronMaps/?cell=cepshvr&db=n930&sex=male"
+    },
+    {
+      "title": "\n量子位\n",
+      "desc": "\n栗子 安妮 发自 凹非寺 量子位 出品 | 公众号 QbitAI 大脑功能是如何从神经回路的运作中产生的，第一次有了比较明确的解释。 历时8年研究，哥伦比亚大学的博士后Steven J. Cook等人终于修成正果，他们的研究登上了今日Nature封面。 在这项研究中，研究人员画完了秀丽隐杆线虫 全部神经元的完整图谱…\n",
+      "originUrl": "https://mp.weixin.qq.com/s/c_IxINuF6bFWeboTLeKHTg"
+    },
+    {
+      "title": "\npest. The Elegant Parser\n",
+      "desc": "\nGitHub IDEA Plugin Book Docs Try it here! n F B p i J o m N T O c K h k g N q J x e y s c a t v Z u L L E D F i X U e U v t D W b b H Z e z M x l U A U R B g F…\n",
+      "originUrl": "https://pest.rs/"
+    },
+    {
+      "title": "\nawesome-compilers\n",
+      "desc": "\nA curated list of awesome resources, learning materials, tools, frameworks, platforms, technologies and source code projects in the field of Compilers,…\n",
+      "originUrl": "http://aalhour.com/awesome-compilers/"
+    },
+    {
+      "title": "\n5G 来了，需要更换 SIM 卡吗？\n",
+      "desc": "\n作者 | 蜉蝣采采 本文经授权转载自无线深海（ID：wuxian_shenhai） 2019年作为5G元年，随着中国5G牌照的发放，5G离我们的生活越来越近。众所周知，要想体验5G速度，换支持5G的手机是必须的。 中兴5G手机…\n",
+      "originUrl": "https://mp.weixin.qq.com/s/4vKN3BPvDFHyruIgFQ3-Pw"
+    },
+    {
+      "title": "\n在线工具 - 程序员的工具箱\n",
+      "desc": "\n在线运行代码 [开发类] 在线运行php,c,c++,go,python,java,groovy代码 https://tool.lu/coderunner/ 进入 javascript工具 [开发类] 在线js美化、解压缩、混淆 https://tool.lu/js/ 进入 css工具 [开发类]…\n",
+      "originUrl": "https://tool.lu/?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nMikuTools\n",
+      "desc": "\n媒体类 追新番 youtube-dl Instagram 图片视频下载 Twitter 视频下载 Facebook 视频下载 TikTok 无水印视频下载 Youtube 视频下载 Bilibili 视频下载 niconico 视频下载 TED 视频下载 SoundCloud 歌曲下载 抖音无水印视频下载…\n",
+      "originUrl": "https://miku.tools/?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n基于 shell 使用 expect 实现 SSH 自动登录远程服务器 - 码蚁de天空 - OSCHINA\n",
+      "desc": "\n基于 shell 使用 expect 实现 SSH 自动登录远程服务器 原 whoru 发布于 2017/05/20 16:11 字数 950 阅读 258 收藏 0 Bash GNU sed GT 2019独角兽企业重金招聘Python工程师标准>>> 相关知识点 expect expect…\n",
+      "originUrl": "https://my.oschina.net/antsky/blog/905336"
+    },
+    {
+      "title": "\nLinux 环境变量作用及其加载顺序\n",
+      "desc": "\n最近在在 Linux 服务器上总是遇到已经配置了 JAVA 环境变量，却还是提示 “command not found”，于是特意查了下 Linux 配置环境变量的几个文件的加载顺序。 /etc/profile -> (~/.bash_profile | ~/.bash_login | ~/.profile) ->…\n",
+      "originUrl": "https://toypipi.github.io/2017/10/12/Linux-%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E4%BD%9C%E7%94%A8%E5%8F%8A%E5%85%B6%E5%8A%A0%E8%BD%BD%E9%A1%BA%E5%BA%8F/index.html"
+    },
+    {
+      "title": "\n软件开发|“Exit Trap” 让你的 Bash 脚本更稳固可靠\n",
+      "desc": "\n有个简单实用的技巧可以让你的 bash 脚本更稳健 -- 确保总是执行必要的收尾工作，哪怕是在发生异常的时候。要做到这一点，秘诀就是 bash 提供的一个叫做 EXIT 的伪信号，你可以 trap 它，当脚本因为任何原因退出时，相应的命令或函数就会执行。我们来看看它是如何工作的。 基本的代码结构看起来像这样： # !…\n",
+      "originUrl": "https://linux.cn/article-9639-1.html"
+    },
+    {
+      "title": "\n有哪些有意思的自然、科学小实验？ - 知乎\n",
+      "desc": "\n那天看到TED讲磁悬浮量子锁定，很有意思 Boaz Almog “悬浮” 一个超导体 ​ v.youku.com 【TED：量子悬浮实验】量子悬浮是磁悬浮实验中改变超导体的物理尺寸而出现的一种奇妙现象。特拉维夫大学的科学家Boaz…\n",
+      "originUrl": "https://www.zhihu.com/question/263909566/answer/310194008?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n安全验证 - 知乎\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.zhihu.com/account/unhuman?message=%E7%B3%BB%E7%BB%9F%E7%9B%91%E6%B5%8B%E5%88%B0%E6%82%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%AD%98%E5%9C%A8%E5%BC%82%E5%B8%B8%EF%BC%8C%E4%B8%BA%E4%BF%9D%E8%AF%81%E6%82%A8%E7%9A%84%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE%EF%BC%8C%E8%AF%B7%E8%BE%93%E5%85%A5%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BF%9B%E8%A1%8C%E9%AA%8C%E8%AF%81%E3%80%82&need_login=true&type=unhuman"
+    },
+    {
+      "title": "\n我这个人不懂什么CPU，于是我用代码模拟出了一个\n",
+      "desc": "\n芯片的设计到底有多难？想要回答这个问题最好还是先自己实践一下。最近，来自 BBC 的一名资深软件工程师 Daniel Harper 使用 Go 语言成功模拟出了一个 CPU 的所有功能，并把自己的经历写成了博客，引起了人们的热议。这篇文章也告诉我们：完整地了解计算机的工作原理是多么重要。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/66680640"
+    },
+    {
+      "title": "\n使用 Node.js 写一个代码生成器 - 掘金\n",
+      "desc": "\n背景 第一次接触代码生成器用的是动软代码生成器，数据库设计好之后，一键生成后端 curd代码。之后也用过 CodeSmith , T4。目前市面上也有很多优秀的代码生成器，而且大部分都提供可视化界面操作。 自己写一个的原因是因为要集成到自己写的一个小工具中，而且使用 Node.js 这种动态脚本语言进行编写更加灵活。…\n",
+      "originUrl": "https://juejin.im/post/5cd45480e51d453a572aa2cf?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n哲学家们有哪些逼格满满的言语？ - 知乎\n",
+      "desc": "\n本硕都在哲学系，有很多次被哲学家的一句话瞬间击中福至心灵的时刻。与大众印象相反，哲学家的逼格不在于遣词造句的诘屈聱牙，晦涩难懂。而在于对世间人心的深刻理解和高瞻远瞩，在于反复思考叩问后锻造出的深刻和通透。 一、当他们谈政治体制： “问：谁应当统治？答：最好的人…\n",
+      "originUrl": "https://www.zhihu.com/question/36158362/answer/644254988?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n你有哪些值得珍藏的短句？ - 知乎\n",
+      "desc": "\n该回答已被删除 5 秒后自动跳转至回答所在的问题页 去往首页 或者\n",
+      "originUrl": "https://www.zhihu.com/question/320579448/answer/663834466?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nImage Recognition and Object Detection : Part 1 | Learn OpenCV\n",
+      "desc": "\nThis is a multipart post on image recognition and object detection. In this part, we will briefly explain image recognition using traditional computer vision…\n",
+      "originUrl": "https://www.learnopencv.com/image-recognition-and-object-detection-part1/"
+    },
+    {
+      "title": "\n【特征检测】HOG特征算法 - hujingshuang - CSDN博客\n",
+      "desc": "\n简介 HOG （ Histogram of Oriented Gridients 的简写）特征检测算法，最早是由法国研究员 Dalal 等在 CVPR-2005 上提出来的，一种解决人体目标检测的图像描述子，是一种用于表征图像局部梯度方向和梯度强度分布特性的描述符。…\n",
+      "originUrl": "https://blog.csdn.net/hujingshuang/article/details/47337707"
+    },
+    {
+      "title": "\n图像处理－－gamma矫正/Python - akadiao的博客 - CSDN博客\n",
+      "desc": "\ngamma 校正matlab 11-25 基于matlab的gamma校正代码，内有两种gamma值 ，比较简单 下载 基于matlab的 gamma 校正 06-19 使用matlab进行图片的gamma校正，成功的实现了bmp格式的图片的gamma校正 下载 python…\n",
+      "originUrl": "https://blog.csdn.net/akadiao/article/details/79679306"
+    },
+    {
+      "title": "\n1-1 前端的发展 · 深入浅出 Webpack\n",
+      "desc": "\n近年来 Web 应用变得更加复杂与庞大，Web 前端技术的应用范围也更加广泛。从复杂庞大的管理后台到对性能要求苛刻的移动网页，再到类似 ReactNative 的原生应用开发方案，Web 前端工程师在面临更多机遇的同时也会面临更大的挑战。通过直接编写 JavaScript、CSS、HTML 开发 Web…\n",
+      "originUrl": "http://webpack.wuhaolin.cn/1%E5%85%A5%E9%97%A8/1-1%E5%89%8D%E7%AB%AF%E7%9A%84%E5%8F%91%E5%B1%95.html"
+    },
+    {
+      "title": "\nGoogle Colaboratory\n",
+      "desc": "\nColaboratory 是一个免费的 Jupyter 笔记本环境，不需要进行任何设置就可以使用，并且完全在云端运行。 借助 Colaboratory，您可以编写和执行代码、保存和共享分析结果，以及利用强大的计算资源，所有这些都可通过浏览器免费使用。 ↳ 已隐藏 0 个单元格 代码 文字 [ ] xxxxxxxxxx…\n",
+      "originUrl": "https://colab.research.google.com/notebooks/welcome.ipynb"
+    },
+    {
+      "title": "\n有哪些看起来很有格调的电脑桌面壁纸？ - 知乎\n",
+      "desc": "\n哎呀，承蒙大家喜爱呀！！！ 既然你们如此欣赏我的审（mei）美（mao），那我就不客气啦，再收割一波你们的流量～「还是建议wifi下加载清楚使用哦，不然不就看不到超核的清晰度啦啦啦～） 壁纸适用于：上限Mac Pro 15寸屏幕，所以15寸以下的电脑屏，理论上应该会更加清晰！！！…\n",
+      "originUrl": "https://www.zhihu.com/question/26620889/answer/628440267?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n服务都微了，编排怎么整？-云栖社区-阿里云\n",
+      "desc": "\n精简版 1 1 1 云栖社区 > EAWorld > 博客 > 正文 服务都微了，编排怎么整？ 2017-09-04 16:35:00 浏览2229 分布式 架构 HTTPS 微服务 Image 本文讲的是 服务都微了，编排怎么整？，…\n",
+      "originUrl": "https://yq.aliyun.com/articles/219378"
+    },
+    {
+      "title": "\n前端数据服务系统(fds) · 语雀\n",
+      "desc": "\n前端数据服务 应用简介 轻量级、场景化、高可用的前端数据服务方案。 服务于 TMS 页面涉及的静态数据、多语言数据存取，也为动态数据源提供服务接入和数据获取能力。 应用架构 普通MVC架构 前端页面获取数据链路 TDDL tair\n",
+      "originUrl": "https://yuque.antfin-inc.com/devops/profile/qh7wo1"
+    },
+    {
+      "title": "\n使用Python对音频进行特征提取 - 掘金\n",
+      "desc": "\n写在前面 因为喜欢玩儿音乐游戏，所以打算研究一下如何用深度学习的模型生成音游的谱面。这篇文章主要目的是介绍或者总结一些音频的知识和代码。 恩。如果没玩儿过的话，音乐游戏大概是下面这个样子。 下面进入正题。 我Google了一下，找到了这篇文章： Music Feature Extraction in Python…\n",
+      "originUrl": "https://juejin.im/post/5d6a815fe51d4561a54b69f7?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\nNLP-LOVE/ML-NLP\n",
+      "desc": "\n项目介绍 此项目是 机器学习、NLP面试 中常考到的 知识点和代码实现 ，也是作为一个算法工程师必会的理论基础知识。 既然是以面试为主要目的，亦不可以篇概全，请谅解，有问题可提出。 此项目以各个模块为切入点，让大家有一个清晰的知识体系。 此项目亦可拿来常读、常记以及面试时复习之用。…\n",
+      "originUrl": "https://github.com/NLP-LOVE/ML-NLP"
+    },
+    {
+      "title": "\n为何谷歌之类大厂程序员认为敏捷开发是瞎扯淡？ - 知乎\n",
+      "desc": "\n因为客户和PM都没法一次性完美描述出他们的整体真实需求，经常是每次提出部分有代表性的需求。 既然如此，那我们何不每次就做好一部分？ 就比如下图，先做个前半身就去上线，后半身等下个阶段在做…… 就比如用户提出要求“给我做头牛，看起来非常有活力，并且斗志十足”…\n",
+      "originUrl": "https://www.zhihu.com/question/340916482/answer/794409438?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n哪些网站让你感觉发现了新大陆？ - 知乎\n",
+      "desc": "\n我就推荐一个网站，保证大家会喜欢。 之前小米MIX 2S发布会有一张倒计时海报是这样的。 背景是一些放射光效，我很好奇，这种背景是如何制作的，后来我发现了一个网站，叫 Stars-Emmision。 这是一个放射图片的生成网站，右上角有参数，可以设置颜色和光效数量，通过这个网站可以轻松制作出下图这样的放射背景。…\n",
+      "originUrl": "https://www.zhihu.com/question/293309623/answer/805057223?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n第二章：歡迎來到 Lisp — ANSI Common Lisp 中文版\n",
+      "desc": "\n本章的目的是讓你儘快開始編程。本章結束時，你會掌握足夠多的 Common Lisp 知識來開始寫程式。 2.1 形式 (Form)¶ 人可以通過實踐來學習一件事，這對於 Lisp 來說特別有效，因爲 Lisp 是一門交互式的語言。任何 Lisp 系統都含有一個交互式的前端，叫做 頂層 (toplevel)。你在頂層輸入…\n",
+      "originUrl": "http://acl.readthedocs.io/en/latest/zhTW/ch2.html"
+    },
+    {
+      "title": "\nreplay your terminal recordings online! (capture shell terminal recording and replay online),\n",
+      "desc": "\nnethack tutorial part 1 a git primer apt-get in action a test for ttyrec. cit and cat in vim mysql pagers bash event designator set up a user ~/bin in path tmux…\n",
+      "originUrl": "https://playterm.org/"
+    },
+    {
+      "title": "\nDeep Flow-Guided Video Inpainting\n",
+      "desc": "\nXiaoxiao Li 1 Bolei Zhou 1 Chen Change Loy 2 Download Demo Abstract Video inpainting, which aims at filling in missing regions of a video, remains challenging…\n",
+      "originUrl": "https://nbei.github.io/video-inpainting.html?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nCommon Sense, Cortex, and CAPTCHA\n",
+      "desc": "\nDirect link to Science paper full text . Introduction From the moment we are born, we begin using our senses to build a coherent model of the world. As we grow,…\n",
+      "originUrl": "https://www.vicarious.com/2017/10/26/common-sense-cortex-and-captcha/"
+    },
+    {
+      "title": "\nVicarious说，现在的深度学习都是渣渣\n",
+      "desc": "\n未来的某一天，几家 AI 公司在装逼， DeepMind：“我们训练了一个下棋的神经网络，击败了李世石。” 依图科技：“我们训练了一个识别坏蛋长什么样的网络，在几百几千人中找一个坏蛋只需要零点零几秒。” Tesla：“我现在就敢搞 auto pilot，未来暴增的驾驶数据能训练出比人类更可靠的自动驾驶...”…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/26035695"
+    },
+    {
+      "title": "\n用优雅的代码武装我们的koa2项目\n",
+      "desc": "\n众所周知，koa2是基于nodejs的一款非常轻量级的服务端框架，其简单易上手的特性更是大大节省了前端人员开发服务端api的成本。尽管许多功能能够实现，但是作为一个有素养的开发人员，代码的层次性、后期可维护性都是需要考虑周到的。 实话说，按照koa官方文档来照葫芦画瓢，我们的代码是写不漂亮的。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/76986907"
+    },
+    {
+      "title": "\n面向信仰编程\n",
+      "desc": "\nGolang 并发编程与定时器 对于任何一个正在运行的应用，如何获取准确的绝对时间都非常重要，但是在一个分布式系统中我们很难保证各个节点上绝对时间的一致性，哪怕通过 NTP 这种标准的对时协议也只能把时间的误差控制在毫秒级，所以相对时间在一个分布式系统中显得更为重要，我们在这一节中就会介绍 Go…\n",
+      "originUrl": "https://draveness.me/"
+    },
+    {
+      "title": "\nGOPROXY 使用文档\n",
+      "desc": "\n首次使用必看！ 1. 环境 该手册教程，默认系统是linux，程序是proxy；所有操作需要root权限； 如果你的是windows，请使用windows版本的proxy.exe即可。 2. 使用配置文件 接下来的教程都是通过命令行参数介绍使用方法，也可以通过读取配置文件获取参数。…\n",
+      "originUrl": "https://snail007.github.io/goproxy/manual/zh/"
+    },
+    {
+      "title": "\nWriting A Compiler In Go | Thorsten Ball\n",
+      "desc": "\nWriting A Compiler In Go This is the sequel to Writing An Interpreter In Go . We're picking up right where we left off and write a compiler and a virtual…\n",
+      "originUrl": "https://compilerbook.com/"
+    },
+    {
+      "title": "\n机器学习与逻辑编程 – 码中人\n",
+      "desc": "\n作者： 王垠 原文链接： 机器学习与逻辑编程 喜欢文章的人可以自愿向原作者付费： 付费 你可能没有想到，机器学习（machine learning）和逻辑编程（logic programming）有一种奇妙的关系，在我眼里她们就像亲姐妹。…\n",
+      "originUrl": "http://www.mzh.ren/machine-learning-3.html"
+    },
+    {
+      "title": "\n哪些 Python 库让你相见恨晚？ - 知乎\n",
+      "desc": "\n最近发现一个神奇的库pandas-profiling， 一行代码 生成 超详细数据分析报告 ，实乃我等数据分析从业者的福音哈哈~ 一键生成超详细数据分析报告 https://www.zhihu.com/video/1143534815029669888 一般来说，面对一个数据集，我们需要做一些探索性分析…\n",
+      "originUrl": "https://www.zhihu.com/question/24590883/answer/782584888?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n跳转中...\n",
+      "desc": "\n\n",
+      "originUrl": "https://link.zhihu.com/?target=https%3A%2F%2Fvictorzhou.com%2F"
+    },
+    {
+      "title": "\n如何自己从零实现一个神经网络? - 知乎\n",
+      "desc": "\n“我在网上看到过很多神经网络的实现方法，但这一篇是最简单、最清晰的。” 一位来自普林斯顿的华人小哥Victor Zhou，写了篇神经网络入门教程，在线代码网站Repl.it联合创始人Amjad Masad看完以后，给予如是评价。 这篇教程发布仅天时间，就在Hacker…\n",
+      "originUrl": "https://www.zhihu.com/question/314879954/answer/638380202?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n有没有那种看了就想努力学习的视频或者歌曲？ - 知乎\n",
+      "desc": "\n这一次你打算怎么活？ https://www.zhihu.com/video/1079874048510676992\n",
+      "originUrl": "https://www.zhihu.com/question/312258666/answer/599195379?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n人工智能达到了什么程度？ - 知乎\n",
+      "desc": "\n在前不久刚举行的一年一度Google开发者大会 I/O'19 上，Google AI的负责人Jeff Dean在一个小型讨论会上介绍了Google是如何用深度学习技术来解决世界上最具挑战性的问题的（ 油管链接…\n",
+      "originUrl": "https://www.zhihu.com/question/46563853/answer/702746907?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n只有几千人看过的超冷门纪录片，豆瓣9.2，给低了\n",
+      "desc": "\n今天我们来聊一部超冷门的国产纪录片《乡村里的中国》，焦波导演作品，致敬每个人故乡的农民。\n",
+      "originUrl": "https://www.youtube.com/watch?v=cBF58lRWXe4"
+    },
+    {
+      "title": "\nA minimal Multiboot Kernel | Writing an OS in Rust (First Edition)\n",
+      "desc": "\nA minimal Multiboot Kernel Aug 18, 2015 Table of Contents Overview Multiboot The Boot Code Building the Executable Creating the ISO Booting Build Automation…\n",
+      "originUrl": "https://os.phil-opp.com/multiboot-kernel/"
+    },
+    {
+      "title": "\nGitHub 标星 8w！学完这份指南后，你就可以去 Google 面试了！\n",
+      "desc": "\n前言 如果让你选择一家互联网科技公司加入，你会选择哪一家？ 具体答案因人而异，不过我相信，作为目前全球最为知名的互联网公司，Google 一定名列其上。 自 1996 年诞生以来，Google…\n",
+      "originUrl": "https://mp.weixin.qq.com/s/Qu5vjHhQn9S6hGTyhX4c7g?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n十分钟完成一个操作系统-打印Hello world - 疯狂小兵 - SegmentFault 思否\n",
+      "desc": "\n专栏 疯狂小兵 文章详情 疯狂小兵 151 发布于 疯狂小兵 2018-01-07 发布 十分钟完成一个操作系统-打印Hello world 操作系统 asm hello-world 2.2k 次阅读 · 读完需要 6 分钟 2…\n",
+      "originUrl": "https://segmentfault.com/a/1190000012733673"
+    },
+    {
+      "title": "\n训练营 - Mo\n",
+      "desc": "\n我的学习 机器学习实战 学习进度: 1/13 机器学习实战 官方课程 机器学习 本门课程是吴恩达（Andrew…\n",
+      "originUrl": "https://momodel.cn/classroom"
+    },
+    {
+      "title": "\nC++ function returning an ES6 promise\n",
+      "desc": "\nSkip to content All gists Back to GitHub Signed in as yunfengsay Your gists Starred gists Help Your GitHub profile C++ function returning an ES6 promise Raw…\n",
+      "originUrl": "https://gist.github.com/jupp0r/5f11c0ee2b046b0ab89660ce85ea480e"
+    },
+    {
+      "title": "\nCPU 的各级缓存分别实现什么样的功能？ - 知乎\n",
+      "desc": "\n可以参考一下这个视频里关于缓存的部分 缓存是什么？ https://www.zhihu.com/video/1137797071536074752\n",
+      "originUrl": "https://www.zhihu.com/question/297696063/answer/762121118?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nFive Ways to Run a Program On Your Raspberry Pi At Startup\n",
+      "desc": "\nRun a Program On Your Raspberry Pi At Startup x Product from Amazon, Publisher may get a commission AdChoices Product from Amazon, Publisher may get a…\n",
+      "originUrl": "https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/"
+    },
+    {
+      "title": "\nOrz\n",
+      "desc": "\norz -- a general purpose data compressor written in rust. orz is an optimized ROLZ (reduced offset Lempel-Ziv) general purpose data compressor. input data is…\n",
+      "originUrl": "https://github.com/richox/orz?utm_source=ZHShareTargetIDMore&utm_medium=social&utm_oi=686868376059916288"
+    },
+    {
+      "title": "\n如何使用 Set 来提高JS代码的性能\n",
+      "desc": "\n摘要： 高效使用Set！ 作者：前端小智 Fundebug 经授权转载，版权归原作者所有。 为了保证的可读性，本文采用意译而非直译。 我确信有很多开发人员坚持使用基本的全局对象：数字，字符串，对象，数组和布尔值。对于许多用例，这些都是需要的。 但是如果想让你的代码尽可能快速和可扩展，那么这些基本类型并不总是足够好。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/73265559"
+    },
+    {
+      "title": "\n饭米跟你一起用Rust写操作系统（一）\n",
+      "desc": "\n前言 第一篇文章主要以跑通rustboot为主。文章风格上还是尽量保持简单易懂。 另外，不要指望这玩意儿除了学习和研究之外有什么用。 为什么选择Rust Rust没有垃圾回收，资源可以确定性析构。 Rust是一个现代的程序开发语言 Rust可以方便地内联汇编…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/25389789"
+    },
+    {
+      "title": "\nOSX下面用ffmpeg抓取桌面以及摄像头推流进行直播 - 嗷大喵 - 博客园\n",
+      "desc": "\n参考博客 http://blog.chinaunix.net/uid-11344913-id-4665455.html 在osx系统下通过ffmpeg查看设备 1 ffmpeg -f avfoundation -list_devices true -i \"\" 显示结果如下： 1 2 3 4 5 6 7 8 9 10…\n",
+      "originUrl": "https://www.cnblogs.com/damiao/p/5233431.html"
+    },
+    {
+      "title": "\n余光中：孩子，我希望你自始至终都是一个理想主义者｜书房\n",
+      "desc": "\n原标题:余光中：孩子，我希望你自始至终都是一个理想主义者｜书房 ▲ 点击上图 购买文茜的愉悦学校 作者介绍 12 月 14 日，90 岁的余光中老先生病重逝世，永远地离开了我们。 这位文学大家生前涉猎广泛，翻译、诗歌、散文样样精通， 梁实秋都曾称赞他「右手写诗、左手写散文，成就之高、一时无两」。 文： 余光中 来源：…\n",
+      "originUrl": "http://wemedia.ifeng.com/41305504/wemedia.shtml"
+    },
+    {
+      "title": "\n38思维模型：复杂适应性系统\n",
+      "desc": "\n在美国新墨西哥州的“沙漠”有一座小城圣塔菲城(Santa…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/49257621"
+    },
+    {
+      "title": "\n【BAT机器学习面试题】前100题汇总及勘误（上）\n",
+      "desc": "\n七月在线 近期和，七月团队整理了BAT机器学习面试1000题系列，侧重机器学习、深度学习。我们将通过这个系列索引绝大部分机器学习和深度学习的笔试面试题、知识点，它将是一个足够庞大的机器学习和深度学习面试库/知识库，通俗成体系且循序渐进。 今天将会发布【BAT机器学习面试1000题系列】前100道题的汇总和勘误。…\n",
+      "originUrl": "https://www.atatech.org/articles/95140"
+    },
+    {
+      "title": "\nsql面试题 - Google 搜索\n",
+      "desc": "\n搜索结果 网络搜索结果 SQL常见的一些面试题(太有用啦) - a379850992的博客- CSDN博客 https://blog.csdn.net/a379850992/article/details/55655495 网页快照 SQL 常见的一些 面试题 (太有用啦). 2017年02月18日09:54:51…\n",
+      "originUrl": "https://www.google.com/search?q=sql%E9%9D%A2%E8%AF%95%E9%A2%98"
+    },
+    {
+      "title": "\n为什么linux要用tar.gz，很少用7z或zip？ - 知乎\n",
+      "desc": "\n因为 7z 和 zip 压缩格式都不能保留 unix 风格的文件权限，比如解压出个可执行文件要重新 chmod chown 才能恢复正常。而 tar 格式可以。而 tar 本身不提供压缩，无非就是把包括所有文件的內容和权限拼成一个文件而己，所以用另外如 gzip 格式压缩。为什么是 gzip，因为几乎所有 linux…\n",
+      "originUrl": "https://www.zhihu.com/question/335911358/answer/755424668?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nLinux vmstat命令实战详解 - ggjucheng - 博客园\n",
+      "desc": "\n…\n",
+      "originUrl": "https://www.cnblogs.com/ggjucheng/archive/2012/01/05/2312625.html"
+    },
+    {
+      "title": "\nmermaid - Markdownish syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs.\n",
+      "desc": "\nNew diagrams in 8.4 With version 8.4 class diagrams has got some new features, bug fixes and documentation. Another new feature in 8.4 is the new diagramtype,…\n",
+      "originUrl": "https://mermaidjs.github.io/"
+    },
+    {
+      "title": "\n中文独立博客列表\n",
+      "desc": "\n目录 博客列表 什么是独立博客 如何提交 为什么要收集这张列表 博客列表 暂时粗暴得按照 feedly 上的订阅数据排了个先后顺序. 正在构思一个更好得组织博客和推荐内容的 工具 , 欢迎通过 email 订阅更新 或加入 Telegram 群 讨论 RSS 订阅数 简介 链接 标签 阮一峰的网络日志…\n",
+      "originUrl": "https://github.com/timqian/chinese-independent-blogs?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\nGo语言出现后，Java还是最佳选择吗？\n",
+      "desc": "\n阿里妹导读： 随着大量新生的异步框架和支持协程的语言(如Go)的出现，在很多场景下操作系统的线程调度成为了性能的瓶颈， Java也因此被质疑是否不再适应最新的云场 景了。 4年前，阿里JVM团队开始自研Wisp2，将Go语言的协程能力带入到Java世界。 既享受Java的丰富生态，又获得异步程序的性能，…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247491875&idx=1&sn=cb915675f6b1892d22bd434b372910c7&chksm=e92adc2cde5d553aad57ee1cc552744e1a43a5dfaa9a82444c41d557d1b3f7a05dd7b31b39e6#rd"
+    },
+    {
+      "title": "\n用树莓派搭建网络摄像头\n",
+      "desc": "\n用树莓派加上相机模块，可以实现实时监控的功能，再将时时视频流导入到 Web 界面中，就变成简单的网络摄像头（Webcam）。Web 端用 Nodejs + WebSocket，既可以进行实时播放，同时又方便进功能的扩展。 Raspberry PI 2B 在硬件上比第一代有很大提升，多了两个 USB 接口，存储换成了…\n",
+      "originUrl": "http://blog.rainy.im/2015/05/26/webcam-on-raspberry-pi/"
+    },
+    {
+      "title": "\n【深度有趣】项目一：DCGAN 手写数字生成\n",
+      "desc": "\n1 yvette_say 退出 首页 天池大赛 天池实验室 AI学习 数据集 技术圈 开发者中心 天池科学家 天池礼品库 技术圈 > 【深度有趣】项目一：DCGAN 手写数字生成 Loading... Seek % buffered 16:21 -08:48 Volume 播放器加载失败 可能的原因:…\n",
+      "originUrl": "https://tianchi.aliyun.com/course/video?liveId=33472&spm=5176.12282076.0..1ecb2042M80Im2"
+    },
+    {
+      "title": "\n(33) 水銀為什麽是液體？|Why is the Metal Mercury a Liquid?| ChaoMuseum - YouTube\n",
+      "desc": "\nLoading…\nLoading…\nWorking…\nLoading…\nLoading…\nWorking…\nSign in to report inappropriate content.\nLoading…\n★Subscribe to ChaosMuseum: http://bit.ly/2Q9cuFd★Click…\n",
+      "originUrl": "https://www.youtube.com/watch?v=6bf8KNlCOZA"
+    },
+    {
+      "title": "\nMac 命令行格式化U盘\n",
+      "desc": "\n用dd来把安装包烧到U盘的，发现U盘变小了，mac磁盘工具也不能格式化，就只好用命令行了。 diskutil list #1.找到U盘的代号 比如disk1 diskutil unmountDisk /dev/disk1 #2. diskutil eraseDisk JHFS+ iDisk disk1 #3.\n",
+      "originUrl": "https://www.jianshu.com/p/4e1f5408a98a"
+    },
+    {
+      "title": "\nROS（10）：mac 下树莓派Raspberry Pi 烧录 img-云栖社区-阿里云\n",
+      "desc": "\n精简版 0 0 0 云栖社区 > 博客 > 正文 ROS（10）：mac 下树莓派Raspberry Pi 烧录 img 2015-10-08 22:31:00 浏览1165 mac HTTPS http 镜像 ROS 开发环境 磁盘 Blog 展开阅读全文 本文的原文连接是:…\n",
+      "originUrl": "https://yq.aliyun.com/articles/138438"
+    },
+    {
+      "title": "\n你可能不知道的 Node.js util 模块\n",
+      "desc": "\n首发于我的博客： https://www. ahonn.me/post/55 作为 Node.js 的内置模块，其实 util 模块中包含了许多实用的工具函数。这篇文章主要介绍其中的两类函数：函数转换类（callbackify/promisify/deprecate）与调试辅助类（debuglog/inspect）。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/75532713"
+    },
+    {
+      "title": "\n前端精读评论\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.instapaper.com/FrontendPerusal"
+    },
+    {
+      "title": "\nCoding Games and Programming Challenges to Code Better\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.codingame.com/start?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nLintCode 领扣\n",
+      "desc": "\nL ntCode\n",
+      "originUrl": "https://www.lintcode.com/?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nJupyterLab，极其强大的下一代notebook！\n",
+      "desc": "\nJupyterLab简介 JupyterLab是Jupyter主打的最新数据科学生产工具，某种意义上，它的出现是为了取代Jupyter Notebook。不过不用担心Jupyter Notebook会消失，JupyterLab包含了Jupyter Notebook所有功能。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/87403131"
+    },
+    {
+      "title": "\n天池AI学习\n",
+      "desc": "\n深度学习 更多>> T-Talk 讲师：言有三 时间：2019-10-15 19:00:00 Algorithm ActionDeep Learning T-Talk 追风少年Hackathon——台风图像时间序列预测大赛 讲师：追风少年们 时间：2019-09-26 15:00:00 CompetitionDeep…\n",
+      "originUrl": "https://tianchi.aliyun.com/course/index?spm=5176.12281909.0.0.982935aca09fB3"
+    },
+    {
+      "title": "\n一个23岁的年轻人，手上有2万有什么好的理财建议？ - 知乎\n",
+      "desc": "\n2811个回答，我的天，你们是不是已经不知道看什么好了 停 ，不需要你再花费时间去挑选了 本篇6000+字，浓缩了我理财这么多年的完整精华 差不多花了20个小时 从0到1让你上手理财 助你在理财的路上少走一些坑，早日开启资产复利 先例行说说我吧，…\n",
+      "originUrl": "https://www.zhihu.com/question/268165456/answer/838640355?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n1. 监督学习(supervised learning) — scikit-learn 0.20.2 documentation\n",
+      "desc": "\n首页 安装 文档 Scikit-learn 0.20.2 教程 用户指南 API 词汇表 FAQ 贡献 路线图\n",
+      "originUrl": "http://scikit-learn.org/stable/supervised_learning.html"
+    },
+    {
+      "title": "\n使用SVG绘制流程图 - webhmy - 博客园\n",
+      "desc": "\n本篇主要记录流程图的实现过程中的难点和核心技术点，先上效果图： 节点可以任意拖拽，曲线跟随变化 正在连接的线 1、节点实现 流程图是基于SVG绘制的，节点主要利用 g 和 foreignObject 的特性来实现：       span >  {{item.name}}  span >  ......  div > …\n",
+      "originUrl": "https://www.cnblogs.com/webhmy/p/10649668.html"
+    },
+    {
+      "title": "\n无锡的快速内环高架还能用多久？\n",
+      "desc": "\n你一定要点蓝字关注我哦 当你行驶在快速内环上，突然看到一辆载重卡车在你前面走时，你会想到什么？ （狗蛋说：大卡车上高架，很危险哦！） 快速路上应该是禁止卡车、非机动车和行人上来的啊！禁止非机动车和行人，主要考虑的是交通安全以及快速路的速度问题；而禁止卡车，主要考虑的应该是高架道路的承重问题。…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzI0Mjc2NTU2Nw==&mid=2247484163&idx=1&sn=ef3cbce30664eed536fd4bb1639713f6&chksm=e9761893de019185da470e70e45fbadbdbedccbd8ef0f2bf793033e7f760c90ee5cedfbc7c7a#rd"
+    },
+    {
+      "title": "\nWebGL 理论基础\n",
+      "desc": "\n从基础理论开始学习WebGL，稳！ 这有一系列教程，从WebGL的基本理论讲起。它们不像大多数其他教程那样改编自旧的OpenGL文章。它们去旧迎新，丢弃一些过时的思想，让你彻底了解WebGL的工作原理。 如果你对WebGL2感兴趣可以到这里看看 webgl2fundamentals.org 基础概念 WebGL…\n",
+      "originUrl": "http://webglfundamentals.org/"
+    },
+    {
+      "title": "\n如何写出一个惊艳面试官的深拷贝? - 掘金\n",
+      "desc": "\n导读 最近经常看到很多 JavaScript 手写代码的文章总结，里面提供了很多 JavaScript Api 的手写实现。 里面的题目实现大多类似，而且说实话很多代码在我看来是非常简陋的，如果我作为面试官，看到这样的代码，在我心里是不会合格的，本篇文章我拿最简单的深拷贝来讲一讲。 看本文之前先问自己三个问题：…\n",
+      "originUrl": "https://juejin.im/post/5d6aa4f96fb9a06b112ad5b1"
+    },
+    {
+      "title": "\nWhy Visual Programming Doesn’t Suck\n",
+      "desc": "\n安东·利瓦嘉（Anton Livaja） 2018年 8 月30日 · 8 分钟阅读 我在这里告诉您，如果使用正确的方法，则可视化编程（尤其是图形推理）是一个强大的工具集。 也就是说，只有 在 扎根于数学和计算机科学 的 坚实基础的 基础上 ，它才能看起来很好 。…\n",
+      "originUrl": "https://blog.statebox.org/why-visual-programming-doesnt-suck-2c1ece2a414e"
+    },
+    {
+      "title": "\nimport python : spf13.com\n",
+      "desc": "\nguanfuchen 博客 关于 简历 import python CVPR2018_相关文章文类 Wed, Apr 24, 2019 - Read in 5 Min 关键点检测 Weakly and Semi Supervised Human Body Part Parsing via Pose-Guided…\n",
+      "originUrl": "https://guanfuchen.github.io/"
+    },
+    {
+      "title": "\nNN入门，手把手教你用Numpy手撕NN(二)\n",
+      "desc": "\n这是一篇包含较少数学推导的NN入门文章 上篇文章中简单介绍了如何手撕一个NN，但其中仍有可以改进的地方，将在这篇文章中进行完善。 NN入门，手把手教你用Numpy手撕NN(1) ​ zhuanlan.zhihu.com 误差反向传播 之前的NN计算梯度是利用数值微分法，虽容易实现，但是计算速度慢，这里介绍的…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/81369826"
+    },
+    {
+      "title": "\n客戶中心 - Just My Socks\n",
+      "desc": "\nJust My Socks Service Details 註冊日期 Tuesday, October 1st, 2019 產品 / 服務 Just My Socks - Just My Socks 100 首期付款金額 $2.73 USD 循環出帳金額 $2.73 USD 下次到期日 Friday, November…\n",
+      "originUrl": "https://justmysocks1.net/members/clientarea.php?action=productdetails&id=80299"
+    },
+    {
+      "title": "\n配置IPv6隧道，IP被墙的另一种解决方案 - 明镜录\n",
+      "desc": "\nip倒在高墙之下后，除了用V2ray+CDN外，是否有其他的解决方案？ 换ip是最简单粗暴的方法，但大部分vps商家都需要付费更换，直接换ip也就成了最后无奈之选。 其实，我们只需要给服务器配置IPv6隧道，也能达到换ip的效果。 当然，如果你的服务器直接支持ip6，则不需要下述的操作，直接使用就好。 前置说明…\n",
+      "originUrl": "https://www.mingjinglu.com/coding/504.html"
+    },
+    {
+      "title": "\n怎样成为一个沉稳的人？ - 知乎\n",
+      "desc": "\n1.少炫耀， 绝不在别人面前炫耀自己拥有多少资产，去过多少地方，读过多少书，懂得多少道理，认识多少人。炫耀的越多，别人越觉得你刺眼。 2.不依赖任何人，除了自己。 任何人都需要值得信赖和亲近的人，但不能演化成依赖，习惯了依赖别人，到了必须自己独当一面的时候，会生怯，会害怕，所以，一开始就不要为自己找靠山。 3.…\n",
+      "originUrl": "https://www.zhihu.com/question/21821931/answer/602904227?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n【WOE】中国人一天要交多少税？（上）_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili\n",
+      "desc": "\nWhatOnEarth一探究竟发消息 海量人文科普姿势，关注社会热点与法制。WhatOnEarth带你“一探究竟”。更多内容请关注微信公号：WhatOnEarth 关注 4.3万 相关推荐 04:40 【WOE】中国人一天要交多少税？（下） WhatOnEarth一探究竟 2.1万播放 · 178弹幕 02:46…\n",
+      "originUrl": "https://www.bilibili.com/video/av66406819/"
+    },
+    {
+      "title": "\nIntroduction - Learning Rust With Entirely Too Many Linked Lists\n",
+      "desc": "\nLearn Rust With Entirely Too Many Linked Lists Got any issues or want to check out all the final code at once? Everything's on Github! NOTE : The current…\n",
+      "originUrl": "https://rust-unofficial.github.io/too-many-lists/"
+    },
+    {
+      "title": "\n有哪些最基本的汽车知识? - 知乎\n",
+      "desc": "\n汽车知识 汽车构件 有哪些最基本的汽车知识? 朋友间总是讨论汽车，每次说什么多少升多少缸多少涡轮什么的，都听不懂。麻烦大家给我解释下一些基本知识吧，非常感谢！ 关注者 4,524 被浏览 868,505 查看全部 47 个回答…\n",
+      "originUrl": "https://www.zhihu.com/question/22748820/answer/824053848?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n为什么相比于计算机视觉(cv)，自然语言处理(nlp)领域的发展要缓慢？ - 知乎\n",
+      "desc": "\n其他答主已经回答的很完善了，我想补充一些我的思考。 语言相较于图像，更麻烦的一点是语言这种数据至少包含了两层意思。一层是作为它本身的抽象语言符号，另一层则是这个符号所指代的在现实世界中的事物或抽象概念。 在结构语言学中，索绪尔将第一层命名为能指，第二层命名为所指。…\n",
+      "originUrl": "https://www.zhihu.com/question/295962495/answer/826097460?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n有哪些特别适合摘抄的句子？ - 知乎\n",
+      "desc": "\n1、爱情的反讽之一，你越不喜欢一个人，越能够信心百倍、轻而易举地吸引他。——阿兰·德波顿《无聊的魅力》 2、人生这东西怎么折腾反正都一塌糊涂，只不过小时候不知道罢了。——村上春树《海边的卡夫卡》 3、生在一个地方，又去别的地方生活。一辈子都在挣扎，不是为了回到故乡，就是为了离开家乡。——迈克尔·翁达杰《英国病人》…\n",
+      "originUrl": "https://www.zhihu.com/question/290783664/answer/789682825?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n详解一道经典面试题：编辑距离\n",
+      "desc": "\n前几天看了一份鹅场的面试题，算法部分大半是动态规划，最后一题就是写一个计算编辑距离的函数，今天就专门写一篇文章来探讨一下这个问题。 我个人很喜欢编辑距离这个问题，因为它看起来十分困难，解法却出奇得简单漂亮，而且它是少有的比较实用的算法（是的，我承认很多算法问题都不太实用）。下面先来看下题目：…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/80682302"
+    },
+    {
+      "title": "\n有没有一些图像处理新手可以练习的项目？ - 知乎\n",
+      "desc": "\n借助TensorFlow Lite和MediaPipe，谷歌刚刚 开源 了一个 手势识别器 ，也可以直接在手机上运行，实时跟踪。 官方效果长这样： 有了这项应用，你可以开发手语识别、AR游戏，甚至用它来玩石头剪刀布。 有App可玩 谷歌已经把这款手势识别器做成了一款名为“Hand Tracking…\n",
+      "originUrl": "https://www.zhihu.com/question/269921460/answer/825739398?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nIssueHunt - Boost your issue and boost your happiness\n",
+      "desc": "\nAdd custom header field to each request Funded #8iwate/ODataHttpClient created by iwate $ 2.00 Match the latest spec Funded #1sindresorhus/srcset created by…\n",
+      "originUrl": "https://issuehunt.io/"
+    },
+    {
+      "title": "\n为什么光的真空速度是 299,792,458 米/秒？是什么决定了这个速度？ - 知乎\n",
+      "desc": "\n两天收了4k赞，感谢各位大佬喜欢这个回答。 我只是生物狗，日常科研需要写点代码处理实验数据什么的，答案里提及的数学物理计算机其实都只知道有这回事，拿来瞎比比开心一下而已，不是真懂这么多。…\n",
+      "originUrl": "https://www.zhihu.com/question/292450646/answer/820445169?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n使用 Whistle 作为你的 Web 调试工具吧\n",
+      "desc": "\nWhistle 是一款 Web 调试工具，使用 Whistle，可以修改一个 HTTP/HTTPS 请求的方方面面，我们可以通过它 Mock 数据、修改请求延迟时间、修改静态文件等等。市面上有许多 Web 调试工具，比如在 Windows 上比较有名的 Fiddler，比如说 Charles 等等。而 Whistle…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/79037633"
+    },
+    {
+      "title": "\nLisp 能被用来干什么？ - 知乎\n",
+      "desc": "\n我曾经跟赵余说过，《歌德尔，埃舍尔，巴赫，集异璧之大成》和《计算机程序的构造与解释》同看，就像同时吃花生米和豆腐干一样相得益彰。实际上这其中每一本都让我高潮连连。我一直找不到更合适的比喻，直到看到《华尔街之狼》里 Leonardo怎样贯通了性与毒品。 用一个小例子来一窥堂奥。…\n",
+      "originUrl": "https://www.zhihu.com/question/20044783/answer/27386915?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n有没有关于人工智能语言Prolog的书籍？ - 知乎\n",
+      "desc": "\nProlog 有点过时，但对於想了解 logic programming 的人来说仍有学习价值。 Peter Flach : 《Simply logical》 [1994] 《Machine Learning: The Art and Science of Algorithms that Make Sense of…\n",
+      "originUrl": "https://www.zhihu.com/question/61530585/answer/188667818?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nZapier | The easiest way to automate your work\n",
+      "desc": "\nZapier University Intro to webhooks Webhooks are automated messages sent between apps—a type of notification that includes detailed information about new items…\n",
+      "originUrl": "https://zapier.com/sign-up/"
+    },
+    {
+      "title": "\nPython-script-converter\n",
+      "desc": "\n中文介绍请戳这里 Introduction: ​This is a tiny tool used to convert a python script(e.g. demo.py -> demo.command) to a executable file(For mac and Linux),so that you…\n",
+      "originUrl": "https://github.com/ZYunH/Python-script-converter"
+    },
+    {
+      "title": "\nGithub 上有哪些简单的 Python 小工具值得推荐？ - 知乎\n",
+      "desc": "\n你是不是常常为Python的报错信息感到头大？ 看着这一堆乱麻，不知道是该怀疑人生，还是怀疑自己手残。 那么，Python异常输出美化工具 PrettyErrors 了解一下？ 只需一个import，报错也能整齐划一，错误代码位置、错误原因清晰明了，一眼就能看清。debug仿佛都没有那么痛苦了。 一行代码简化报错…\n",
+      "originUrl": "https://www.zhihu.com/question/30680665/answer/957948877?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n完结！《沉浸式线性代数》完整版正式发布，全交互式体验\n",
+      "desc": "\n红色石头的个人网站： 红色石头的个人博客-机器学习、深度学习之路 ​ www.redstonewill.com 两个月前，红色石头发文介绍过一本非常棒的在线线性代数教程，名为《 Immersive Linear Algebra 》，该教材最大的特点就是可交互式！…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/65802462"
+    },
+    {
+      "title": "\n撒花！《交互式线性代数》完整版正式发布！支持在线全交互式体验（含源码，离线也能看）\n",
+      "desc": "\n红色石头的个人网站： 红色石头的个人博客-机器学习、深度学习之路 ​ www.redstonewill.com 线性代数是机器学习的基础，也是重难点。而一般线性代数教程大多是是枯燥乏味的。今天给大家带来一份《交互式线性代数》教程。它的最大特点就是“交互式”。 这份线性代数教程有在线版，网址为： http://…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/97465742"
+    },
+    {
+      "title": "\n60题PyTorch简易入门指南，做技术的弄潮儿🌊\n",
+      "desc": "\n大家好，又是我，我又来给大家码x题系列了，这次比较高端，是PyTorch PyTorch是一个基于Python的库，提供了一个具有灵活易用的深度学习框架，是近年来最受欢迎的深度学习框架之一。 点击此处查看线上运行效果👇 和鲸社区 - Kesci.com ​ www.kesci.com…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/99318332"
+    },
+    {
+      "title": "\n如何提高自己的代码能力以达到熟练使用pytorch? - 知乎\n",
+      "desc": "\n无论你python水平高低都可以学习使用pytorch。一开始入门都是套模版，就像PPT有模版代码框架也有别人写好的模版，比如Stanford开了一门pytorch课在github上公开了训练模型的模版代码，分两块，一个是做CV的模版： cs230-stanford/cs230-code-examples ​…\n",
+      "originUrl": "https://www.zhihu.com/question/352525266/answer/909110571?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n大一一个学期学多少编程算正常? - 知乎\n",
+      "desc": "\n推荐一个超级好玩的刷题网站： https://www.codingame.com/ ​ www.codingame.com 可以使用任何编程语言，学习编程技巧和常用算法。…\n",
+      "originUrl": "https://www.zhihu.com/question/360729923/answer/935360941?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n如果人工智能迎来下一个寒冬，你认为会是卡在什么问题上？ - 知乎\n",
+      "desc": "\n以前天天跟导师探讨AI的未来发展之路，我就来写两笔。我目前来看，最急需要解决的问题如下： RL的样本复杂度问题。从13年的Atari，到16年的AlphaGo，到今年的Dota…\n",
+      "originUrl": "https://www.zhihu.com/question/353656488/answer/883244262?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nMagi\n",
+      "desc": "\nMagi 实体 描述 Magi 描述 AI 搜索引擎 学习自以下等 1 组上下文 ∙ 可信评分为 11 用这两款独立搜索引擎，和莆田广告说再见！_Magi www.sohu.com 2019 年 11 月 8 日 进一步搜索 Magi AI 搜索引擎 MAGI 描述 NERV的中枢电脑 MAGI 描述 RUFU的引导者…\n",
+      "originUrl": "https://magi.com/"
+    },
+    {
+      "title": "\np5js 鼠标画 - Google 搜索\n",
+      "desc": "\n搜索结果 网络搜索结果 p5.js入门教程(4) 鼠标交互- 西河某人的博客 - CSDN博客 https://blog.csdn.net › article › details 网页快照 2017年7月28日 - 一、 鼠标 操作常用关键词与函数 p5.js 提供了许多 鼠标 操作用的关键词与函数， ... 使用…\n",
+      "originUrl": "https://www.google.com/search?q=p5js+%E9%BC%A0%E6%A0%87%E7%94%BB"
+    },
+    {
+      "title": "\np5.js教程01-一文入门p5.js\n",
+      "desc": "\n文章目录 声明: 本文由 DataScience 发表, 禁止转载。 经允许后转载请注明 本文链接 mlln.cn, 并在文后留言 转载 . 本文代码运行环境: windows10 jupyter notebook p5.js 0.6.1 概述 p5.js是一个JavaScript库，以 Processing…\n",
+      "originUrl": "https://mlln.cn/2018/07/06/p5.js%E6%95%99%E7%A8%8B01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"
+    },
+    {
+      "title": "\n科学说没有永动机，大到宇宙小到原子都在不停运动要如何解释？\n",
+      "desc": "\n有一位朋友向我提了这样一个问题：说没有永动机，大到宇宙小到原子内部，都在不停的运动要如何解释？ 只是一直动可不算永动机…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/94852528"
+    },
+    {
+      "title": "\nSmerity/sha-rnn\n",
+      "desc": "\nPermalink Join GitHub today GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.…\n",
+      "originUrl": "https://github.com/Smerity/sha-rnn/blob/master/main.py?utm_source=ZHShareTargetIDMore&utm_medium=social&utm_oi=686868376059916288"
+    },
+    {
+      "title": "\n产品经理的人工智能学习库 - easyAI\n",
+      "desc": "\nAI 新闻 2019年12月9日 我的业务要不要用人工智能？引入AI前你需要评估的（三） 这是一个系列文章，从各个角度来评估一个问题：“我的业务要不要用 AI ？能不能用 AI？”本期评估角度——学习 2019年12月4日 准备好数据以进行建模：特征工程，特征选择，降维（第二部分）…\n",
+      "originUrl": "https://easyai.tech/"
+    },
+    {
+      "title": "\nSupernova Studio | The World's First Design to Code Platform\n",
+      "desc": "\nSupernova Studio | The World’s First Design to Code Platform\n",
+      "originUrl": "https://supernova.io/"
+    },
+    {
+      "title": "\n在线就能用的 SQL 练习平台我给你找好了！\n",
+      "desc": "\n大家好，我是 Rocky0429，一个最近正在学习 SQL 的蒟蒻… 在看完了某 《xxx 必知必会》以后，我觉得我膨胀了，立马某度 “xxx SQL 面试 100 题”、”SQL 岗位 xxx 个面试题“，准备大展手脚… 几天过去了，我有点懵逼，我发现身为蒟蒻的我不知道我写的 SQL…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/92590262"
+    },
+    {
+      "title": "\nImage-to-Markup Generation\n",
+      "desc": "\nWe present a neural encoder-decoder model toconvert images into presentational markup basedon a scalable coarse-to-fine attention mechanism.Our method is…\n",
+      "originUrl": "http://lstm.seas.harvard.edu/latex/"
+    },
+    {
+      "title": "\n从一个小需求感受Redis的独特魅力\n",
+      "desc": "\n分享一个简单的小需求应该怎么设计实现以及有关Redis的使用 Redis 在实际应用中使用的非常广泛，本篇文章就从一个简单的需求说起，为你讲述一个需求是如何从头到尾开始做的，又是如何一步步完善的。 需求…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/94941571"
+    },
+    {
+      "title": "\nNLP-LOVE/ML-NLP\n",
+      "desc": "\nPermalink Join GitHub today GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.…\n",
+      "originUrl": "https://github.com/NLP-LOVE/ML-NLP/blob/master/Machine%20Learning/5.1%20Bayes%20Network/Naive%20Bayes%20Classifier.ipynb?utm_source=ZHShareTargetIDMore&utm_medium=social&utm_oi=686868376059916288"
+    },
+    {
+      "title": "\n强化学习：分类任务的另类实现\n",
+      "desc": "\n1. 前言 图像分类是最基础的机器学习和深度学习任务。对于一个简单的数据集比如mnist，用MLP，CNN甚至传统的SVM都能做的很好。本文将尝试一些另类的方式，在简单的数据集mnist上实现图像分类。 2. RNN 由于RNN （具体来说是RNN系列，包括LSTM，GRU等变种，以下统称RNN）的本质是递归方程：…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/32818105"
+    },
+    {
+      "title": "\n(24 条消息) 思维和语言的关系是什么？ - 知乎\n",
+      "desc": "\n这个问题不是那么简单，学术界还没有一个统一的答案，我在这里提供的答案也不全是我自己的原创想法，但要我列清楚所有的引文出处和参考文献又太累了，所以这些都略去。 回答一个问题总是要从界定这个问题开始，尤其是当我们试图弄清楚“思维”和“语言”的关系时。 “语言”是什么？…\n",
+      "originUrl": "https://www.zhihu.com/question/27535310"
+    },
+    {
+      "title": "\nWebGLStudio.js\n",
+      "desc": "\nWebGLStudio.js is an open-source, browser-based 3D graphics suite. You can edit scenes and materials, design effects and shaders, code behaviours, and share…\n",
+      "originUrl": "https://github.com/jagenjo/webglstudio.js"
+    },
+    {
+      "title": "\nPaper\n",
+      "desc": "\n项目推荐：Reverse Engineering iOS Applications 2019年11月25日 2019年11月25日 安全工具&安全开发 作者：Ivan Rodriguez 项目名称：Reverse Engineering iOS Applications…\n",
+      "originUrl": "https://paper.seebug.org/"
+    },
+    {
+      "title": "\n程序设计的5个底层逻辑，决定你能走多快\n",
+      "desc": "\n阿里妹导读： 肉眼看计算机是由CPU、内存、显示器这些硬件设备组成，但大部分人从事的是软件开发工作。计算机底层原理就是连通硬件和软件的桥梁，理解计算机底层原理才能在程序设计这条路 上越走越快，越…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247492371&idx=1&sn=2db03aabd4f5bc6e4beed1944c50b590&chksm=e92ade1cde5d570a681cfb24f21a70433b6e8c9990408beb6134a754224e4f19f87a1124f35e#rd"
+    },
+    {
+      "title": "\nSystem Vision Design: High Speed Image Processing\n",
+      "desc": "\nDynamic projection mapping onto deforming non-rigid surface using a high-speed projector Summary Projection mapping attracts attentions as an emerging…\n",
+      "originUrl": "http://www.k2.t.u-tokyo.ac.jp/vision/DPM/"
+    },
+    {
+      "title": "\nOpenPSYC - 06-G - Bottom-up vs Top-down Processing\n",
+      "desc": "\n06-G There are two general processes involved in sensation and perception. Bottom-up processing refers to processing sensory information as it is coming in. In…\n",
+      "originUrl": "https://sites.google.com/view/openpsyc/06-sensation-perception/06-g-bottom-up-vs-top-down-processing"
+    },
+    {
+      "title": "\nIntersectionObserver API 使用教程 - 阮一峰的网络日志\n",
+      "desc": "\n网页开发时，常常需要了解某个元素是否进入了\"视口\"（viewport），即用户能不能看到它。 上图的绿色方块不断滚动，顶部会提示它的可见性。 传统的实现方法是，监听到 scroll 事件后，调用目标元素（绿色方块）的 getBoundingClientRect()…\n",
+      "originUrl": "https://www.ruanyifeng.com/blog/2016/11/intersectionobserver_api.html"
+    },
+    {
+      "title": "\nDissecting A Dweet #8: Shattered Tunnel\n",
+      "desc": "\nHowdy, folks! Today we will be looking at the JavaScript code behind this amazing 3D tunnel effect. This code has an interesting lineage so we’ll also talk…\n",
+      "originUrl": "http://frankforce.com/?p=7160"
+    },
+    {
+      "title": "\nBuild your own React\n",
+      "desc": "\nRodrigo Pombo November 13, 2019 We are going to rewrite React from scratch. Step by step. Following the architecture from the real React code but without all…\n",
+      "originUrl": "https://pomb.us/"
+    },
+    {
+      "title": "\n『只读经典』思维改变生活（原“心理学改变生活”）\n",
+      "desc": "\n来自: 刘未鹏pongba (New York City) 2007-06-18创建 2012-12-25更新 这个世界上，有两门学科是真正迷人的。一是物理学，它让我们了解我们所处的这个世界。二是心理学，它让我们了解自己。…\n",
+      "originUrl": "https://www.douban.com/doulist/46003/"
+    },
+    {
+      "title": "\nWrite A Book And Publish - PDF Free Download - EPDF.PUB\n",
+      "desc": "\n2 3 4 5 6 7 8 9 »\n",
+      "originUrl": "https://epdf.pub/"
+    },
+    {
+      "title": "\n刘未鹏 | Mind Hacks – 思维改变生活\n",
+      "desc": "\nPosted On: October 17, 2017 By: 捕捉心智的瞬间，是改变的的核心。 Continue Reading... 心智探寻（一）：父母，和我们自己 Posted On: April 29, 2017 By: 刘未鹏…\n",
+      "originUrl": "http://mindhacks.cn/"
+    },
+    {
+      "title": "\n滴滴经验分享：SQLFlow如何让运营专家用上AI？ - 掘金\n",
+      "desc": "\n蚂蚁金服过去十五年，重塑支付改变生活，为全球超过十二亿人提供服务，这些背后离不开技术的支撑。在 2019 杭州云栖大会上，蚂蚁金服将十五年来的技术沉淀，以及面向未来的金融技术创新和参会者分享。我们将其中的优秀演讲整理成文并将陆续发布在“ 蚂蚁金服科技 ”头条号上，本文为其中一篇。…\n",
+      "originUrl": "https://juejin.im/post/5db826646fb9a0204e6589e4?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n15个实用却不为人所熟知的Vim技巧\n",
+      "desc": "\n最近接触了一些新的 Vim 命令，Vim教程网( https://vimjc.com )整理了一些比较实用又不常见的命令如下。 移动到行首非空字符时，除了可以用 ^ 命令，还可以用更容易输入的 0w 命令 在空白行使用 dip 命令可以删除所有临近的空白行 使用 global命令 :g/^\\s*$/d…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/92121238"
+    },
+    {
+      "title": "\n支持的连接器列表 | Microsoft Flow\n",
+      "desc": "\nOffice 365 Outlook SharePoint OneDrive for Business Microsoft Forms 规划器 Microsoft Teams Outlook.com RSS SQL Server 高级 Power BI Azure DevOps 高级 OneNote(企业)…\n",
+      "originUrl": "https://asia.flow.microsoft.com/zh-cn/connectors/"
+    },
+    {
+      "title": "\n告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我（万字长文）\n",
+      "desc": "\n动态规划难吗？说实话，我觉得很难，特别是对于 初学者 来说，我当时入门动态规划的时候，是看 0-1 背包问题，当时真的是一脸懵逼。后来，我遇到动态规划的题， 看的懂答案，但就是自己不会做，不知道怎么下手 。就像做递归的题，看的懂答案，但下不了手，关于递归的，我之前也写过一篇 套路…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/91582909"
+    },
+    {
+      "title": "\n厉害的人是怎么分析问题的？ - 知乎\n",
+      "desc": "\n一个让我有跪感的领导教我的，操作起来很简单，一定要花3分钟看完！ （文章还是一贯的风格，先说清楚原因和思维，再给可实操的小技巧。不要只收藏，要点赞呀，么么哒） 关于分析问题，你和别人究竟差在哪里 不知道你们会不会有这种感觉：总 觉得自己是公司里最笨的那一个 。…\n",
+      "originUrl": "https://www.zhihu.com/question/304174916/answer/825079036?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n3.3. 生命周期 |《Rust 高级编程》| Rust 技术论坛\n",
+      "desc": "\n生命周期 Rust在整个生命周期里强制执行生命周期的规则。生命周期说白了就是作用域的名字。每一个引用以及包含引用的数据结构，都要有一个生命周期来指定它保持有效的作用域。…\n",
+      "originUrl": "https://learnku.com/docs/nomicon/2018/33-life-cycle/4714"
+    },
+    {
+      "title": "\n如何在 Linux 中找出内存消耗最大的进程\n",
+      "desc": "\n很多次，你可能遇见过系统消耗了过多的内存。如果是这种情况，那么最好的办法是识别出 Linux 机器上消耗过多内存的进程。 -- Magesh Maruthamuthu（作者） 很多次，你可能遇见过系统消耗了过多的内存。如果是这种情况，那么最好的办法是识别出 Linux…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/90612643"
+    },
+    {
+      "title": "\nDebugging an evil Go runtime bug\n",
+      "desc": "\nPreface I’m a big fan of Prometheus and Grafana . As a former SRE at Google I’ve learned toappreciate good monitoring, and this combination has been a winner…\n",
+      "originUrl": "https://marcan.st/2017/12/debugging-an-evil-go-runtime-bug/"
+    },
+    {
+      "title": "\n对于中文，nltk 能做哪些事情 - 开发者头条\n",
+      "desc": "\nNLTK学习-1 英文分词与词性标注 #分词word_list = nltk.word_tokenize(text)#标注nltk.pos_tag(word_list) word_list = nltk.word_tokenize(text)nltk.pos_tag(word_list)…\n",
+      "originUrl": "https://toutiao.io/posts/6dbido/preview"
+    },
+    {
+      "title": "\nhttps://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4036.04516032,114.62173274,60.96396089a,132.15514855d,35y,0.00000001h,0.10394875t,0r\n",
+      "desc": "\n…\n",
+      "originUrl": "https://earth.app.goo.gl/"
+    },
+    {
+      "title": "\nspaCy : Text Meta Features, Knowledge Graphs\n",
+      "desc": "\nWe use cookies on Kaggle to deliver our services, analyze web traffic, and improve your experience on the site. By using Kaggle, you agree to our use of…\n",
+      "originUrl": "https://www.kaggle.com/shivamb/spacy-text-meta-features-knowledge-graphs"
+    },
+    {
+      "title": "\n基于知识图谱算法的网络故障智能诊断探索 - 云+社区 - 腾讯云\n",
+      "desc": "\n腾讯云 腾讯云首页 备案 控制台 云+社区 专栏 问答 沙龙 快讯 团队主页 开发者手册 智能钛AI 在线学习中心 TVP 注册 腾讯云·社区 云+社区 首页 专栏 问答 沙龙 快讯 团队主页 开发者手册 智能钛AI 在线学习中心 TVP 返回腾讯云官网 腾讯 · 高级工程师 (已认证) 2 篇文章…\n",
+      "originUrl": "https://cloud.tencent.com/developer/article/1159052"
+    },
+    {
+      "title": "\n知识图谱工具\n",
+      "desc": "\nNLP工具： 斯坦福CoreNLP Jieba分词 IK-Ananlyzer 知识构建&抽取： Pretege、Startdog （A国？） Deepdive、TIE 知识存储： arangoDB/virtuoso/jena 高斯MMDB 知识推理： HermiT/Drools/Jena 运维应用： https://…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/78849153"
+    },
+    {
+      "title": "\n以为是高性能神仙算法，一看源代码才发现... - 掘金\n",
+      "desc": "\n在昨天的文章中，我们讲到了 RSA 算法。RSA 算法的根本原理中，有两个核心质数 p和 q，他们相乘得到一个数 n。由于反向从 n 分解出 p 和 q 非常困难，所以只要 p 和 q 足够大，RSA 算法在现在的计算机水平下就无法被破解。 现在，你先暂停一下，打开百度或者 Google，搜索一下 RSA…\n",
+      "originUrl": "https://juejin.im/post/5e552e526fb9a07ca24f5071"
+    },
+    {
+      "title": "\n精读《useEffect 完全指南》 - 掘金\n",
+      "desc": "\n1. 引言 工具型文章要跳读，而文学经典就要反复研读。如果说 React 0.14 版本带来的各种生命周期可以类比到工具型文章，那么 16.7 带来的 Hooks 就要像文学经典一样反复研读。 Hooks API 无论从简洁程度，还是使用深度角度来看，都大大优于之前生命周期的…\n",
+      "originUrl": "https://juejin.im/post/5c9827745188250ff85afe50"
+    },
+    {
+      "title": "\n通过 find 命令找到你要找的东西 | Linux 中国\n",
+      "desc": "\n收录于话题 #运维工具箱 52个 find 命令有巨多的选项可以帮助你准确定位你在 Linux 系统上需要寻找的文件。这篇文章讨论了一系列非常有用的选项。 -- Sandra Henry-stocker 在 Linux 系统上有许多用于查找文件的命令，而你在使用它们时也有巨多的选项可以使用。…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MjM5NjQ4MjYwMQ==&mid=2664616461&idx=1&sn=3980b51d5efa348642c61e3c012a68b6&chksm=bdcee94b8ab9605dd508c05b41897f7d5da5aa89b37d0255be3893aac931896a5045f26a5bdf#rd"
+    },
+    {
+      "title": "\nrockyourcode — daily notes on programming\n",
+      "desc": "\n2020-03-05 I’ve recently begun learning about data science and machine learning.Here are some resources that I found useful:r/datascience Resources Daniel…\n",
+      "originUrl": "https://www.rockyourcode.com/"
+    },
+    {
+      "title": "\nJS单竖线\"|\"使用指南 - 掘金\n",
+      "desc": "\n概念与简单使用 单竖线原名叫作 按位或(Bitewise OR) 先看下摘自MDN的一段解释： Bitwise operators treat their operands as a sequence of 32 bits (zeroes and ones), rather than as decimal,…\n",
+      "originUrl": "https://juejin.im/post/5ddf8d326fb9a0717b5fce3c"
+    },
+    {
+      "title": "\nVim的NerdTree插件 - Solomon's 技术专栏 - SegmentFault 思否\n",
+      "desc": "\n一个项目文件多起来时，左边的文件树菜单是必要的。 参考：常用文件树快捷键 所有命令及推荐键盘映射：官方 在vundle插件管理的方式，直接在 ~/.vimrc 中的Plugin段落中加入`Plugin \"scrooloose/nerdtree \" 然后重启Vim并输入 PluginInstall`，即可完成安装…\n",
+      "originUrl": "https://segmentfault.com/a/1190000015143474"
+    },
+    {
+      "title": "\n二十五-word2vec的实现原理 - 自己动手做聊天机器人\n",
+      "desc": "\n词向量是将深度学习应用到NLP的根基，word2vec是如今使用最广泛最简单有效的词向量训练工具，那么它的实现原理是怎样的呢？本文将从原理出发来介绍word2vec 你是如何记住一款车的¶…\n",
+      "originUrl": "https://wohugb.github.io/chatbot/25.word2vec/"
+    },
+    {
+      "title": "\ngensim Word2Vec 使用教程 - 知乎\n",
+      "desc": "\nWord2Vec可以把词转换成向量，然后计算词之间的相似性。 1. 准备数据 我从网上下载了一份天龙八部txt，然后用 jieba 进行分词。 import jieba with open ( 'd:/天龙八部.txt' , errors = 'ignore' , encoding = 'utf-8' ) as fp…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/28943718"
+    },
+    {
+      "title": "\nfastai/course-nlp\n",
+      "desc": "\nSkip to content Pull requests Issues Marketplace Explore New repository Import repository New gist New organization This repository New issue Signed in as…\n",
+      "originUrl": "https://github.com/fastai/course-nlp/blob/master/1-what-is-nlp.ipynb"
+    },
+    {
+      "title": "\nCSS 故障艺术 - 掘金\n",
+      "desc": "\n本文的主题是 Glitch Art，故障艺术。 什么是故障艺术？我们熟知的抖音的 LOGO 正是故障艺术其中一种表现形式。它有一种魔幻的感觉，看起来具有闪烁、震动的效果，很吸引人眼球。…\n",
+      "originUrl": "https://juejin.im/post/5e40bf55e51d4526d71d33ec"
+    },
+    {
+      "title": "\njackzhenguo/python-small-examples\n",
+      "desc": "\n介绍 告别枯燥，告别枯燥，致力于打造 Python 经典小例子、小案例。 如果转载本库小例子、小案例，请备注下方链接：Python小例子 https://github.com/jackzhenguo/python-small-examples 查看完整的旧版本： 改版前V3.0 贡献 欢迎贡献小例子到此库…\n",
+      "originUrl": "https://github.com/jackzhenguo/python-small-examples"
+    },
+    {
+      "title": "\n个人主页\n",
+      "desc": "\nG Zeng, Y Chen, B Cui, S Yu (2019) Continual learning of context-dependent processing in neural networks. Nature Machine Intelligence 1:364–372. Zeng G, Huang…\n",
+      "originUrl": "http://people.ucas.ac.cn/~yushan"
+    },
+    {
+      "title": "\n图论（十二）——偶图的匹配问题_qq_40438165的博客-CSDN博客\n",
+      "desc": "\n一、图的匹配与贝尔热问题 \\quad 图匹配概念：如果M是图G的边子集(不含环），且M中的任意两条边没有共同顶点，则称M是G的一个匹配或对集或边独立集。如下图所示： \\quad 若顶点是M中某条边的顶点，则称它为M饱和点，否则为M非饱和点。 \\quad 最大匹配 M—…\n",
+      "originUrl": "https://blog.csdn.net/qq_40438165/article/details/88988739"
+    },
+    {
+      "title": "\nhuman-pose-estimation-opencv\n",
+      "desc": "\nJoin GitHub today GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together. Sign up…\n",
+      "originUrl": "https://github.com/quanhua92/human-pose-estimation-opencv"
+    },
+    {
+      "title": "\nPython+OpenCV+OpenPose实现人体姿态估计（人体关键点检测）_Python_不脱发的程序猿-CSDN博客\n",
+      "desc": "\n目录 1、人体姿态估计简介 2、人体姿态估计数据集 3、OpenPose库 4、实现原理 5、实现神经网络 6、实现代码 1、人体姿态估计简介 人体姿态估计（Human Posture Estimation），是通过将图片中已检测到的人体关键点正确的联系起来，从而估计人体姿态。…\n",
+      "originUrl": "https://blog.csdn.net/m0_38106923/article/details/89416514"
+    },
+    {
+      "title": "\nUsage\n",
+      "desc": "\nCode for our BMVC oral paper (4.3% acceptance rate): \"3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space\" see the paper…\n",
+      "originUrl": "https://github.com/masabdi/LSPS"
+    },
+    {
+      "title": "\nProduct Hunt – The best new products in tech.\n",
+      "desc": "\nUppload v2 File uploading widget with 20+ plugins, no backend required 23 Open Source Remark Convert long blog post into one short remark using NLP 10…\n",
+      "originUrl": "https://www.producthunt.com/"
+    },
+    {
+      "title": "\n2019年个人做亚马逊需要多少启动资金\n",
+      "desc": "\n更：表格及电子书下载简洁导航： 1.选品表格：公众号（kjxxs01)回复“选品表格” 选品配合使用文章 跨境小学生：亚马逊数据化选品终极指南 ​ zhuanlan.zhihu.com 2.运营表格：公众号（kjxxs01)回复“运营表格” 运营配合使用文章 跨境小学生：优秀的亚马逊运营人员每天都在做什么 ​…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/65757852"
+    },
+    {
+      "title": "\nThe Best Flowchart Software of 2020 - The Digital Project Manager\n",
+      "desc": "\nConnect resource planning and project management in one solution. Maximize project performance with Mavenlink. Our friend and supporter This article will help…\n",
+      "originUrl": "https://thedigitalprojectmanager.com/flowchart-software/"
+    },
+    {
+      "title": "\nCanvas Flow\n",
+      "desc": "\nCanvas Flow Home Contents Introduction Creating A Canvas Controller Canvas Controller Scenes Presentation & Dismissal Canvas Controller Life Cycle Introduction…\n",
+      "originUrl": "https://canvasflow.xyz/"
+    },
+    {
+      "title": "\nFlow v3: Total.js Flow\n",
+      "desc": "\nWrites data to the debug tab Config enabled -> enable/disable output to the debug tab\n",
+      "originUrl": "https://flow.totaljs.com/"
+    },
+    {
+      "title": "\n送给大家的每日 CSS 技巧（内含大量高清动图，手机端慎入！） - 掘金\n",
+      "desc": "\n从 2020 年第一天开始，程序员 Kevin Powell 每天在 Twitter 的 #CSSTipOfTheDay 话题下，发布一篇 CSS 技巧 。不仅如此，每篇技巧在 codepen 上都要对应可运行 demo，你可以 在这里看到 到目前为止 Kevin Powell 已发布的所有 CSS 技巧集合。…\n",
+      "originUrl": "https://juejin.im/post/5e34d266f265da3e177f2000?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n有什么对现在大学生的建议？ - 知乎\n",
+      "desc": "\n我推荐十个TED演讲给现在的大学同学们 Try Something New for 30 Days 用 30 天培养一个习惯，找到一个爱好 连续30天去尝试一个新事情/习惯/技能，找找你喜欢的方向、习惯。 这个TED 演讲对我影响很大，…\n",
+      "originUrl": "https://www.zhihu.com/question/306275416/answer/969558567?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n从 VSCode 看大型 IDE 技术架构\n",
+      "desc": "\n零、前言 为什么要去看 VSCode？ 因为我们团队在做的中后台快速研发平台 云凤蝶 也是一款类似 Web IDE 形态的产品： 而谈起 Web IDE，没人能绕开 VSCode，它非常流行，同时又完全开源，总共 350000 行 TypeScript 代码的巨大工程，使用了 142 个开源库。市面上选择基于…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/96041706"
+    },
+    {
+      "title": "\n女生什么样的腿才叫好看的腿? - 知乎\n",
+      "desc": "\n腿型 腿 女生什么样的腿才叫好看的腿? 关注者 14,502 被浏览 21,503,106 登录一下，更多精彩内容等你发现 贡献精彩回答，参与评论互动 查看全部 972 个回答 https://www.zhihu.com/video/1153835149035814912 发布于 2019-09-08 查看全部 972…\n",
+      "originUrl": "https://www.zhihu.com/question/319371540/answer/816759593?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n[CNN] 卷积、反卷积、池化、反池化_小太阳~-CSDN博客\n",
+      "desc": "\n之前一直太忙，没时间整理，这两天抽出点时间整理一下卷积、反卷积、池化、反池化的内容，也希望自己对一些比较模糊的地方可以理解的更加清晰。 一、卷积 1、卷积的简单定义 卷积神经网络中的卷积操作可以看做是输入和卷积核的内积运算。其运算过程非常容易理解，下面有举例。 2、举例解释…\n",
+      "originUrl": "https://blog.csdn.net/quiet_girl/article/details/84579038"
+    },
+    {
+      "title": "\nCircuitLab | Editing \"Tutorial 1 - LED and Resistor\"\n",
+      "desc": "\nFile Open Close Edit Run Help Documentation Keyboard Shortcuts Mobile Browser Support Forums Examples Share CircuitLab Membership Options About CircuitLab Hi…\n",
+      "originUrl": "https://www.circuitlab.com/editor/"
+    },
+    {
+      "title": "\nESP32 快速参考手册 — MicroPython 1.11 文档\n",
+      "desc": "\nESP32开发板 (图片来源: 01Studio). 以下内容是ESP32开发板的快速入门内容。如果这是你第一次使用ESP32开发板，那么建议你先阅读以下两个章节熟悉一下： General information about the ESP32 port Getting started with MicroPython…\n",
+      "originUrl": "http://docs.micropython.01studio.org/zh_CN/latest/esp32/quickref.html"
+    },
+    {
+      "title": "\nMac下的固件烧录 - MicroPython-ESP32基础教程\n",
+      "desc": "\n概要¶ 本编教程中，1Z实验室主要为大家详细讲解在Mac下对ESP32刷入MicroPython固件的具体流程。 开始之前¶ 在开始之前，你应该仔细阅读本系列教程中之前的章节： 阅读完成之后，你需要做到： 下载MicroPython的固件到本地 了解到烧录MicroPython固件需要使用到的工具…\n",
+      "originUrl": "http://www.1zlab.com/wiki/micropython-esp32/flash-firmware-mac/"
+    },
+    {
+      "title": "\nMQTT之客户端工具\n",
+      "desc": "\n$ mosquitto_pub -h broker.mqttdashboard.com -t growthai/ray/mqtt/ -m 'hi i am ray'\n",
+      "originUrl": "https://www.jianshu.com/p/5dbac4a6ebba"
+    },
+    {
+      "title": "\n欢迎访问网易开源镜像站\n",
+      "desc": "\n镜像名 上次更新时间 使用帮助 archlinux/ 2020-01-04 03:37 archlinux使用帮助 archlinux-cn/ 2020-01-04 11:50 archlinux-cn使用帮助 archlinuxarm/ 2020-01-04 12:00 - centos/ 2020-01-04…\n",
+      "originUrl": "http://mirrors.163.com/"
+    },
+    {
+      "title": "\nutil | Node.js API 文档\n",
+      "desc": "\nutil（实用工具） # 中英对照 提交修改 稳定性: 2 - 稳定 util 模块主要用于支持 Node.js 内部 API 的需求。大部分实用工具也可用于应用程序与模块开发者。使用方法如下： const util = require ( 'util' ); util.callbackify(original) #…\n",
+      "originUrl": "http://nodejs.cn/api/util.html"
+    },
+    {
+      "title": "\n能否使用神经网络来判断奇偶数？ - 知乎\n",
+      "desc": "\n机器学习里面有一个「没有免费午餐」定理（No Free Lunch Theorem）：任意一种算法，如果对于某些类型的问题效果好，必然对于另一些类型的问题效果差。…\n",
+      "originUrl": "https://www.zhihu.com/question/364113452/answer/960517450?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n如何评价多人合作界面设计工具 Figma？ - 知乎\n",
+      "desc": "\n6 月 22 日更新： Figma 中文文档来啦！ 经过一段时间的筹备，我将 Figma 的最新文档已翻译完毕，同时也开发上线了 FigmaChina ，希望能为大家提供一个学习 Figma 和 UI 设计的平台 首先我们需要知道什么是 Figma —— Figma 是一个 基于浏览器 的协作式 UI…\n",
+      "originUrl": "https://www.zhihu.com/question/51215610/answer/668299317?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n图像搜索：给你爬的美女图建一个搜索引擎 - 掘金\n",
+      "desc": "\n写在前面 最近测了一下SPTAG这个近似最近邻搜索工具，打算拿一个东西先测测练练手，于是就想到了可以把之前的美女图建一个索引，看看能不能搜到想要的美女图。 需要用到的环境有以下： python3.7 SPTAG(Docker版) MongoDB 准备图片 首先是准备好美女图，这里是我很久以前爬的一些图，一共接近1万张。…\n",
+      "originUrl": "https://juejin.im/post/5dd1572ef265da0bea052a9c?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\nCloudcraft – Draw AWS diagrams\n",
+      "desc": "\n\n",
+      "originUrl": "https://cloudcraft.co/"
+    },
+    {
+      "title": "\n基于 TypeScript 的 IoC 与 DI\n",
+      "desc": "\n前言 在使用 Angular 或者 Nestjs 时，你可能会遇到下面这种形式的代码： import { Component } from '@angular/core' ; import { OtherService } from './other.service.ts' ; @ Component ({ //…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/72323250"
+    },
+    {
+      "title": "\n中銀國際證券有限公司\n",
+      "desc": "\n| 聯絡我們 | 網頁索引 | | 開立證券戶口 交易操作示範 服務收費 證券交易渠道 交易細節 即時報價服務 交易細節 融資服務 新股認購及私人配售 常見問題 滬港通/深港通 開立期貨戶口 交易操作示範 服務收費 期貨交易渠道 交易細節 交易細節 常見問題 期權 互惠基金 債券 結構性投資產品 即時報價服務…\n",
+      "originUrl": "http://www.bocionline.com/ch/home/index.html"
+    },
+    {
+      "title": "\n前端工程师的自检列表\n",
+      "desc": "\n当前浏览器不支持播放音乐或语音，请在微信或其他浏览器中播放 告白 初音ミク - 初梦 Deluxe 开篇 前端开发是一个非常特殊的行业，它的历史实际上不是很长，但是知识之繁杂，技术迭代速度之快是其他技术所不能比拟的。 winter 在他的《重学前端》课程中提到：…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzI0MTUxOTE5NQ==&mid=100000126&idx=1&sn=f888e907876ed4fadd4de6ea94a146f6&chksm=690b1e4a5e7c975c1ae185a2b8ad6c6243237bfa28748737cfaccb01d118e6f6027755b8cc0e#rd"
+    },
+    {
+      "title": "\n从Chrome源码看事件循环\n",
+      "desc": "\n…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/48522249"
+    },
+    {
+      "title": "\nProxy - ECMAScript 6入门\n",
+      "desc": "\nProxy 【免费课程】开始学习 《ES6 实战教程》 ，一线大厂前端必备技能。 概述 Proxy 用于修改某些操作的默认行为，等同于在语言层面做出修改，所以属于一种“元编程”（meta programming），即对编程语言进行编程。 Proxy…\n",
+      "originUrl": "https://es6.ruanyifeng.com/"
+    },
+    {
+      "title": "\n对Reformer的深入解读\n",
+      "desc": "\n作者：Madison May 编译：ronghuaiyang (AI3公园) 原文地址： 对Reformer的深入解读 ​ mp.weixin.qq.com 导读 Reformer之前已经提过几次，这次带大家更加深入的了解一下这个方法的思想及背后的动机。 自从最初的\"Attention is All You…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/115741192"
+    },
+    {
+      "title": "\nJs 面向切面编程 AOP | Bigno\n",
+      "desc": "\nJs 面向切面编程 AOP 简介 面向切面编程 AOP（Aspect-oriented programming）的主要作用是把一些跟核心业务逻辑模块无关的功能抽离出来，这些跟业务逻辑无关的功能通常包括日志统计、安全控制、异常处理等。…\n",
+      "originUrl": "https://blog.lbinin.com/frontEnd/JavaScript/JS-AOP.html"
+    },
+    {
+      "title": "\n聚簇索引 - Google 搜索\n",
+      "desc": "\n搜索结果 网上的精选摘要 聚簇索引 是对磁盘上实际数据重新组织以按指定的一个或多个列的值排序的算法。 特点是存储数据的顺序和 索引 顺序一致。 一般情况下主键会默认创建 聚簇索引 ，且一张表只允许存在一个 聚簇索引 。 2016年7月17日 MYSQL索引：对聚簇索引和非聚簇索引的认识_数据库_alex大喵 ...…\n",
+      "originUrl": "https://www.google.com/search?q=%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95"
+    },
+    {
+      "title": "\n优秀的代码都是如何分层的？ - 云+社区 - 腾讯云\n",
+      "desc": "\n分享 分享文章到朋友圈 分享文章到 QQ 分享文章到微博 复制文章链接到剪贴板 海报分享 优秀的代码都是如何分层的？ 2019-08-06 2019-08-06 14:26:06 阅读 187 0 点击上方 \"IT牧场\" ，选择 \"设为星标\" 技术干货每日送达！ 来源：http://t.cn/RdrmI7i 1、背景…\n",
+      "originUrl": "https://cloud.tencent.com/developer/article/1480978"
+    },
+    {
+      "title": "\n实现一个简单的Webpack\n",
+      "desc": "\n大家好，我是神三元，今天通过一道面试题来和大家聊一聊webpack。 一、什么是Webpack 我相信，尽管很多开发者会根据官方文档进行webpack的相关配置，但仍然并不了解Webpack究竟是起什么作用的，在前端工程化扮演者什么角色，观念仍然简单地停留在“代码打包工具”上。真的是这样吗？ 让我们来看看官方定义:…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/76969308"
+    },
+    {
+      "title": "\n面试官(7): 聊一聊 Babel? - 掘金\n",
+      "desc": "\n往期 面试官系列(1): 如何实现深克隆 面试官系列(2): Event Bus的实现 面试官系列(3): 前端路由的实现 面试官系列(4): 基于Proxy 数据劫持的双向绑定优势所在 面试官系列(5): 你为什么使用前端框架 面试官系列(6): 写过『通用前端组件』吗? 前言 Babel 是现代…\n",
+      "originUrl": "https://juejin.im/post/5c03b85ae51d450c740de19c"
+    },
+    {
+      "title": "\n史上最全的Vim命令\n",
+      "desc": "\n曾经使用了两年多的Vim，手册也翻过一遍。虽然现在不怎么用vim了，曾经的笔记还是贴出来，与喜欢vim的朋友分享。 1. 关于Vim vim是我最喜欢的编辑器，也是linux下第二强大的编辑器。 虽然emacs是公认的世界第一，我认为使用emacs并没有使用vi进行编辑来得高效。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/51440836"
+    },
+    {
+      "title": "\nMediaPipe\n",
+      "desc": "\nMediaPipe Visit us at mediapipe.dev Edit /runner/demos/edge_detection/edge_detection.pbtxt Runner (/runner/demos/edge_detection/edge_detection.pbtxt) graph-view…\n",
+      "originUrl": "https://viz.mediapipe.dev/demo/edge_detection"
+    },
+    {
+      "title": "\n谈谈CNN中的位置和尺度问题\n",
+      "desc": "\n前言 前段时间看到了几篇有意思的文章，也参考了一些相关的讨论，这里想对CNN中的平移和尺度的不变性和相等性，以及CNN对于目标相对和绝对位置、深度的预测原理进行探讨。这些内容对于一些特定任务很重要，比如目标检测、目标分割、深度估计、分类/识别以及单目标跟踪中的置信图预测等。 1 CNN是否存在平移和尺度的不变性和相等性…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/113443895"
+    },
+    {
+      "title": "\nStrategies for Returning References in Rust | Bryce Fisher-Fleig\n",
+      "desc": "\nI’m going to demonstrate the situation where I most often have friction with The Borrow Checker and provide a few patterns I use to make my code compile. Let’s…\n",
+      "originUrl": "http://bryce.fisher-fleig.org/blog/strategies-for-returning-references-in-rust/index.html"
+    },
+    {
+      "title": "\n走近“领域特定语言”（Domain-Specific Languages） - 华章公司 - 博客园\n",
+      "desc": "\n领域特定语言（Domain-Specific Languages，简称DSL），是一个很有用的术语和概念，但其边界很模糊。一些东西很明显是DSL，但另一些可能会引发争议。本文接下来就走近“领 域特定语言”，了解它的概念、为何要采用DSL，以及使用时应该注意的问题。 1. 定义DSL…\n",
+      "originUrl": "https://www.cnblogs.com/hzbook/archive/2013/03/26/2982573.html?spm=ata.13261165.0.0.390c56d2WnM21y"
+    },
+    {
+      "title": "\n图 - Rust 中文教程 - 极客学院Wiki\n",
+      "desc": "\n· 更新于 2018-11-28 11:00:43 图的存储结构除了要存储图中各个顶点的本身信息外，同时还要存储顶点与顶点之间的所有关系(边的信息)，因此，图的结构比较复杂，很难以数据元素在存储区中的物理位置来表示元素之间的关系，但也正是由于其任意的特性，故物理表示方法很多。常用的图的存储结构有邻接矩阵、邻接表等。…\n",
+      "originUrl": "https://wiki.jikexueyuan.com/project/rust-primer/data-structure/graph.html"
+    },
+    {
+      "title": "\nRust Playground\n",
+      "desc": "\nPermalink to the playground Copied! Direct link to the gist Copied! Embedded code in link Copied! Open a new thread in the Rust user forum Open an issue on the…\n",
+      "originUrl": "https://play.rust-lang.org/?edition=2015&gist=e6aaa3fd33994a3e656345e687d626cb&mode=debug&version=stable"
+    },
+    {
+      "title": "\n史蒂芬周的博客 | 软硬兼施，娱乐共享\n",
+      "desc": "\n文章导航 第 1 页，共 1,523 页 1 2 3 4 5 ... 10 20 30 ... 下一页 尾页 今天，小子要来分享的是Mac下一款强大、实用的系统清理软件——CleanMyMac，它可以帮助您快速清理系统垃圾，清理Photos重复照片，卸载软件等等。小子这次带来的是4.6.0版本。…\n",
+      "originUrl": "http://www.sdifen.com/"
+    },
+    {
+      "title": "\niOS逆向工程之Hopper+LLDB调试第三方App - 青玉伏案 - 博客园\n",
+      "desc": "\nLLDB 是 Low Level Debugger 的简称，在iOS开发的调试中 LLDB 是经常使用的， LLDB是Xcode内置的动态调试工具 。使用LLDB可以动态的调试你的应用程序，如果你不做其他的额外处理，因为 debugserver缺少task_for_pid权限…\n",
+      "originUrl": "https://www.cnblogs.com/ludashi/p/5730338.html"
+    },
+    {
+      "title": "\nGetting started with ctags + Vim on MacOS\n",
+      "desc": "\nAlex Galea Mar 21, 2018 · 2 min read A quickstart guide will show you how to setup and run ctags on MacOS with Vim. You’ll see how ctags lets you quickly hop…\n",
+      "originUrl": "https://medium.com/@galea/getting-started-with-ctags-vim-on-macos-87bcb07cf6d"
+    },
+    {
+      "title": "\nHopper Disassembler 4 for Mac 4.2.0 破解版 – 强大的二进制反编译工具_麦氪派\n",
+      "desc": "\n首页 › 编程开发 › 开发辅助 › 正文 Hopper Disassembler 4 for Mac 4.2.0 破解版 – 强大的二进制反编译工具 开发辅助 2017-06-01 7,836 百度已收录 摘要： Hopper Disassembler 4 是一款Mac上强大的二进制反编译工具，使用Hopper…\n",
+      "originUrl": "https://www.waitsun.com/hopper-disassembler-4-2-0.html"
+    },
+    {
+      "title": "\n前端代码智能化初探\n",
+      "desc": "\n在机器学习以及智能化的潮流下，如果智能化与前端相结合，能否产生一些化学反应，指导我们发现一些新的方向呢？ 我们是阿里云大数据团队，我们在 代码智能 方向进行了深入探索。 在2020年开年，这个注定不会平凡的日子，我们发布了第一款前端方向智能化产品-- Sophon代码智能提示插件 。 Sophon代码智能提示插件 ​…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/108723699"
+    },
+    {
+      "title": "\nNLP - 15 分钟搭建中文文本分类模型\n",
+      "desc": "\n文本分类是自然语言处理核心任务之一，常见用文本审核、广告过滤、情感分析、语音控制和反黄识别等NLP领域。本文主要是介绍我最近开源的极简文本分类和序列标注框架 Kashgari 。 搭建环境和数据准备 准备工作，先准备 python 环境和数据集。 Python 3.6 环境 THUCNews 数据集子集,链接:…\n",
+      "originUrl": "https://eliyar.biz/nlp_chinese_text_classification_in_15mins/index.html"
+    },
+    {
+      "title": "\nAlibaba Design\n",
+      "desc": "\n———— ———— Things, not strings. 这是Google在2012年对知识图谱的概念定义，现在看来依然精辟。在数据智能时代，数据不仅仅只是一个个字符串，挖掘它们背后隐含的关系是智能化产品的一个重点方向。…\n",
+      "originUrl": "http://www.alibabaued.com/background/fronthome/details.htm?articleCode=f2c40a3022564978a98a3cc974cb05a8&spm=ata.13261165.0.0.47adf80eYappbA"
+    },
+    {
+      "title": "\n深度学习笔记（十一） - Pelhans 的博客\n",
+      "desc": "\n\n",
+      "originUrl": "http://0.0.0.0:4000/2019/04/29/deepdive_tensorflow-note11/"
+    },
+    {
+      "title": "\n命名实体识别（一） - Pelhans 的博客\n",
+      "desc": "\n\n",
+      "originUrl": "http://0.0.0.0:4000/2019/09/23/kg_paper-note4/"
+    },
+    {
+      "title": "\n世界语言资源平台\n",
+      "desc": "\n提供者：杜成玉 下载地址： http://search.language-archives.org/index.html 概述 OLAC（Open Language Archives Community）…\n",
+      "originUrl": "http://yoursite.com/index.html"
+    },
+    {
+      "title": "\nNLP实战-中文命名实体识别\n",
+      "desc": "\n前言： 本文章将通过 pytorch 作为主要工具实现不同的模型（包括 HMM ， CRF ， Bi-LSTM ， Bi-LSTM+CRF ）来解决中文命名实体识别问题，文章不会涉及过多的数学推导，但会从直观上简单解释模型的原理，主要的内容会集中在代码部分。 本文的目录结构如下： 概览 任务描述…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/61227299"
+    },
+    {
+      "title": "\n拒绝JavaScript，这三个CSS技巧你一定用的上 - 掘金\n",
+      "desc": "\n本文介绍三个非常棒棒的CSS技巧，完全可以在你的项目中代替JavaScript，一起来看看这些技巧吧。 :active 伪类与CSS数据上报 超实用超高频使用的 :empty 伪类 用好 :only-child 伪类 1. :active伪类与CSS数据上报…\n",
+      "originUrl": "https://juejin.im/post/5e6b2b9ce51d4526fd069b87?utm_source=gold_browser_extension"
+    },
+    {
+      "title": "\n2020年图机器学习的最新趋势\n",
+      "desc": "\n作者：Sergei Ivanov 编译：ronghuaiyang (AI公园) 2020年才刚刚开始，但我们已经在最新的研究论文中看到了图机器学习(GML)的趋势。以下是我对2020年GML的重要内容的看法以及对这些论文的讨论。 介绍…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/106181537"
+    },
+    {
+      "title": "\n单片机为什么能直接烧录程序？ - 知乎\n",
+      "desc": "\n我刚开始学习单片机的时候也有和题主类似的困惑。当时是在大二，刚申请了个淘宝账号不久，刚看了下我的淘宝已购物品，第五件东西买的就是51单片机开发板，前几件是充话费，当时卖开发板的店铺也已经不在了。…\n",
+      "originUrl": "https://www.zhihu.com/question/322309698/answer/1074751396?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n移动端实时3D目标检测，谷歌开源出品，安卓下载就能用\n",
+      "desc": "\n常规目标检测，已经不能满足移动端了，谷歌开源的 3D 实时目标检测了解一下？ 选自Google AI Blog，作者：Adel Ahmadyan、Tingbo Hou，机器之心编译，机器之心编辑部。 目标检测是一个得到广泛研究的计算机视觉问题，但大多数研究侧重于 2D 目标检测。值的注意的是，2D 预测仅能提供 2D…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/112752658"
+    },
+    {
+      "title": "\nJs13kGames - HTML5 and JavaScript Game Development Competition in just 13 kilobytes\n",
+      "desc": "\njs13kGames Winners Entries Partners Experts Prizes Rules Blog 2018 2017 2016 2015 2014 2013 2012 © js13kGames 2012-2020. Created and maintained by Andrzej Mazur…\n",
+      "originUrl": "https://js13kgames.com/entries/2019"
+    },
+    {
+      "title": "\nPhobosLab\n",
+      "desc": "\nVoidcall – Making Of Like last year with Underrun , I participated in this year's js13kGames – a JavaScript game development competition with a file size limit…\n",
+      "originUrl": "https://phoboslab.org/log/2019/09/voidcall-making-of"
+    },
+    {
+      "title": "\nWeb | Google Developers\n",
+      "desc": "\nDeprecations and removals in Chrome 81 A round up of the deprecations and removals in Chrome 81 to help you plan. Adding notification permission data to the…\n",
+      "originUrl": "https://developers.google.com/web?hl=zh-cn"
+    },
+    {
+      "title": "\nvim宏的使用 | tenfy' blog\n",
+      "desc": "\n本文介绍vim宏以及它的魔法。 宏是什么 vim的宏就是把一系列动作录制起来，然后可以进行播放可以执行同样动作的功能。 它是vim中最具有魔法的操作了。可能会有人觉得 . 重复操作更具有魔法，但是 . 只能记重复上一次命令，能做的事情有限，所以它最多就是最经常使用的命令而已，并没有魔法。…\n",
+      "originUrl": "https://tenfy.cn/2017/09/27/vim-macro/"
+    },
+    {
+      "title": "\n法布里斯·贝拉 — 一个真正的程序员\n",
+      "desc": "\n法布里斯·贝拉 是一位法国著名的计算机程序员，在7月9日前我对他几乎一无所知。也就在这一天他发布了 QuickJS 引擎的首个公开发行版。这个名字才进入了很多和我一样无知的前端工程师的世界里。 官网中是这么介绍 QuickJS 的： QuickJS 是一个精巧可嵌入的 JavaScript 引擎。它支持 ES2019…\n",
+      "originUrl": "https://keelii.com/2019/07/13/a-real-programmer-fabrice-bellard/"
+    },
+    {
+      "title": "\nvim 多文件骚操作[视频]\n",
+      "desc": "\nvim 多文件操作 https://www.zhihu.com/video/1220004627099713536 hi， 这次要介绍一下 vim 的多文件操作。笔者刚学习 vim 的时候操作多个文件比较死板，都是一个个文件夹进去之后在打开对应的…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/111725910"
+    },
+    {
+      "title": "\nmicroKanren学习笔记\n",
+      "desc": "\n11 Sep 2019 简介 之前提到逻辑编程对于区块链的 Dapp 编程模型非常有帮助。 我虽然很早之前也简单的学过一点 Prolog ，但是对其实现并没有深入的了解。 要实现一个用于Dapp框架的逻辑编程引擎，还是需要不少改动，因此有必要对其实现进行一些了解。 miniKanren 是 Dan Friedman…\n",
+      "originUrl": "https://rink1969.github.io/learn-microKanren"
+    },
+    {
+      "title": "\nuseHooks\n",
+      "desc": "\nuseToggle Basically, what this hook does is that, it takes a parameter with value true or false and toggles that value to opposite.It's useful when we want to…\n",
+      "originUrl": "https://usehooks.com/"
+    },
+    {
+      "title": "\n大话神经网络，10行代码不调包，听不懂你打我！_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili\n",
+      "desc": "\n大话神经网络，10行代码不调包，听不懂你打我！ 6.6万播放 · 1141弹幕 2019-10-17 09:15:28 2303 2237 5108 420 稿件投诉 未经作者授权，禁止转载…\n",
+      "originUrl": "https://www.bilibili.com/video/av71482275/"
+    },
+    {
+      "title": "\n前端面试每日3+1-以前端面试题来驱动学习，提倡每日学习与思考，每天进步一点！\n",
+      "desc": "\n{{!goRegister && '请登录' || '注册'}} 账号不存在或者密码错误！ {{!goRegister && '没有账号？去注册' || '已有账号，去登录'}} 暂时仅支持下方github登录（点击下方图标） 第三方账号登录 点击关注 总题数： 题 参与人数： 人 贡献人数： 人 抢沙发答题…\n",
+      "originUrl": "http://www.h-camel.com/index.html"
+    },
+    {
+      "title": "\n从0实现React 系列(二)：组件更新\n",
+      "desc": "\n该公众号已迁移 该公众号已迁移至新的帐号，原帐号已回收。若需访问原文章链接，请点击下方按钮。 公众号迁移说明\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzA5NzkwNDk3MQ==&mid=2650591958&idx=1&sn=fa3be8a1f55769c53fe1e6a6e2ae446c&chksm=8891c2f2bfe64be4b2c900cbfa388d5e02aec4ce7e840e8149024057c84ceda1fe0c984e9bb4#rd"
+    },
+    {
+      "title": "\n…\n",
+      "desc": "\n\n",
+      "originUrl": "https://github-production-release-asset-2e65be.s3.amazonaws.com/257940966/cdf58200-859d-11ea-9363-fff8c540f1dd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200519%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200519T011024Z&X-Amz-Expires=300&X-Amz-Signature=1c54255718a1a87de1903e822f073169d26b030c1ca78e28af6f9ab43585b7e8&X-Amz-SignedHeaders=host&actor_id=0&repo_id=257940966&response-content-disposition=attachment%3B%20filename%3Diml_english.pdf&response-content-type=application%2Foctet-stream"
+    },
+    {
+      "title": "\n[NLP] 秒懂词向量Word2vec的本质\n",
+      "desc": "\n转自我的公众号: 『数据挖掘机养成记』 1. 引子 大家好 我叫数据挖掘机 皇家布鲁斯特大学肄业 我喝最烈的果粒橙，钻最深的牛角尖 ——执着如我 今天我要揭开 Word2vec 的神秘面纱 直窥其本质 相信我，这绝对是你看到的 最浅白易懂的 Word2vec 中文总结 （蛤？你问我为啥有这个底气？…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/26306795"
+    },
+    {
+      "title": "\nAskBy.ai: The NLP Company - Understanding Natural Language\n",
+      "desc": "\nImagine Machines Could Understand Text Automate human tasks involving text with Natural Language Processing (NLP) & Machine Learning See Examples Natural…\n",
+      "originUrl": "https://www.askby.ai/"
+    },
+    {
+      "title": "\nFlutter 手势识别(GPU) · 震朕的小宇宙\n",
+      "desc": "\n本文介绍如何开发一个 Flutter Packge 以实现调用 Andorid 设备摄像头精确追踪并识别十指的运动路径/轨迹和手势动作, 且输出22个手部关键点以支持更多手势自定义. 基于这个包可以编写业务逻辑将手势信息实时转化为指令信息: 一二三四五, rock, spiderman…同时基于 Flutter…\n",
+      "originUrl": "https://zhzh.xyz/2020/03/01/Flutter/flutter-plugin-handtracking-landmark/"
+    },
+    {
+      "title": "\nEnrich Real-time Customer Profile with machine learning insights\n",
+      "desc": "\nEnrich Real-time Customer Profile with machine learning insights Adobe Experience Platform Data Science Workspace provides the tools and resources to create,…\n",
+      "originUrl": "https://docs.adobe.com/content/help/en/experience-platform/data-science-workspace/models-recipes/enrich-profile.html"
+    },
+    {
+      "title": "\n可视化技术栈及学习计划 - 镜心的小树屋 - SegmentFault 思否\n",
+      "desc": "\n推荐一个网站 https://www.kaggle.com/ https://beta.observablehq.com... 机器学习和数据可视化社区 我自己练习的 仓库 https://bost.ocks.org/mike/ 可视化交流群 加微信 zk_lp3333 写明 DataV/可视化 交流哦 学习阶段:…\n",
+      "originUrl": "https://segmentfault.com/a/1190000010175892"
+    },
+    {
+      "title": "\nobservablehq/inspector\n",
+      "desc": "\n{{ message }} Permalink main Switch branches/tags Could not load branches Nothing to show {{ refName }} default View all branches Could not load tags Nothing to…\n",
+      "originUrl": "https://github.com/observablehq/inspector/blob/master/src/inspect.js"
+    },
+    {
+      "title": "\nA Taste of Observable\n",
+      "desc": "\n​ x rawForecast = ( await fetch ( \"https://api.weather.gov/gridpoints/OKX/33,37/forecast\" )). json () xxxxxxxxxx nycForecast = ( rawForecast . status !== 503 ?…\n",
+      "originUrl": "https://observablehq.com/@observablehq/a-taste-of-observable"
+    },
+    {
+      "title": "\n开源神器：可快速将真实物件复制粘贴到电脑上！\n",
+      "desc": "\n大家好，我是小 G。 今天我想跟大家分享一个最近比较火的 GitHub 项目：AR Cut & Paste。 该项目的神奇之处，在于它能快速将真实环境中的物品，通过手机的拍照捕捉功能，一键导入到图形编辑软件（当前只支持 PhotoShop）中，大大减少了设计师的抠图成本。 具体如何操作，下面放个视频让大家感受下：…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/139108131"
+    },
+    {
+      "title": "\nIntelliJ IDEA 中有什么让你相见恨晚的技巧？ - 知乎\n",
+      "desc": "\nIntellij IDEA 真是越用越觉得它强大，它总是在我们写代码的时候，不时给我们来个小惊喜。出于对 Intellij IDEA 的喜爱，我决定写一个与其相关的专栏或者系列，把一些好用的 Intellij IDEA 技巧分享给大家。本文是这个系列的第一篇，主要介绍一些你可能不知道的但是又实用的小技巧。…\n",
+      "originUrl": "https://www.zhihu.com/question/300830746/answer/1206697565?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n房地产的本质\n",
+      "desc": "\n文章被建议修改：违反相关法律法规 作者修改内容通过后，文章会重新显示。\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/137994307"
+    },
+    {
+      "title": "\n后端程序员必备：书写高质量SQL的30条建议\n",
+      "desc": "\n收录于话题 前言 本文将结合实例demo，阐述30条有关于优化SQL的建议，多数是实际开发中总结出来的，希望对大家有帮助。 1、查询SQL尽量不要使用select *，而是select具体字段。 反例子： select * from employee ; 正例子： select id ， name from…\n",
+      "originUrl": "https://mp.weixin.qq.com/s/Xf8D0bLuUNoTeRo3HbAKyA"
+    },
+    {
+      "title": "\np5.js在jupyter-notebook中使用\n",
+      "desc": "\n微博@mlln-cn, 并附上文章url链接, 我就能回答你的问题奥! 2018年07月06日 文章目录 声明: 本文由 DataScience 发表,未经允许不得转载。 转载请注明 本文链接 mlln.cn, 并在文后留言 转载 . 本文代码运行环境: windows10 jupyter notebook p5.js…\n",
+      "originUrl": "https://mlln.cn/2018/07/06/p5.js%E5%9C%A8jupyter-notebook%E4%B8%AD%E4%BD%BF%E7%94%A8/"
+    },
+    {
+      "title": "\nComparison of JavaScript-based source code editors - Wikipedia\n",
+      "desc": "\nThis article provides basic feature comparison between some of the JavaScript -based source code editors available today. Overview List of features Feature…\n",
+      "originUrl": "https://en.wikipedia.org/wiki/Comparison_of_JavaScript-based_source_code_editors"
+    },
+    {
+      "title": "\nJSON Stringify Text - Online Text Tools\n",
+      "desc": "\nText stringifier World's simplest text tool World's simplest browser-based utility for JSON stringifying text. Load your text in the input form on the left and…\n",
+      "originUrl": "https://onlinetexttools.com/json-stringify-text"
+    },
+    {
+      "title": "\n用Rust重写Linux内核模块体验\n",
+      "desc": "\n最近，我用Rust重写了一个2W+行C代码的linux内核模块。在此记录一点经验。我此前没写过内核模块，认识比较疏浅，有错误欢迎指正。 为什么要重写？…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/137077998"
+    },
+    {
+      "title": "\n下一个革命性的人机交互方式会是什么？ - 知乎\n",
+      "desc": "\n认同“宁静技术”（Calm technology）的思考方向，那个回答有些地方没讲透，所以再做更深入的补充。 简单的说，就是人机交互逐渐变得隐匿和不可见（invisible），通过对用户的情景感知（contextual awareness）能力，最小化用户的注意力，让计算设备在背景中运行。…\n",
+      "originUrl": "https://www.zhihu.com/question/25368358/answer/1162331206?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n精读《React Hooks 最佳实践》\n",
+      "desc": "\n简介 React 16.8 于 2019.2 正式发布，这是一个能提升代码质量和开发效率的特性，笔者就抛砖引玉先列出一些实践点，希望得到大家进一步讨论。 然而需要理解的是，没有一个完美的最佳实践规范，对一个高效团队来说，稳定的规范比合理的规范更重要，因此这套方案只是最佳实践之一。 精读 环境要求…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/81752821"
+    },
+    {
+      "title": "\ngulp throws an error: TypeError('Path must be a string. Received ' + inspect(path))\n",
+      "desc": "\nTeams Q&A for Work Stack Overflow for Teams is a private, secure spot for you and your coworkers to find and share information. Learn more Ask Question Asked 3…\n",
+      "originUrl": "https://stackoverflow.com/questions/37724227/gulp-throws-an-error-typeerrorpath-must-be-a-string-received-inspectpat"
+    },
+    {
+      "title": "\njupyter notebook架构分析\n",
+      "desc": "\n我的痛点 最近在折腾blockly4pi(暂未开源)，这是一个很好玩的项目，试图用blockly来控制树莓派，将硬件功能积木化，从而降低硬件编程入门门槛 在这个项目中，我将blockly用作代码生成器，这和官方的定位相同，虽然你也可以以其他方式使用它，但我认为将其用作代码生成器，并保持积木的灵活与可组合性(do one…\n",
+      "originUrl": "https://blog.just4fun.site/post/%E6%9E%B6%E6%9E%84/jupyter-notebook-architecture/"
+    },
+    {
+      "title": "\nFrustrations with React Hooks - LogRocket Blog\n",
+      "desc": "\nWhat problems do Hooks solve? Before I detail my current frustrations with Hooks I do want to state for the record that I am, for the most part, a fan of Hooks…\n",
+      "originUrl": "https://blog.logrocket.com/frustrations-with-react-hooks/"
+    },
+    {
+      "title": "\n有哪些是你慢慢想明白了的道理？ - 知乎\n",
+      "desc": "\n1、 睡觉之前手不要伸进被子里搞小动作，不然总是熬夜不太好。 2、 总结了无数次的经验：和女朋友一起玩，很多人只知道一条路，其实三条路都是通的。 3、 不要以为自己喜欢的女生很幼稚，她要是对你没意思，比你妈还成熟。 4、…\n",
+      "originUrl": "https://www.zhihu.com/question/350870631/answer/1148355849?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n凉羽的晋升Review\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.atatech.org/articles/142599?flag_data_from=flag_data_from%3Dhome_hotest_article&spm=ata.home.0.0.11fd7536SU9wPR"
+    },
+    {
+      "title": "\nCodeSandbox\n",
+      "desc": "\nOverview My Sandboxes Templates Trash Create Team Recent Sandboxes 6 Showing 0 environments Sort by Last Modified Create Sandbox Create React Sandbox Container…\n",
+      "originUrl": "https://codesandbox.io/dashboard/recent"
+    },
+    {
+      "title": "\n人类的大脑功率是多少？ - 知乎\n",
+      "desc": "\n这个问题很有意思。大脑的功率和它正在执行的工作有关。比如，现在是数学考试的最后五分钟，你正在全力解最后一道大题的最后一小问，那么这个时候的大脑功率相对就比较大。而如果是你正在沙滩上发呆晒太阳，那这时候大脑的功率就相对比较低。 那么一般来说，这个功率大概是多少呢？来自伦敦大学学院（UCL）的大牛David…\n",
+      "originUrl": "https://www.zhihu.com/question/22626904/answer/1098338236?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n宇宙是一个图网络？「全球最聪明的人」刚刚为物理基础理论指出了全新道路\n",
+      "desc": "\n「物理学已经很长一段时间没有出现任何显著进展了。探测引力波或许算是一个，」斯蒂芬·沃尔夫勒姆表示。「我非常希望在纯技术层面上，我们所做的一切能够使理论物理学重新焕发活力。尽管目前的工作还很不成熟。」 著名计算机科学、数学、理论物理学家斯蒂芬·沃尔夫勒姆（Stephen…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/130809816"
+    },
+    {
+      "title": "\n什么事情是你当了老板才知道的？ - 知乎\n",
+      "desc": "\n深深滴感到，工具人，尤其是技术员的悲哀 当了老板之后，我发现，技术人员，包括曾经的我在内，经常会犯的三个错误，而且是致命的三个错误，用小时候学的几个成语来概括，分别是 瞎子摸象，刻舟求剑，以及叶公好龙 一个个解释 瞎子摸象…\n",
+      "originUrl": "https://www.zhihu.com/question/364147974/answer/1153651654?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n一直没有resolve也没有reject的Promise会造成内存泄露吗？ - 知乎\n",
+      "desc": "\n可以用 DevTools 的 queryObjects() 函数配合 setTimeout() 来测试一下： 可以看到 1 万个 pending 的 promise 对象都不会被回收，直到 10 秒钟以后，再次执行 queryObjects(Promise) ： 那 1 万个 promise…\n",
+      "originUrl": "https://www.zhihu.com/question/386595851/answer/1153444476?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nPromise.race 导致的内存泄露问题 · 语雀\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.yuque.com/egg/nodejs/xcnxmg"
+    },
+    {
+      "title": "\n你是如何通过副业挣钱的？ - Pompeya 的回答 - 知乎\n",
+      "desc": "\n全部闪开！！！！！！！ 全部闪开！！！！！！！！！！ 全部闪开！！！！！！！！！！！！！！ 大学四年总共加起来挣了大概一百五十多来万吧，但是主要收入还是来自海外，可以说是白手起家了把，这我一五一十的把我的做法和思路公布，为啥？？ 因为哪怕我全部告诉你，你也模仿不过来！！！就是这么硬气！…\n",
+      "originUrl": "http://webcache.googleusercontent.com/search?gl=sg&hl=zh-CN&q=cache%3AGsrkVUWNpFMJ%3Ahttps%3A%2F%2Fwww.zhihu.com%2Fquestion%2F51715307%2Fanswer%2F1133247072&strip=1&vwsrc=0"
+    },
+    {
+      "title": "\n前言 · 从零开始学算法\n",
+      "desc": "\n1. 从零开始学算法 本电子书适用于目标在于掌握 基础算法 的工程师 1.1. 简介 作为算法初学者的我从19年8月份开始在力扣学习算法，到现在AC了大约一半的题目。 随着打卡题目数量的增多，我发现力扣常见考察的知识点大概有十几种，包括： 二分，滑动窗口，双指针，单调栈（单调队列），链表，二叉树，字符串处理，dfs +…\n",
+      "originUrl": "https://muyids.github.io/simple-algorithm/"
+    },
+    {
+      "title": "\njs数据结构--图(graph) - 掘金\n",
+      "desc": "\n图(graph) 实现邻接表 实际图 graph.js var Graph = function () { //存储顶点 var vertices = [] //边 var adjList = {} //添加顶点 this.addVertices = function (v) { vertices.push(v)…\n",
+      "originUrl": "https://juejin.im/post/5c41897b518825253315f570"
+    },
+    {
+      "title": "\n你是如何通过副业挣钱的？ - 知乎\n",
+      "desc": "\n该回答已被删除 5 秒后自动跳转至回答所在的问题页 去往首页\n",
+      "originUrl": "https://www.zhihu.com/question/51715307/answer/1133247072?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n用什么软件画流程图好？ - 知乎\n",
+      "desc": "\n推荐一些鹅厂人喜欢用的流程图软件，免费/付费、离线/在线都有，各取所需。 1 OmniGraffle（Mac） ★★★★★ 付费、略贵，但熟悉后就不会再想再用其他的了。 分享几点使用经验，配色： 选择柔和的颜色，例如下面这几种 不想重点突出的就用灰色，想突出的就用彩色。一张图中彩色不要超过 4 种 慎用黑、红…\n",
+      "originUrl": "https://www.zhihu.com/question/20177573/answer/1109089711?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n编写可靠 bash 脚本的一些技巧\n",
+      "desc": "\n作者：astarsun，腾讯搜索工程师 写过很多 bash 脚本的人都知道，bash 的坑不是一般的多。其实 bash 本身并不是一个很严谨的语言，但是很多时候也不得不用。以下总结了一些编写可靠的 bash 脚本的小 tips。 0. set -x -e -u -o pipefail…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649745834&idx=1&sn=a87c1abec3395327436cc812c8579188&chksm=bed37ad189a4f3c727a9133beaed00d98b78c9dbf7def2f1c55615183eb26eda0fc1be61e93d#rd"
+    },
+    {
+      "title": "\n如何使用pegjs语法解析注释？ - Thinbug\n",
+      "desc": "\n如何使用pegjs语法解析注释？ 时间：2016-07-22 15:02:50 标签： parsing pegjs 我写了一个pegjs语法，应该解析任何类型的js / c风格的注释。然而，由于我只是设法捕获了评论本身，并且忽略了其他所有内容，因此它不能正常工作。我应该如何改变这种语法，只解析任何输入的评论？ 语法：…\n",
+      "originUrl": "https://www.thinbug.com/q/38529702"
+    },
+    {
+      "title": "\n有什么相见恨晚的知识？ - 知乎\n",
+      "desc": "\n1.拍照时，用舌头顶住上颚，会很上相，照出来也很自然。 2.早上起来后，先倒杯水，再洗漱。结束后，喝水，对肠胃特别好，而且排便也非常痛快。 3.口香糖粘在衣服上，你可以放在冰箱里冷冻一下，会特别容易去除。 4.每周坚持换洗枕巾，你会发现，脸上痘痘越来越少。 5.睡觉前，躺在床上，将腿搭在墙上，腿型会变好。…\n",
+      "originUrl": "https://www.zhihu.com/question/51534501/answer/258306954?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n政协委员在行动丨郭杨：彰显使命担当 展现时代风采——安阳网\n",
+      "desc": "\n原标题：郭杨：彰显使命担当 展现时代风采 □记者 赵晓凤 ▲在轨道交通展上，郭杨向外国客户讲解产品（资料图）…\n",
+      "originUrl": "http://www.ayrbs.com/news/2020-09/23/content_2207805.htm"
+    },
+    {
+      "title": "\nmini3d\n",
+      "desc": "\n3D软件渲染教程，并没有任何性能优化，主要向人说明如何写一个固定管线的软件渲染器。虽然主体代码只有 700行，但是麻雀虽小，五脏俱全。 特性 单个文件：源代码只有一个 mini3d.c，单个文件实现所有内容，容易阅读。 独立编译：没有任何第三方库依赖，没有复杂的工程目录。 模型标准：标准 D3D 坐标模型，左手系加…\n",
+      "originUrl": "https://github.com/skywind3000/mini3d"
+    },
+    {
+      "title": "\nNPM global install \"cannot find module\"\n",
+      "desc": "\n17 Answers 17 Active Oldest Votes 396 For anyone else running into this, I had this problem due to my npm installing into a location that's not on my NODE_PATH…\n",
+      "originUrl": "https://stackoverflow.com/questions/12594541/npm-global-install-cannot-find-module"
+    },
+    {
+      "title": "\nminGPT\n",
+      "desc": "\nA PyTorch re-implementation of GPT training. minGPT tries to be small, clean, interpretable and educational, as most of the currently available ones are a bit…\n",
+      "originUrl": "https://github.com/karpathy/minGPT"
+    },
+    {
+      "title": "\n如何用 C++ 写一个可编程软件渲染器？\n",
+      "desc": "\n今天你想用最新的 D3D12 画一个三角形，少说也要上千行代码了，对于初学者来讲，这个门槛是非常高的，太多干扰了，而一千多行代码，已经足够你重头实现一个简易版 D3D 了，为什么不呢？比起从图形 API 入门，不如从画点开始，同样一千行代码，却能让你对 GPU 的工作原理有一个直观的了解。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/182872172"
+    },
+    {
+      "title": "\nFunctional Programing with Cats\n",
+      "desc": "\nShould we be using Monads in Clojure? Functional Human Jul 5, 2019 · 11 min read In this piece I am going to explore the world of Monads for functional…\n",
+      "originUrl": "https://medium.com/@functionalhuman/functional-programing-with-cats-105d666b260e"
+    },
+    {
+      "title": "\n为什么大多数程序员不看好图形化编程？ - 知乎\n",
+      "desc": "\n其实Zachtronics都帮你想好了：因为图形化编程只适合少量的“原子操作”。 比如Infinifactory（《无限工厂》）这是3D的编程，必然要图形化： 而Spacechem（《太空化学》）这就是完整的2D图形化编程：…\n",
+      "originUrl": "https://www.zhihu.com/question/321064855/answer/1325830737?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nhaskell — 模板Haskell有什么不好的？\n",
+      "desc": "\n/ home / 中文 /模板Haskell有什么不好的？ 模板Haskell有什么不好的？ 似乎模板Haskell经常被Haskell社区视为一种​​不幸的便利。我很难准确地说出我在这方面所观察到的内容，但请考虑这几个例子 模板Haskell在“丑陋（但必要）”下列出了问题…\n",
+      "originUrl": "https://www.it-swarm.asia/zh/haskell/%E6%A8%A1%E6%9D%BFhaskell%E6%9C%89%E4%BB%80%E4%B9%88%E4%B8%8D%E5%A5%BD%E7%9A%84%EF%BC%9F/1067014246/"
+    },
+    {
+      "title": "\nTED 哪个演讲最打动你？ - 知乎\n",
+      "desc": "\n首推《 如何在你重视的事情上做得更好 》， How to get better at the things you care about 尤其适用于深陷工作泥潭，长期止步不前，难以取得长足进步的朋友 演讲者Eduardo Briceño把我们的生活分为两个区域，分别为 learning zone （学习区） 和…\n",
+      "originUrl": "https://www.zhihu.com/question/19957581/answer/1306773567?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n求非常含蓄的污污情话? - 知乎\n",
+      "desc": "\n该回答已被删除 5 秒后自动跳转至回答所在的问题页 去往首页\n",
+      "originUrl": "https://www.zhihu.com/question/399164696/answer/1307646996?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nHaskell - 维基百科，自由的百科全书\n",
+      "desc": "\nHaskell 编程范型 纯函数式 設計者 Lennart Augustsson , Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak , John Hughes , Thomas…\n",
+      "originUrl": "https://zh.wikipedia.org/wiki/Haskell"
+    },
+    {
+      "title": "\nkoalaman/shellcheck\n",
+      "desc": "\n{{ message }} master Switch branches/tags Could not load branches Nothing to show {{ refName }} default View all branches Could not load tags Nothing to show {{…\n",
+      "originUrl": "https://github.com/koalaman/shellcheck/tree/master/src/ShellCheck"
+    },
+    {
+      "title": "\nHow to Run Node.js in a Browser [Tutorial] | Hacker Noon\n",
+      "desc": "\nHow to Run Node.js in a Browser [Tutorial] November 16th 2019 13,300 reads @jiacheng JIACHENG \"Browser based bundler\" is a very interesting topic. For example,…\n",
+      "originUrl": "https://hackernoon.com/how-to-run-nodejs-in-a-browser-wc4s32by"
+    },
+    {
+      "title": "\nstackage | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror\n",
+      "desc": "\n清华大学 开源软件镜像站 HOME EVENTS BLOG RSS PODCAST MIRRORS AOSP AUR AdoptOpenJDK CPAN CRAN CTAN CocoaPods OpenMediaVault alpine anaconda anthon arch4edu archlinux…\n",
+      "originUrl": "https://mirrors.tuna.tsinghua.edu.cn/help/stackage/"
+    },
+    {
+      "title": "\nOverreacted\n",
+      "desc": "\nBefore You memo() February 23, 2021 • ☕️ 5 min read Rendering optimizations that come naturally. The WET Codebase July 13, 2020 • ☕️ 1 min read Come waste your…\n",
+      "originUrl": "https://overreacted.io/"
+    },
+    {
+      "title": "\nsetState如何知道该做什么？\n",
+      "desc": "\n当你在组件中调用 setState 的时候，你认为发生了些什么？ import React from 'react' ; import ReactDOM from 'react-dom' ; class Button extends React . Component { constructor ( props ) {…\n",
+      "originUrl": "https://overreacted.io/zh-hans/how-does-setstate-know-what-to-do/"
+    },
+    {
+      "title": "\na²＋a³＝392 怎么解？ - 知乎\n",
+      "desc": "\n该回答已被删除 5 秒后自动跳转至回答所在的问题页 去往首页\n",
+      "originUrl": "https://www.zhihu.com/question/357995704/answer/1293991286?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nHaskell Lesson：a tokenizer\n",
+      "desc": "\n收录于话题 25号当地凌晨3点50的飞机从普吉岛回到上海，回家后睡到天昏地暗，不想已经过了三天，头晕目眩中于昨天晚上奋力开始写editor，目前还是只有一个tokenizer，甚是惭愧，寥寥数笔，记载于此，自勉。 一、关于pure和impure…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzAwNjEzMDgxNw==&mid=2452131617&idx=1&sn=a1d68d18e6ae3ff35c2929d12a8099ed&chksm=8cce32cfbbb9bbd9bc27c233e6f56bd1a3ebbb2ad5a9a1247f28f672de35bcf1f84c282a4d87#rd"
+    },
+    {
+      "title": "\nbabel-standalone@6.26.0 ❘ BundlePhobia\n",
+      "desc": "\nWhat does this thing do? JavaScript bloat is more real today than it ever was. Sites continuously get bigger as more (often redundant) libraries are thrown to…\n",
+      "originUrl": "https://bundlephobia.com/result?p=babel-standalone%406.26.0"
+    },
+    {
+      "title": "\n算法分类下的所有书籍免费下载\n",
+      "desc": "\n计算机程序设计艺术・卷3 计算机程序设计艺术・卷2 计算机程序设计艺术 学习JavaScript数据结构与算法(第2版) 算法新解 算法图解 算法竞赛入门经典(第2版) 算法的乐趣 算法导论(原书第3版) 算法笔记上机训练实战指南 算法笔记 数据结构与算法分析 迷茫的旅行商 高效算法 程序员的算法趣题 算法(第4版)…\n",
+      "originUrl": "https://www.iizhi.cn/book/category/algorithm"
+    },
+    {
+      "title": "\nUNPKG\n",
+      "desc": "\nunpkg is a fast, global content delivery network for everything on npm . Use it to quickly and easily load any file from any package using a URL like:…\n",
+      "originUrl": "https://unpkg.com/"
+    },
+    {
+      "title": "\nBrowserify：浏览器加载Node.js模块 -- JavaScript 标准参考教程（alpha）\n",
+      "desc": "\nBrowserify：浏览器加载Node.js模块 来自 《JavaScript 标准参考教程（alpha）》 ，by 阮一峰 目录 重要说明：本教程已经搬迁，此处不再维护，请访问新网址： wangdoc.com/javascript 。 随着JavaScript程序逐渐模块化，在ECMAScript…\n",
+      "originUrl": "https://javascript.ruanyifeng.com/tool/browserify.html"
+    },
+    {
+      "title": "\nBrowserify\n",
+      "desc": "\nBrowserify lets you require( 'modules' ) in the browser by bundling up all of your dependencies. Get Professional Support for Browserify use Browserify from the…\n",
+      "originUrl": "http://browserify.org/"
+    },
+    {
+      "title": "\n递回 - HASKELL 趣学指南 - 极客学院Wiki\n",
+      "desc": "\n· 更新于 2018-11-28 11:00:43 递回 你好，递回！ 前面的章节中我们简要谈了一下递回。而在本章，我们会深入地了解到它为何在 Haskell 中是如此重要，能够以递回思想写出简洁优雅的程式码。…\n",
+      "originUrl": "https://wiki.jikexueyuan.com/project/haskell-guide/recursion.html"
+    },
+    {
+      "title": "\n使用 Haskell 编写灵活的 Parser （下）\n",
+      "desc": "\n原文在我博客： 使用 Haskell 编写灵活的 Parser （下） 本篇主要讲 Parser Combinator 的组合，比如二元运算符的解析以及优先级结合性的处理。 some 与 many 上篇还剩下一个内容，就是 some 和 many 。这两个函数是 Control.Applicative…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/28162006"
+    },
+    {
+      "title": "\nCodewars: Achieve mastery through challenge\n",
+      "desc": "\nSharpen your skills Challenge yourself on kata, created by thecommunity to strengthen different skills.Master your current language of choice,or expand your…\n",
+      "originUrl": "https://www.codewars.com/"
+    },
+    {
+      "title": "\n精通 Haskell 是一种怎样的体验？ - 知乎\n",
+      "desc": "\n…\n",
+      "originUrl": "https://www.zhihu.com/question/27355585/answer/36405568?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n前端新工具--vite从入门到实战（一）\n",
+      "desc": "\n前段时间 @尤雨溪 B站直播，介绍了一款新的前端开发工具，利用了浏览器自带的import机制，无论多大的项目，都是秒开，听起来很诱人，火速看了源码，并且最近做了《前端会客厅》后，经过尤大亲自讲解了设计思路，又有了新感悟，写个文章总结以下 能和尤大当面交流vue3的设计思路…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/149033579"
+    },
+    {
+      "title": "\n第一章：入门 — Real World Haskell 中文版\n",
+      "desc": "\n第一章：入门 Haskell编程环境 在本书的前面一些章节里，我们有时候会以限制性的、简单的形式来介绍一些概念。由于Haskell是一本比较深的语言，所以一次性介绍某个主题的所有特性会令人难以接受。当基础巩固后，我们就会进行更加深入的学习。…\n",
+      "originUrl": "http://rwh.readthedocs.io/en/latest/chp/1.html"
+    },
+    {
+      "title": "\n2.2 Proof Search\n",
+      "desc": "\nNow that we know about matching, we are in a position to learn how Prolog actually searches a knowledge base to see if a query is satisfied. That is, we are now…\n",
+      "originUrl": "http://cs.union.edu/~striegnk/learn-prolog-now/html/node20.html"
+    },
+    {
+      "title": "\n下一代编程语言范式？\n",
+      "desc": "\n前言 最近状态不太好，有点懒，啥都不想干（可能发现自己岁数大了，有点闹情绪－ －|||）。想出去玩，风太大了，电视剧和动漫也看得“呕心沥血”了，因此切换下思路，就看了看下面这篇文章。我简单念叨念叨，大家看看就好，有想法的就想一想。 正题 PL知名学者Yannis…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/64492626"
+    },
+    {
+      "title": "\n己思 - Oh My RSS\n",
+      "desc": "\nGitHub - LingDong-/fishdraw: procedurally generat… check @... visibility 0 star 0 home 首页 预计阅读时间 0 分钟（共 0 个字， 0 张图片， 0 个链接） 「己思」是一个 开源 的在线 RSS 阅读服务，旨在为 IT…\n",
+      "originUrl": "https://ohmyrss.com/"
+    },
+    {
+      "title": "\ngrid-kiss: Keep CSS Grids simple, stupid\n",
+      "desc": "\nThis is a PostCSS plugin aiming to replace the 24 new properties brought by CSS Grids with a single one that you immediately understand when you see it. Table…\n",
+      "originUrl": "https://github.com/sylvainpolletvillard/postcss-grid-kiss"
+    },
+    {
+      "title": "\nStanford University CS231n: Convolutional Neural Networks for Visual Recognition\n",
+      "desc": "\nCoursework Prerequisites Proficiency in Python All class assignments will be in Python (and use numpy) (we provide a tutorial here for those who aren't as…\n",
+      "originUrl": "http://cs231n.stanford.edu/"
+    },
+    {
+      "title": "\n适合新媒体艺术家创作的5款可视化编程软件\n",
+      "desc": "\n今天的文章是一篇纯干货，小编将为大家介绍 目前全球领域比较适合新媒体艺术家创作的5款可视化编程软件 。在介绍这些之前，首先我想讲一下什么是可视化编程。 可视化编程 以“所见即所得”的编程思想为原则，力图实现编程工作的可视化，即随时可以看到结果，程序与结果的调整同步。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/78481405"
+    },
+    {
+      "title": "\nmirrorlang——从0设计二维内存寻址语言及vm 【目录】\n",
+      "desc": "\n软件模拟阶段实验 鹏鹏李李：一.mirrorlang的设计思路 鹏鹏李李：一.1 原子类型定义及内存寻址设计 鹏鹏李李：mirrorlang的二维化指令设计 鹏鹏李李：mirrorlang——从0设计二维内存寻址语言及vm (一.op controlflow详解)…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/114039864"
+    },
+    {
+      "title": "\n可视化编程之罪 —— 可视化编程是否真的没有未来？\n",
+      "desc": "\n…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/83674802"
+    },
+    {
+      "title": "\n我是如何用Notion来进行知识管理的\n",
+      "desc": "\n大概是无知者无畏吧，我曾一度对「知识管理」嗤之以鼻，认为不过是贩卖焦虑的概念，转而推崇「读过的书都会成为你的一部分」这类鸡汤观点。但当我日复一日花大量时间在阅读RSS、听播客上，却发现既无法帮助提升认知，又无助于沉淀输出后，我知道我错了。…\n",
+      "originUrl": "http://zoomyale.com/2020/notion_and_km/"
+    },
+    {
+      "title": "\n如何使用pegjs语法解析注释？ - Thinbug\n",
+      "desc": "\n如何使用pegjs语法解析注释？ 时间：2016-07-22 15:02:50 标签： parsing pegjs 我写了一个pegjs语法，应该解析任何类型的js / c风格的注释。然而，由于我只是设法捕获了评论本身，并且忽略了其他所有内容，因此它不能正常工作。我应该如何改变这种语法，只解析任何输入的评论？ 语法：…\n",
+      "originUrl": "https://www.thinbug.com/q/38529702"
+    },
+    {
+      "title": "\n有什么相见恨晚的知识？ - 知乎\n",
+      "desc": "\n1.拍照时，用舌头顶住上颚，会很上相，照出来也很自然。 2.早上起来后，先倒杯水，再洗漱。结束后，喝水，对肠胃特别好，而且排便也非常痛快。 3.口香糖粘在衣服上，你可以放在冰箱里冷冻一下，会特别容易去除。 4.每周坚持换洗枕巾，你会发现，脸上痘痘越来越少。 5.睡觉前，躺在床上，将腿搭在墙上，腿型会变好。…\n",
+      "originUrl": "https://www.zhihu.com/question/51534501/answer/258306954?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n政协委员在行动丨郭杨：彰显使命担当 展现时代风采——安阳网\n",
+      "desc": "\n原标题：郭杨：彰显使命担当 展现时代风采 □记者 赵晓凤 ▲在轨道交通展上，郭杨向外国客户讲解产品（资料图）…\n",
+      "originUrl": "http://www.ayrbs.com/news/2020-09/23/content_2207805.htm"
+    },
+    {
+      "title": "\nmini3d\n",
+      "desc": "\n3D软件渲染教程，并没有任何性能优化，主要向人说明如何写一个固定管线的软件渲染器。虽然主体代码只有 700行，但是麻雀虽小，五脏俱全。 特性 单个文件：源代码只有一个 mini3d.c，单个文件实现所有内容，容易阅读。 独立编译：没有任何第三方库依赖，没有复杂的工程目录。 模型标准：标准 D3D 坐标模型，左手系加…\n",
+      "originUrl": "https://github.com/skywind3000/mini3d"
+    },
+    {
+      "title": "\nNPM global install \"cannot find module\"\n",
+      "desc": "\n17 Answers 17 Active Oldest Votes 396 For anyone else running into this, I had this problem due to my npm installing into a location that's not on my NODE_PATH…\n",
+      "originUrl": "https://stackoverflow.com/questions/12594541/npm-global-install-cannot-find-module"
+    },
+    {
+      "title": "\nminGPT\n",
+      "desc": "\nA PyTorch re-implementation of GPT training. minGPT tries to be small, clean, interpretable and educational, as most of the currently available ones are a bit…\n",
+      "originUrl": "https://github.com/karpathy/minGPT"
+    },
+    {
+      "title": "\n如何用 C++ 写一个可编程软件渲染器？\n",
+      "desc": "\n今天你想用最新的 D3D12 画一个三角形，少说也要上千行代码了，对于初学者来讲，这个门槛是非常高的，太多干扰了，而一千多行代码，已经足够你重头实现一个简易版 D3D 了，为什么不呢？比起从图形 API 入门，不如从画点开始，同样一千行代码，却能让你对 GPU 的工作原理有一个直观的了解。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/182872172"
+    },
+    {
+      "title": "\nFunctional Programing with Cats\n",
+      "desc": "\nShould we be using Monads in Clojure? Functional Human Jul 5, 2019 · 11 min read In this piece I am going to explore the world of Monads for functional…\n",
+      "originUrl": "https://medium.com/@functionalhuman/functional-programing-with-cats-105d666b260e"
+    },
+    {
+      "title": "\n为什么大多数程序员不看好图形化编程？ - 知乎\n",
+      "desc": "\n其实Zachtronics都帮你想好了：因为图形化编程只适合少量的“原子操作”。 比如Infinifactory（《无限工厂》）这是3D的编程，必然要图形化： 而Spacechem（《太空化学》）这就是完整的2D图形化编程：…\n",
+      "originUrl": "https://www.zhihu.com/question/321064855/answer/1325830737?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nhaskell — 模板Haskell有什么不好的？\n",
+      "desc": "\n/ home / 中文 /模板Haskell有什么不好的？ 模板Haskell有什么不好的？ 似乎模板Haskell经常被Haskell社区视为一种​​不幸的便利。我很难准确地说出我在这方面所观察到的内容，但请考虑这几个例子 模板Haskell在“丑陋（但必要）”下列出了问题…\n",
+      "originUrl": "https://www.it-swarm.asia/zh/haskell/%E6%A8%A1%E6%9D%BFhaskell%E6%9C%89%E4%BB%80%E4%B9%88%E4%B8%8D%E5%A5%BD%E7%9A%84%EF%BC%9F/1067014246/"
+    },
+    {
+      "title": "\nTED 哪个演讲最打动你？ - 知乎\n",
+      "desc": "\n首推《 如何在你重视的事情上做得更好 》， How to get better at the things you care about 尤其适用于深陷工作泥潭，长期止步不前，难以取得长足进步的朋友 演讲者Eduardo Briceño把我们的生活分为两个区域，分别为 learning zone （学习区） 和…\n",
+      "originUrl": "https://www.zhihu.com/question/19957581/answer/1306773567?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n求非常含蓄的污污情话? - 知乎\n",
+      "desc": "\n该回答已被删除 5 秒后自动跳转至回答所在的问题页 去往首页\n",
+      "originUrl": "https://www.zhihu.com/question/399164696/answer/1307646996?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nHaskell - 维基百科，自由的百科全书\n",
+      "desc": "\nHaskell 编程范型 纯函数式 設計者 Lennart Augustsson , Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak , John Hughes , Thomas…\n",
+      "originUrl": "https://zh.wikipedia.org/wiki/Haskell"
+    },
+    {
+      "title": "\nkoalaman/shellcheck\n",
+      "desc": "\n{{ message }} master Switch branches/tags Could not load branches Nothing to show {{ refName }} default View all branches Could not load tags Nothing to show {{…\n",
+      "originUrl": "https://github.com/koalaman/shellcheck/tree/master/src/ShellCheck"
+    },
+    {
+      "title": "\nHow to Run Node.js in a Browser [Tutorial] | Hacker Noon\n",
+      "desc": "\nHow to Run Node.js in a Browser [Tutorial] November 16th 2019 13,300 reads @jiacheng JIACHENG \"Browser based bundler\" is a very interesting topic. For example,…\n",
+      "originUrl": "https://hackernoon.com/how-to-run-nodejs-in-a-browser-wc4s32by"
+    },
+    {
+      "title": "\nstackage | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror\n",
+      "desc": "\n清华大学 开源软件镜像站 HOME EVENTS BLOG RSS PODCAST MIRRORS AOSP AUR AdoptOpenJDK CPAN CRAN CTAN CocoaPods OpenMediaVault alpine anaconda anthon arch4edu archlinux…\n",
+      "originUrl": "https://mirrors.tuna.tsinghua.edu.cn/help/stackage/"
+    },
+    {
+      "title": "\nOverreacted\n",
+      "desc": "\nBefore You memo() February 23, 2021 • ☕️ 5 min read Rendering optimizations that come naturally. The WET Codebase July 13, 2020 • ☕️ 1 min read Come waste your…\n",
+      "originUrl": "https://overreacted.io/"
+    },
+    {
+      "title": "\nsetState如何知道该做什么？\n",
+      "desc": "\n当你在组件中调用 setState 的时候，你认为发生了些什么？ import React from 'react' ; import ReactDOM from 'react-dom' ; class Button extends React . Component { constructor ( props ) {…\n",
+      "originUrl": "https://overreacted.io/zh-hans/how-does-setstate-know-what-to-do/"
+    },
+    {
+      "title": "\na²＋a³＝392 怎么解？ - 知乎\n",
+      "desc": "\n该回答已被删除 5 秒后自动跳转至回答所在的问题页 去往首页\n",
+      "originUrl": "https://www.zhihu.com/question/357995704/answer/1293991286?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nHaskell Lesson：a tokenizer\n",
+      "desc": "\n收录于话题 25号当地凌晨3点50的飞机从普吉岛回到上海，回家后睡到天昏地暗，不想已经过了三天，头晕目眩中于昨天晚上奋力开始写editor，目前还是只有一个tokenizer，甚是惭愧，寥寥数笔，记载于此，自勉。 一、关于pure和impure…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzAwNjEzMDgxNw==&mid=2452131617&idx=1&sn=a1d68d18e6ae3ff35c2929d12a8099ed&chksm=8cce32cfbbb9bbd9bc27c233e6f56bd1a3ebbb2ad5a9a1247f28f672de35bcf1f84c282a4d87#rd"
+    },
+    {
+      "title": "\nbabel-standalone@6.26.0 ❘ BundlePhobia\n",
+      "desc": "\nWhat does this thing do? JavaScript bloat is more real today than it ever was. Sites continuously get bigger as more (often redundant) libraries are thrown to…\n",
+      "originUrl": "https://bundlephobia.com/result?p=babel-standalone%406.26.0"
+    },
+    {
+      "title": "\n算法分类下的所有书籍免费下载\n",
+      "desc": "\n计算机程序设计艺术・卷3 计算机程序设计艺术・卷2 计算机程序设计艺术 学习JavaScript数据结构与算法(第2版) 算法新解 算法图解 算法竞赛入门经典(第2版) 算法的乐趣 算法导论(原书第3版) 算法笔记上机训练实战指南 算法笔记 数据结构与算法分析 迷茫的旅行商 高效算法 程序员的算法趣题 算法(第4版)…\n",
+      "originUrl": "https://www.iizhi.cn/book/category/algorithm"
+    },
+    {
+      "title": "\nUNPKG\n",
+      "desc": "\nunpkg is a fast, global content delivery network for everything on npm . Use it to quickly and easily load any file from any package using a URL like:…\n",
+      "originUrl": "https://unpkg.com/"
+    },
+    {
+      "title": "\nBrowserify：浏览器加载Node.js模块 -- JavaScript 标准参考教程（alpha）\n",
+      "desc": "\nBrowserify：浏览器加载Node.js模块 来自 《JavaScript 标准参考教程（alpha）》 ，by 阮一峰 目录 重要说明：本教程已经搬迁，此处不再维护，请访问新网址： wangdoc.com/javascript 。 随着JavaScript程序逐渐模块化，在ECMAScript…\n",
+      "originUrl": "https://javascript.ruanyifeng.com/tool/browserify.html"
+    },
+    {
+      "title": "\nBrowserify\n",
+      "desc": "\nBrowserify lets you require( 'modules' ) in the browser by bundling up all of your dependencies. Get Professional Support for Browserify use Browserify from the…\n",
+      "originUrl": "http://browserify.org/"
+    },
+    {
+      "title": "\n递回 - HASKELL 趣学指南 - 极客学院Wiki\n",
+      "desc": "\n· 更新于 2018-11-28 11:00:43 递回 你好，递回！ 前面的章节中我们简要谈了一下递回。而在本章，我们会深入地了解到它为何在 Haskell 中是如此重要，能够以递回思想写出简洁优雅的程式码。…\n",
+      "originUrl": "https://wiki.jikexueyuan.com/project/haskell-guide/recursion.html"
+    },
+    {
+      "title": "\n使用 Haskell 编写灵活的 Parser （下）\n",
+      "desc": "\n原文在我博客： 使用 Haskell 编写灵活的 Parser （下） 本篇主要讲 Parser Combinator 的组合，比如二元运算符的解析以及优先级结合性的处理。 some 与 many 上篇还剩下一个内容，就是 some 和 many 。这两个函数是 Control.Applicative…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/28162006"
+    },
+    {
+      "title": "\nCodewars: Achieve mastery through challenge\n",
+      "desc": "\nSharpen your skills Challenge yourself on kata, created by thecommunity to strengthen different skills.Master your current language of choice,or expand your…\n",
+      "originUrl": "https://www.codewars.com/"
+    },
+    {
+      "title": "\n精通 Haskell 是一种怎样的体验？ - 知乎\n",
+      "desc": "\n…\n",
+      "originUrl": "https://www.zhihu.com/question/27355585/answer/36405568?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\n前端新工具--vite从入门到实战（一）\n",
+      "desc": "\n前段时间 @尤雨溪 B站直播，介绍了一款新的前端开发工具，利用了浏览器自带的import机制，无论多大的项目，都是秒开，听起来很诱人，火速看了源码，并且最近做了《前端会客厅》后，经过尤大亲自讲解了设计思路，又有了新感悟，写个文章总结以下 能和尤大当面交流vue3的设计思路…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/149033579"
+    },
+    {
+      "title": "\n第一章：入门 — Real World Haskell 中文版\n",
+      "desc": "\n第一章：入门 Haskell编程环境 在本书的前面一些章节里，我们有时候会以限制性的、简单的形式来介绍一些概念。由于Haskell是一本比较深的语言，所以一次性介绍某个主题的所有特性会令人难以接受。当基础巩固后，我们就会进行更加深入的学习。…\n",
+      "originUrl": "http://rwh.readthedocs.io/en/latest/chp/1.html"
+    },
+    {
+      "title": "\n2.2 Proof Search\n",
+      "desc": "\nNow that we know about matching, we are in a position to learn how Prolog actually searches a knowledge base to see if a query is satisfied. That is, we are now…\n",
+      "originUrl": "http://cs.union.edu/~striegnk/learn-prolog-now/html/node20.html"
+    },
+    {
+      "title": "\n下一代编程语言范式？\n",
+      "desc": "\n前言 最近状态不太好，有点懒，啥都不想干（可能发现自己岁数大了，有点闹情绪－ －|||）。想出去玩，风太大了，电视剧和动漫也看得“呕心沥血”了，因此切换下思路，就看了看下面这篇文章。我简单念叨念叨，大家看看就好，有想法的就想一想。 正题 PL知名学者Yannis…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/64492626"
+    },
+    {
+      "title": "\n己思 - Oh My RSS\n",
+      "desc": "\nGitHub - LingDong-/fishdraw: procedurally generat… check @... visibility 0 star 0 home 首页 预计阅读时间 0 分钟（共 0 个字， 0 张图片， 0 个链接） 「己思」是一个 开源 的在线 RSS 阅读服务，旨在为 IT…\n",
+      "originUrl": "https://ohmyrss.com/"
+    },
+    {
+      "title": "\ngrid-kiss: Keep CSS Grids simple, stupid\n",
+      "desc": "\nThis is a PostCSS plugin aiming to replace the 24 new properties brought by CSS Grids with a single one that you immediately understand when you see it. Table…\n",
+      "originUrl": "https://github.com/sylvainpolletvillard/postcss-grid-kiss"
+    },
+    {
+      "title": "\nStanford University CS231n: Convolutional Neural Networks for Visual Recognition\n",
+      "desc": "\nCoursework Prerequisites Proficiency in Python All class assignments will be in Python (and use numpy) (we provide a tutorial here for those who aren't as…\n",
+      "originUrl": "http://cs231n.stanford.edu/"
+    },
+    {
+      "title": "\n适合新媒体艺术家创作的5款可视化编程软件\n",
+      "desc": "\n今天的文章是一篇纯干货，小编将为大家介绍 目前全球领域比较适合新媒体艺术家创作的5款可视化编程软件 。在介绍这些之前，首先我想讲一下什么是可视化编程。 可视化编程 以“所见即所得”的编程思想为原则，力图实现编程工作的可视化，即随时可以看到结果，程序与结果的调整同步。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/78481405"
+    },
+    {
+      "title": "\nmirrorlang——从0设计二维内存寻址语言及vm 【目录】\n",
+      "desc": "\n软件模拟阶段实验 鹏鹏李李：一.mirrorlang的设计思路 鹏鹏李李：一.1 原子类型定义及内存寻址设计 鹏鹏李李：mirrorlang的二维化指令设计 鹏鹏李李：mirrorlang——从0设计二维内存寻址语言及vm (一.op controlflow详解)…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/114039864"
+    },
+    {
+      "title": "\n可视化编程之罪 —— 可视化编程是否真的没有未来？\n",
+      "desc": "\n…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/83674802"
+    },
+    {
+      "title": "\n我是如何用Notion来进行知识管理的\n",
+      "desc": "\n大概是无知者无畏吧，我曾一度对「知识管理」嗤之以鼻，认为不过是贩卖焦虑的概念，转而推崇「读过的书都会成为你的一部分」这类鸡汤观点。但当我日复一日花大量时间在阅读RSS、听播客上，却发现既无法帮助提升认知，又无助于沉淀输出后，我知道我错了。…\n",
+      "originUrl": "http://zoomyale.com/2020/notion_and_km/"
+    },
+    {
+      "title": "\nHow a Kalman filter works, in pictures | Bzarg\n",
+      "desc": "\nI have to tell you about the Kalman filter, because what it does is pretty damn amazing. Surprisingly few software engineers and scientists seem to know about…\n",
+      "originUrl": "https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/"
+    },
+    {
+      "title": "\nkalflow.png (850×1100)\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.bzarg.com/wp-content/uploads/2015/08/kalflow.png"
+    },
+    {
+      "title": "\n图说卡尔曼滤波，一份通俗易懂的教程\n",
+      "desc": "\n作者： Bzarg 编译：Bot 编者按：卡尔曼滤波（Kalman…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/39912633"
+    },
+    {
+      "title": "\n从 WebGL 到 Threejs\n",
+      "desc": "\n本文将从 demo 切入，阐述 WebGL 到 Threejs 的演进过程。 WebGL 一. WebGL 渲染管线 本文假定读者对 3d 渲染有一些了解，所以只对 webgl 的渲染管线做简单回顾。 如上图所示，一次 webgl 渲染流程大体包括三步： 写入数据（例如顶点和纹理等数据） 图元装配 光栅化及片元上色…\n",
+      "originUrl": "https://juejin.cn/post/6980229836333645855"
+    },
+    {
+      "title": "\n比特之理 » 我为什么喜欢Mathematica！|とある東雲研究所の分所\n",
+      "desc": "\n…\n",
+      "originUrl": "https://www.kylen314.com/archives/5814"
+    },
+    {
+      "title": "\n(9 封私信 / 31 条消息) 上官致远 - 知乎\n",
+      "desc": "\n本系列文章笔者与CMU团队合作发布，旨在介绍 http:// cmu-exploration.com 团队开发的系列算法。 系列(一)：CMU团队开发的全套开源自主导航算法: http:// cmu-exploration.com 系列(二)：CMU团队开发的全套开源自主导航算法——DSV Planner自主探索算法…\n",
+      "originUrl": "https://www.zhihu.com/people/stevenshichina"
+    },
+    {
+      "title": "\n深度解析卡尔曼滤波在IMU中的使用\n",
+      "desc": "\n卡尔曼滤波主要分两个步骤，预测加校正。预测是基于上一时刻的状态对当前状态进行估计，校正是根据当前状态的观测与上一时刻的估计进行综合分析，估计出系统的最优状态值，然后下一时刻接着重复这个过程；卡尔曼不断的进行迭代，它不需要大量的粒子状态输入，只需要过程量，因此它的速度很快，非常适合线性系统的状态估计。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/36374943"
+    },
+    {
+      "title": "\nJavaScript Drawing Library for Flowcharts | MindFusion\n",
+      "desc": "\nbuy now log in English Deutsch Espanol Products Suites JavaScript ASP.NET WinForms WPF Xamarin Java Silverlight Bundles Diagramming Scheduling JavaScript…\n",
+      "originUrl": "https://mindfusion.eu/javascript-diagram.html"
+    },
+    {
+      "title": "\n2021年你可能不知道的 CSS 特性（下篇）\n",
+      "desc": "\n文/ 阿里淘系 F(x) Team - 大貘 前几天在 F(x) Team.午夜识堂 和大家聊了一下 CSS 方面的话题，即 CSS 新特性 。​ 在这个话题中主要整理了有关于 CSS…\n",
+      "originUrl": "https://juejin.cn/post/6974239153269506084/"
+    },
+    {
+      "title": "\n一个基于Haskell的Parser Generator\n",
+      "desc": "\n引论 在处理计算机语言的问题中,我们常常需要把代码文本转化为另一种可操作的格式,而这个过程往往是琐碎而繁杂的,而一个Parser Generator便能很好地帮我们解决这个问题. 这篇文章将主要向你展示如何用Haskell制造一个可用的Parser Generator--ParGer. DSL的设计…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/79455244"
+    },
+    {
+      "title": "\n探索 React 的内在 —— postMessage & Scheduler - SegmentFault 思否\n",
+      "desc": "\npostMessage & Scheduler 写在前面 本文包含了一定量的源码讲解，其中笔者写入了一些内容来替代官方注释（就是写了差不多等于没写那种），若读者更青睐于原始的代码， 可移步 官方仓库 ，结合起来阅读。也正因为这个原因，横屏或 PC 的阅读体验也许会更佳（代码可能需要左右滑动） 本文没有显式的涉及…\n",
+      "originUrl": "https://segmentfault.com/a/1190000022942008"
+    },
+    {
+      "title": "\nYours for the making - Instructables\n",
+      "desc": "\nInstructables is a community for people who like to make things. Come explore, share, and make your next project with us! Instructables is a community for…\n",
+      "originUrl": "https://www.instructables.com/"
+    },
+    {
+      "title": "\nubuntu搭建opengl环境 | sunwengang blog\n",
+      "desc": "\n安装 1 2 3 4 sudo apt-get install build-essential sudo apt-get install libgl1-mesa-dev sudo apt-get install libglu1-mesa-dev sudo apt-get install freeglut3-dev…\n",
+      "originUrl": "https://alonealive.github.io/Blog/2019/08/20/2019/190820_opengl_setup/"
+    },
+    {
+      "title": "\nFunctors, Applicatives, And Monads In Pictures - adit.io\n",
+      "desc": "\n原作者写于 April 17, 2013 这是个简单的值: 我们都知道怎么加一个函数应用到这个值上边: 很简单了. 我们来扩展一下, 让任意的值是在一个上下文当中. 现在的情况你可以想象一个可以把值放进去的盒子: 现在你把一个函数应用到这个值的时候, 根据其上下文 你会得到不同的结果. 这就是 Functor,…\n",
+      "originUrl": "http://jiyinyiyong.github.io/monads-in-pictures/"
+    },
+    {
+      "title": "\n我用80行 Haskell 代码击败了 C 语言-InfoQ\n",
+      "desc": "\n我做了一次小尝试，使用了 80 行 Haskell 代码来构建 wc 程序，并且最终得到的结果是比手动调优过的 C 语言实现更快。 作为参考，在开始讲述我的具体实现过程之前，先介绍一下准备工作。我使用的是 Mac 版本的 wc ，具体实现的源代码可以点击 这里 查看。 需要注意的是，本文并不是想要表达 Haskell…\n",
+      "originUrl": "https://www.infoq.cn/article/teaiwqhpuj9qxs1vzhih"
+    },
+    {
+      "title": "\n21ic电子技术开发论坛，电子工程师开源社区\n",
+      "desc": "\n版块 查看更多 综合技术交流 更多>> 技术交流 模拟技术 新手园地 物联网技术 电源技术 通信技术 电路赏析 仪器仪表 RISC-V 为什么我这个没办法延时啊 li632129415 初次使用HC32F460,问问内部HRC时钟使用问题 yxl12345678 进入sw调试即全速运行 SUITANG88…\n",
+      "originUrl": "https://bbs.21ic.com/"
+    },
+    {
+      "title": "\n通過寫入/dev/input/mice來控製鼠標 - Ubuntu問答\n",
+      "desc": "\n問題描述 我使用的是Ubuntu 12.04。對於我的一個應用程序，我需要使用腳本在軟件中控製鼠標。 我知道鼠標設備是 /dev/input/mice 。如果我執行 cat /dev/input/mice 然後移動鼠標，我會看到很多輸出被轉儲到屏幕上。 現在我想刪除鼠標，並有一個腳本寫入 /dev/input/mice…\n",
+      "originUrl": "https://ubuntuqa.com/zh-tw/article/6695.html"
+    },
+    {
+      "title": "\n自用树莓派笔记2: 使用clash为局域网内所有设备添加网络代理\n",
+      "desc": "\n最近使用的代理是v〇ray，Mac上用ClashX非常方便，但是iOS平台上支持v〇ray的似乎都要付费。因为手机上也不常需要代理，就打算在家里的局域网上利用树莓派挂clash，实现至少在家里各个设备可以自动走代理上网。 本文的风格和之前一样，主要参考官方文档，作最小的改动以实现基本的功能。属于自用笔记，并不算详细。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/169524202"
+    },
+    {
+      "title": "\n3.5inch RPi Display - LCD wiki\n",
+      "desc": "\n语言选择(Other languages:)： 中文 EN 目录 [] 产品视频 产品图片 产品介绍 320×480 分辨率 电阻式触摸控制 大小与树莓派相同，完美兼容并可直接插入任何版本树莓派(Raspberry Pi A, A+, B, B+, 2B, 3B, 3B+,4B)…\n",
+      "originUrl": "http://www.lcdwiki.com/zh/3.5inch_RPi_Display"
+    },
+    {
+      "title": "\n操作系统\n",
+      "desc": "\n📝 EDIT DOCUMENT 在用户和计算机硬件之间的中介 OS是个软件——一个虚拟化计算机的程序 OS的作用： 物理机层面（CPU Memory Devices）：分配资源 虚拟机层面（Application）：控制程序 No OS->Simple Batch Systems->Batch…\n",
+      "originUrl": "https://aopstudio.github.io/docs/"
+    },
+    {
+      "title": "\nCMakeLists使用：使用cmake构建工程的详细过程\n",
+      "desc": "\n…\n",
+      "originUrl": "https://blog.nicehuster.cn/2018/04/20/Cmake/index.html"
+    },
+    {
+      "title": "\nV8环境搭建，100%成功版\n",
+      "desc": "\n0x00 前言…\n",
+      "originUrl": "https://mem2019.github.io/jekyll/update/2019/07/18/V8-Env-Config.html"
+    },
+    {
+      "title": "\njs >>> 0 谈谈 js 中的位运算\n",
+      "desc": "\n晚上在读 lodash 源码的时候，看到 baseSlice 中有这样一行代码： start >>>= 0; 这不就是无符号右移嘛,当时第一感觉是是为了取绝对值，后来发现并不是，尝试了多次之后，发现情况有点诡异啊，我们使用 chrome 调试工具运行一下 js 中的无符号右移 0 位。 chrome console…\n",
+      "originUrl": "https://www.jianshu.com/p/588eb74b5a03"
+    },
+    {
+      "title": "\n为什么源码里经常出现这种骚操作？\n",
+      "desc": "\n网易首页 > 网易号 > 正文 申请入驻 2021-03-22 22:40:00 来源: 开源中国 举报 210 分享至 用微信扫码二维码 分享至好友和朋友圈 位运算这个概念并不陌生，大多数程序员在进入这个领域的时候或多或少都接触过位运算，估计当时都写过不少练习题的。…\n",
+      "originUrl": "https://www.163.com/dy/article/G5NQE3K40511CUMI.html"
+    },
+    {
+      "title": "\nCreating a Deno plugin with Rust\n",
+      "desc": "\nThis blog post is part of a a blog post series where we use Deno to build different applications. We’ll go from CLIs to scrapping tools, among others. You can…\n",
+      "originUrl": "https://alexandrempsantos.com/deno/creating-a-deno-plugin/"
+    },
+    {
+      "title": "\n博文列表 - 豆米的博客\n",
+      "desc": "\n该文章当前使用的nodejs版本是v13.1.0(网上那些分析nodejs源码的文章不写清基于的版本都是耍流氓)，非常干货的一篇文章，请耐心阅读，否则建议收藏 阅读本篇文章之前请先阅读前置文章： [译文]V8学习的高级进阶 nodejs深入学习系列之v8基础篇 如何正确地使用v8嵌入到我们的C++应用中…\n",
+      "originUrl": "https://blog.5udou.cn/#/blog/list"
+    },
+    {
+      "title": "\nnodejs深入学习系列之libuv基础篇(一) - K码农\n",
+      "desc": "\n学习完nodejs基石之一的v8基础篇(还没看过的童鞋请跳转到这里： nodejs深入学习系列之v8基础篇 )，我们这次将要继续学习另外一块基石：libuv。关于libuv的设计思想，我已经翻译成中文，还没看过的童鞋还是请跳转到这里： [译文]libuv设计思想概述…\n",
+      "originUrl": "http://kmanong.top/kmn/qxw/form/article?cate=58&id=18586"
+    },
+    {
+      "title": "\nMy Site\n",
+      "desc": "\nA simple and quick text parsing tutorial using Haskell Posted on March 6, 2015 I was just browsing Hacker News yesterday and came across a simple whitespace…\n",
+      "originUrl": "https://codygman.github.io/posts/2015-03-06-simple-quick-text-parsing-with-haskell.html"
+    },
+    {
+      "title": "\nThe TensorFlow Blog\n",
+      "desc": "\nTensorFlow.js · TFX Speed-up your sites with web-page prefetching using Machine Learning May 18, 2021 — Posted by Minko Gechev, David Zats, Na Li, Ping Yu,…\n",
+      "originUrl": "https://blog.tensorflow.org/search/label/TensorFlow.js?max-results=20"
+    },
+    {
+      "title": "\nAccess an alternate internet with OpenNIC\n",
+      "desc": "\nAccess an alternate internet with OpenNIC Take a detour on the super information highway. 30 Apr 2021 Feed 37 up Image by : Opensource.com x Subscribe now Get…\n",
+      "originUrl": "https://opensource.com/article/21/4/opennic-internet"
+    },
+    {
+      "title": "\n终于有人把内卷和囚徒困境讲明白了\n",
+      "desc": "\n收录于话题 以下文章来源于大数据DT ，作者王见现 导读： 内卷不但不会创造价值，而且会危害每一个人。 01 小镇的故事 1. 什么是内卷 很久很久以前，地球上有一个小镇。小镇上有很多鞋店，这些鞋店每天上午10点开门，中午12点到下午2点午休，下午2点到晚上6点继续营业；每周一至周五营业5天，周末休息。…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzI1MTIzMzI2MA==&mid=2650573771&idx=1&sn=5bec4392281976dd4342f1e31a51ee7d&chksm=f1fe3d48c689b45e965900e5907b66ec89fcac441a137f2ce2175ecc5677e367beafeaef708b#rd"
+    },
+    {
+      "title": "\n中銀國際證券有限公司\n",
+      "desc": "\n\n",
+      "originUrl": "https://trade.bocionline.com/OnlineTrade/index.htm?locale=zh_HK"
+    },
+    {
+      "title": "\n今日热榜\n",
+      "desc": "\n1\n苹果跌3500亿，特斯拉跌2600亿，中概股全线大跌，科技股昨夜发生了什么？\n",
+      "originUrl": "https://tophub.today/"
+    },
+    {
+      "title": "\nZZKIA: 诺基亚短信图片生成器\n",
+      "desc": "\n诺基亚短信图片生成器 绿色包浆 生成 保存 微信分享 捏脸模拟器 同人文生成器 外卖代金券 长按保存图片(失败请使用微信分享) 点击进入「绝绝子生成器」 建议 | 合作联系 | 广告位 Star 扫描下方二维码，快速分享给微信好友。 扫描下方二维码，体验更多机型 微信搜索 「捏了个脸」…\n",
+      "originUrl": "https://zzkia.noddl.me/"
+    },
+    {
+      "title": "\nHome\n",
+      "desc": "\nM Markdown 编辑器 支持微信主题的在线 Markdown 编辑器 N npm库在线执行 在浏览器控制台中在线运行调试与测试 npm 中的库 H HTML To Markdown HTML 实时转化 Markdown，支持表格、代码块等复杂语法 大 大前端技术栈图标大全 大前端技术栈的 SVG 图标 React…\n",
+      "originUrl": "https://devtool.tech/"
+    },
+    {
+      "title": "\nLBRY Credits(LBC) 币价，图表，市值以及其他指标 | CoinMarketCap\n",
+      "desc": "\nLBRY Credits Chart 1D 7D 1M 3M 1Y YTD ALL LOG CNY BTC Want more data? Check out our API How do you feel about LBRY Credits today? Vote to see community results…\n",
+      "originUrl": "https://coinmarketcap.com/zh/currencies/library-credit/"
+    },
+    {
+      "title": "\ngpt2 fine short - Google 搜索\n",
+      "desc": "\nAny time All results All results Verbatim Guide to fine-tuning Text Generation models: GPT-2, GPT-Neo and T5 towardsdatascience.com ›…\n",
+      "originUrl": "https://www.google.com.hk/search?q=gpt2+fine+short"
+    },
+    {
+      "title": "\nMLS - Map\n",
+      "desc": "\nThis map shows areas in which our stumbling community has collected data samples. The map shows general areas in which we have data samples. It does not show…\n",
+      "originUrl": "https://location.services.mozilla.com/map"
+    },
+    {
+      "title": "\n比特币/Bitcoin小科普及挖矿指南\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.atatech.org/articles/200427?flag_data_from=flag_data_from%3Dhome_newest_article&spm=ata.home.0.0.11fd7536wZ6aPx"
+    },
+    {
+      "title": "\n一次数据中心被挖矿排查\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.atatech.org/articles/200507?flag_data_from=flag_data_from%3Dhome_newest_article&spm=ata.home.0.0.11fd7536wZ6aPx"
+    },
+    {
+      "title": "\nHow a Kalman filter works, in pictures | Bzarg\n",
+      "desc": "\nI have to tell you about the Kalman filter, because what it does is pretty damn amazing. Surprisingly few software engineers and scientists seem to know about…\n",
+      "originUrl": "https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/"
+    },
+    {
+      "title": "\nkalflow.png (850×1100)\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.bzarg.com/wp-content/uploads/2015/08/kalflow.png"
+    },
+    {
+      "title": "\n图说卡尔曼滤波，一份通俗易懂的教程\n",
+      "desc": "\n作者： Bzarg 编译：Bot 编者按：卡尔曼滤波（Kalman…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/39912633"
+    },
+    {
+      "title": "\n从 WebGL 到 Threejs\n",
+      "desc": "\n本文将从 demo 切入，阐述 WebGL 到 Threejs 的演进过程。 WebGL 一. WebGL 渲染管线 本文假定读者对 3d 渲染有一些了解，所以只对 webgl 的渲染管线做简单回顾。 如上图所示，一次 webgl 渲染流程大体包括三步： 写入数据（例如顶点和纹理等数据） 图元装配 光栅化及片元上色…\n",
+      "originUrl": "https://juejin.cn/post/6980229836333645855"
+    },
+    {
+      "title": "\n比特之理 » 我为什么喜欢Mathematica！|とある東雲研究所の分所\n",
+      "desc": "\n…\n",
+      "originUrl": "https://www.kylen314.com/archives/5814"
+    },
+    {
+      "title": "\n(9 封私信 / 31 条消息) 上官致远 - 知乎\n",
+      "desc": "\n本系列文章笔者与CMU团队合作发布，旨在介绍 http:// cmu-exploration.com 团队开发的系列算法。 系列(一)：CMU团队开发的全套开源自主导航算法: http:// cmu-exploration.com 系列(二)：CMU团队开发的全套开源自主导航算法——DSV Planner自主探索算法…\n",
+      "originUrl": "https://www.zhihu.com/people/stevenshichina"
+    },
+    {
+      "title": "\n深度解析卡尔曼滤波在IMU中的使用\n",
+      "desc": "\n卡尔曼滤波主要分两个步骤，预测加校正。预测是基于上一时刻的状态对当前状态进行估计，校正是根据当前状态的观测与上一时刻的估计进行综合分析，估计出系统的最优状态值，然后下一时刻接着重复这个过程；卡尔曼不断的进行迭代，它不需要大量的粒子状态输入，只需要过程量，因此它的速度很快，非常适合线性系统的状态估计。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/36374943"
+    },
+    {
+      "title": "\nJavaScript Drawing Library for Flowcharts | MindFusion\n",
+      "desc": "\nbuy now log in English Deutsch Espanol Products Suites JavaScript ASP.NET WinForms WPF Xamarin Java Silverlight Bundles Diagramming Scheduling JavaScript…\n",
+      "originUrl": "https://mindfusion.eu/javascript-diagram.html"
+    },
+    {
+      "title": "\n2021年你可能不知道的 CSS 特性（下篇）\n",
+      "desc": "\n文/ 阿里淘系 F(x) Team - 大貘 前几天在 F(x) Team.午夜识堂 和大家聊了一下 CSS 方面的话题，即 CSS 新特性 。​ 在这个话题中主要整理了有关于 CSS…\n",
+      "originUrl": "https://juejin.cn/post/6974239153269506084/"
+    },
+    {
+      "title": "\n一个基于Haskell的Parser Generator\n",
+      "desc": "\n引论 在处理计算机语言的问题中,我们常常需要把代码文本转化为另一种可操作的格式,而这个过程往往是琐碎而繁杂的,而一个Parser Generator便能很好地帮我们解决这个问题. 这篇文章将主要向你展示如何用Haskell制造一个可用的Parser Generator--ParGer. DSL的设计…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/79455244"
+    },
+    {
+      "title": "\n探索 React 的内在 —— postMessage & Scheduler - SegmentFault 思否\n",
+      "desc": "\npostMessage & Scheduler 写在前面 本文包含了一定量的源码讲解，其中笔者写入了一些内容来替代官方注释（就是写了差不多等于没写那种），若读者更青睐于原始的代码， 可移步 官方仓库 ，结合起来阅读。也正因为这个原因，横屏或 PC 的阅读体验也许会更佳（代码可能需要左右滑动） 本文没有显式的涉及…\n",
+      "originUrl": "https://segmentfault.com/a/1190000022942008"
+    },
+    {
+      "title": "\nYours for the making - Instructables\n",
+      "desc": "\nInstructables is a community for people who like to make things. Come explore, share, and make your next project with us! Instructables is a community for…\n",
+      "originUrl": "https://www.instructables.com/"
+    },
+    {
+      "title": "\nubuntu搭建opengl环境 | sunwengang blog\n",
+      "desc": "\n安装 1 2 3 4 sudo apt-get install build-essential sudo apt-get install libgl1-mesa-dev sudo apt-get install libglu1-mesa-dev sudo apt-get install freeglut3-dev…\n",
+      "originUrl": "https://alonealive.github.io/Blog/2019/08/20/2019/190820_opengl_setup/"
+    },
+    {
+      "title": "\nFunctors, Applicatives, And Monads In Pictures - adit.io\n",
+      "desc": "\n原作者写于 April 17, 2013 这是个简单的值: 我们都知道怎么加一个函数应用到这个值上边: 很简单了. 我们来扩展一下, 让任意的值是在一个上下文当中. 现在的情况你可以想象一个可以把值放进去的盒子: 现在你把一个函数应用到这个值的时候, 根据其上下文 你会得到不同的结果. 这就是 Functor,…\n",
+      "originUrl": "http://jiyinyiyong.github.io/monads-in-pictures/"
+    },
+    {
+      "title": "\n我用80行 Haskell 代码击败了 C 语言-InfoQ\n",
+      "desc": "\n我做了一次小尝试，使用了 80 行 Haskell 代码来构建 wc 程序，并且最终得到的结果是比手动调优过的 C 语言实现更快。 作为参考，在开始讲述我的具体实现过程之前，先介绍一下准备工作。我使用的是 Mac 版本的 wc ，具体实现的源代码可以点击 这里 查看。 需要注意的是，本文并不是想要表达 Haskell…\n",
+      "originUrl": "https://www.infoq.cn/article/teaiwqhpuj9qxs1vzhih"
+    },
+    {
+      "title": "\n21ic电子技术开发论坛，电子工程师开源社区\n",
+      "desc": "\n版块 查看更多 综合技术交流 更多>> 技术交流 模拟技术 新手园地 物联网技术 电源技术 通信技术 电路赏析 仪器仪表 RISC-V 为什么我这个没办法延时啊 li632129415 初次使用HC32F460,问问内部HRC时钟使用问题 yxl12345678 进入sw调试即全速运行 SUITANG88…\n",
+      "originUrl": "https://bbs.21ic.com/"
+    },
+    {
+      "title": "\n通過寫入/dev/input/mice來控製鼠標 - Ubuntu問答\n",
+      "desc": "\n問題描述 我使用的是Ubuntu 12.04。對於我的一個應用程序，我需要使用腳本在軟件中控製鼠標。 我知道鼠標設備是 /dev/input/mice 。如果我執行 cat /dev/input/mice 然後移動鼠標，我會看到很多輸出被轉儲到屏幕上。 現在我想刪除鼠標，並有一個腳本寫入 /dev/input/mice…\n",
+      "originUrl": "https://ubuntuqa.com/zh-tw/article/6695.html"
+    },
+    {
+      "title": "\n自用树莓派笔记2: 使用clash为局域网内所有设备添加网络代理\n",
+      "desc": "\n最近使用的代理是v〇ray，Mac上用ClashX非常方便，但是iOS平台上支持v〇ray的似乎都要付费。因为手机上也不常需要代理，就打算在家里的局域网上利用树莓派挂clash，实现至少在家里各个设备可以自动走代理上网。 本文的风格和之前一样，主要参考官方文档，作最小的改动以实现基本的功能。属于自用笔记，并不算详细。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/169524202"
+    },
+    {
+      "title": "\n3.5inch RPi Display - LCD wiki\n",
+      "desc": "\n语言选择(Other languages:)： 中文 EN 目录 [] 产品视频 产品图片 产品介绍 320×480 分辨率 电阻式触摸控制 大小与树莓派相同，完美兼容并可直接插入任何版本树莓派(Raspberry Pi A, A+, B, B+, 2B, 3B, 3B+,4B)…\n",
+      "originUrl": "http://www.lcdwiki.com/zh/3.5inch_RPi_Display"
+    },
+    {
+      "title": "\n操作系统\n",
+      "desc": "\n📝 EDIT DOCUMENT 在用户和计算机硬件之间的中介 OS是个软件——一个虚拟化计算机的程序 OS的作用： 物理机层面（CPU Memory Devices）：分配资源 虚拟机层面（Application）：控制程序 No OS->Simple Batch Systems->Batch…\n",
+      "originUrl": "https://aopstudio.github.io/docs/"
+    },
+    {
+      "title": "\nCMakeLists使用：使用cmake构建工程的详细过程\n",
+      "desc": "\n…\n",
+      "originUrl": "https://blog.nicehuster.cn/2018/04/20/Cmake/index.html"
+    },
+    {
+      "title": "\nV8环境搭建，100%成功版\n",
+      "desc": "\n0x00 前言…\n",
+      "originUrl": "https://mem2019.github.io/jekyll/update/2019/07/18/V8-Env-Config.html"
+    },
+    {
+      "title": "\njs >>> 0 谈谈 js 中的位运算\n",
+      "desc": "\n晚上在读 lodash 源码的时候，看到 baseSlice 中有这样一行代码： start >>>= 0; 这不就是无符号右移嘛,当时第一感觉是是为了取绝对值，后来发现并不是，尝试了多次之后，发现情况有点诡异啊，我们使用 chrome 调试工具运行一下 js 中的无符号右移 0 位。 chrome console…\n",
+      "originUrl": "https://www.jianshu.com/p/588eb74b5a03"
+    },
+    {
+      "title": "\n为什么源码里经常出现这种骚操作？\n",
+      "desc": "\n网易首页 > 网易号 > 正文 申请入驻 2021-03-22 22:40:00 来源: 开源中国 举报 210 分享至 用微信扫码二维码 分享至好友和朋友圈 位运算这个概念并不陌生，大多数程序员在进入这个领域的时候或多或少都接触过位运算，估计当时都写过不少练习题的。…\n",
+      "originUrl": "https://www.163.com/dy/article/G5NQE3K40511CUMI.html"
+    },
+    {
+      "title": "\nCreating a Deno plugin with Rust\n",
+      "desc": "\nThis blog post is part of a a blog post series where we use Deno to build different applications. We’ll go from CLIs to scrapping tools, among others. You can…\n",
+      "originUrl": "https://alexandrempsantos.com/deno/creating-a-deno-plugin/"
+    },
+    {
+      "title": "\n博文列表 - 豆米的博客\n",
+      "desc": "\n该文章当前使用的nodejs版本是v13.1.0(网上那些分析nodejs源码的文章不写清基于的版本都是耍流氓)，非常干货的一篇文章，请耐心阅读，否则建议收藏 阅读本篇文章之前请先阅读前置文章： [译文]V8学习的高级进阶 nodejs深入学习系列之v8基础篇 如何正确地使用v8嵌入到我们的C++应用中…\n",
+      "originUrl": "https://blog.5udou.cn/#/blog/list"
+    },
+    {
+      "title": "\nnodejs深入学习系列之libuv基础篇(一) - K码农\n",
+      "desc": "\n学习完nodejs基石之一的v8基础篇(还没看过的童鞋请跳转到这里： nodejs深入学习系列之v8基础篇 )，我们这次将要继续学习另外一块基石：libuv。关于libuv的设计思想，我已经翻译成中文，还没看过的童鞋还是请跳转到这里： [译文]libuv设计思想概述…\n",
+      "originUrl": "http://kmanong.top/kmn/qxw/form/article?cate=58&id=18586"
+    },
+    {
+      "title": "\nMy Site\n",
+      "desc": "\nA simple and quick text parsing tutorial using Haskell Posted on March 6, 2015 I was just browsing Hacker News yesterday and came across a simple whitespace…\n",
+      "originUrl": "https://codygman.github.io/posts/2015-03-06-simple-quick-text-parsing-with-haskell.html"
+    },
+    {
+      "title": "\nThe TensorFlow Blog\n",
+      "desc": "\nTensorFlow.js · TFX Speed-up your sites with web-page prefetching using Machine Learning May 18, 2021 — Posted by Minko Gechev, David Zats, Na Li, Ping Yu,…\n",
+      "originUrl": "https://blog.tensorflow.org/search/label/TensorFlow.js?max-results=20"
+    },
+    {
+      "title": "\nAccess an alternate internet with OpenNIC\n",
+      "desc": "\nAccess an alternate internet with OpenNIC Take a detour on the super information highway. 30 Apr 2021 Feed 37 up Image by : Opensource.com x Subscribe now Get…\n",
+      "originUrl": "https://opensource.com/article/21/4/opennic-internet"
+    },
+    {
+      "title": "\n终于有人把内卷和囚徒困境讲明白了\n",
+      "desc": "\n收录于话题 以下文章来源于大数据DT ，作者王见现 导读： 内卷不但不会创造价值，而且会危害每一个人。 01 小镇的故事 1. 什么是内卷 很久很久以前，地球上有一个小镇。小镇上有很多鞋店，这些鞋店每天上午10点开门，中午12点到下午2点午休，下午2点到晚上6点继续营业；每周一至周五营业5天，周末休息。…\n",
+      "originUrl": "http://mp.weixin.qq.com/s?__biz=MzI1MTIzMzI2MA==&mid=2650573771&idx=1&sn=5bec4392281976dd4342f1e31a51ee7d&chksm=f1fe3d48c689b45e965900e5907b66ec89fcac441a137f2ce2175ecc5677e367beafeaef708b#rd"
+    },
+    {
+      "title": "\n中銀國際證券有限公司\n",
+      "desc": "\n\n",
+      "originUrl": "https://trade.bocionline.com/OnlineTrade/index.htm?locale=zh_HK"
+    },
+    {
+      "title": "\n今日热榜\n",
+      "desc": "\n1\n苹果跌3500亿，特斯拉跌2600亿，中概股全线大跌，科技股昨夜发生了什么？\n",
+      "originUrl": "https://tophub.today/"
+    },
+    {
+      "title": "\nZZKIA: 诺基亚短信图片生成器\n",
+      "desc": "\n诺基亚短信图片生成器 绿色包浆 生成 保存 微信分享 捏脸模拟器 同人文生成器 外卖代金券 长按保存图片(失败请使用微信分享) 点击进入「绝绝子生成器」 建议 | 合作联系 | 广告位 Star 扫描下方二维码，快速分享给微信好友。 扫描下方二维码，体验更多机型 微信搜索 「捏了个脸」…\n",
+      "originUrl": "https://zzkia.noddl.me/"
+    },
+    {
+      "title": "\nHome\n",
+      "desc": "\nM Markdown 编辑器 支持微信主题的在线 Markdown 编辑器 N npm库在线执行 在浏览器控制台中在线运行调试与测试 npm 中的库 H HTML To Markdown HTML 实时转化 Markdown，支持表格、代码块等复杂语法 大 大前端技术栈图标大全 大前端技术栈的 SVG 图标 React…\n",
+      "originUrl": "https://devtool.tech/"
+    },
+    {
+      "title": "\nLBRY Credits(LBC) 币价，图表，市值以及其他指标 | CoinMarketCap\n",
+      "desc": "\nLBRY Credits Chart 1D 7D 1M 3M 1Y YTD ALL LOG CNY BTC Want more data? Check out our API How do you feel about LBRY Credits today? Vote to see community results…\n",
+      "originUrl": "https://coinmarketcap.com/zh/currencies/library-credit/"
+    },
+    {
+      "title": "\ngpt2 fine short - Google 搜索\n",
+      "desc": "\nAny time All results All results Verbatim Guide to fine-tuning Text Generation models: GPT-2, GPT-Neo and T5 towardsdatascience.com ›…\n",
+      "originUrl": "https://www.google.com.hk/search?q=gpt2+fine+short"
+    },
+    {
+      "title": "\nMLS - Map\n",
+      "desc": "\nThis map shows areas in which our stumbling community has collected data samples. The map shows general areas in which we have data samples. It does not show…\n",
+      "originUrl": "https://location.services.mozilla.com/map"
+    },
+    {
+      "title": "\n比特币/Bitcoin小科普及挖矿指南\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.atatech.org/articles/200427?flag_data_from=flag_data_from%3Dhome_newest_article&spm=ata.home.0.0.11fd7536wZ6aPx"
+    },
+    {
+      "title": "\n一次数据中心被挖矿排查\n",
+      "desc": "\n\n",
+      "originUrl": "https://www.atatech.org/articles/200507?flag_data_from=flag_data_from%3Dhome_newest_article&spm=ata.home.0.0.11fd7536wZ6aPx"
+    },
+    {
+      "title": "\n(5 封私信) 1992年的中国发生了什么？【激荡四十年·1992】 - 知乎\n",
+      "desc": "\n大象放映室 电影从业者 视频活动 知识充电站：续航社科人文 今天我们继续聊激荡四十年之1992年。 发布于 09-15 · 47.8 万次播放 改革开放四十年 中国历史 科普知识 人文历史 社会 财经 153 条评论 写下你的评论... Gustav-Du 09-15…\n",
+      "originUrl": "https://www.zhihu.com/zvideo/1421541896364118016"
+    },
+    {
+      "title": "\n(4条消息) 教你用Python爬虫股票评论，简单分析股民用户情绪_京庐空间-CSDN博客_股吧评论爬虫\n",
+      "desc": "\n一、背景 股民是网络用户的一大群体，他们的网络情绪在一定程度上反映了该股票的情况，也反映了股市市场的波动情况。作为一只时间充裕的研究僧，我课余时间准备写个小代码get一下股民的评论数据，分析用户情绪的走势。代码还会修改，因为结果不准确，哈哈！ 二、数据来源…\n",
+      "originUrl": "https://blog.csdn.net/qq_36510261/article/details/78792197"
+    },
+    {
+      "title": "\n卡尔曼滤波器及其在云台控制中的应用\n",
+      "desc": "\n0. 前言 背景 在5月份结束的ICRA RoboMaster人工智能挑战赛中，大疆创新机器人队几乎横扫所有参赛队伍，取得优异成绩。 自动机器人凝聚了算法组在定位、导航、决策、目标识别等各个方面无数心血。作为一个嵌入式软件组的成员，今天我来谈谈我在云台控制和目标跟随上做的一些微小的工作。…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/38745950"
+    },
+    {
+      "title": "\nESP32 CAM 开发技术一 | 码农家园\n",
+      "desc": "\n一、设备简介 设备名称：esp32 Cam Cpu:双核1.5 运行电压：5v 调试电压：3.3v 内存： 二、开发环境 【windows10】 ArduinoIDE 安装1.8版本的arduinoIDE,安装好以后点击File/Preference，在settings面板中将ESP32开发板地址写入到下方…\n",
+      "originUrl": "https://www.codenong.com/jsc73a77fcebac/"
+    },
+    {
+      "title": "\nAlda\n",
+      "desc": "\ninstall tutorial cheat sheet docs community Alda is a text-based programming language for music composition. It allows youto write and play back music using…\n",
+      "originUrl": "https://alda.io/"
+    },
+    {
+      "title": "\nNode.js 调试 源码 - 掘金\n",
+      "desc": "\n发布沸点 关于作者 下载手机APP 一个帮助开发者成长的社区 目录 分享\n",
+      "originUrl": "https://juejin.cn/post/6844903832023990285"
+    },
+    {
+      "title": "\nAudio Extractor - Extract sound from video online\n",
+      "desc": "\nContact Us Your feedback is important to us. Please use this form to report a bug or suggest a feature. Thank you Your message has been sent Go Premium Premium…\n",
+      "originUrl": "https://audio-extractor.net/"
+    },
+    {
+      "title": "\nShortcuts\n",
+      "desc": "\nNot Found Unable to find the shortcut.\n",
+      "originUrl": "https://www.icloud.com/shortcuts/84ae3d6f0e6c4fffb128619fe6914e75"
+    },
+    {
+      "title": "\nhttps://github.com/css-doodle/css-doodle\n",
+      "desc": "\n/ css-doodle Public Sponsor Sponsor css-doodle/css-doodle Unwatch Stop ignoring Watch Notifications 53 159 A web component for drawing patterns with CSS.…\n",
+      "originUrl": "https://github.com/css-doodle/css-doodle"
+    },
+    {
+      "title": "\n滚动视差？CSS 不在话下 - ChokCoco - 博客园\n",
+      "desc": "\n何为滚动视差 视差滚动（Parallax Scrolling）是指让多层背景以不同的速度移动，形成立体的运动效果，带来非常出色的视觉体验。 作为网页设计的热点趋势，越来越多的网站应用了这项技术。 通常而言，滚动视差在前端需要辅助 Javascript 才能实现。当然，其实 CSS…\n",
+      "originUrl": "https://www.cnblogs.com/coco1s/p/9453938.html"
+    },
+    {
+      "title": "\n使用阴影实现文字的 3D 氖灯效果\n",
+      "desc": "\n创建于 2021-08-18 20:39:03 阅读 1227 次 6 人表示喜欢 利用阴影实现的 3D 氖灯效果。 利用 text-shadow 叠加多层文字阴影 利用 animation 动态改变阴影颜色 HTML：   CSS 3D  p >  NEON \n",
+      "originUrl": "https://csscoco.com/inspiration/"
+    },
+    {
+      "title": "\nUbuntu死机解决方法汇总\n",
+      "desc": "\n作者 谢恩铭，公众号「程序员联盟」（微信号：coderhub）。 转载请注明出处。 原文： https://www.jianshu.com/p/36fb9eed82a3 之前的 亲测 | Ubuntu 16.04升级 中, 介绍了Ubuntu 16.04的些许好处。…\n",
+      "originUrl": "https://www.jianshu.com/p/36fb9eed82a3"
+    },
+    {
+      "title": "\nAndroid浏览器下line-height垂直居中为什么会偏离？ - 知乎\n",
+      "desc": "\n这个问题通过css是无法解决的，即使解决了也是一种通过微调来实现的hack方法，因为文字在content-area内部渲染的时候已经偏移了，而css的居中方案都是控制的整个content-area的居中。 导致这个问题的本质原因可能是Android在排版计算的时候参考了primyfont字体的相关属性（即HHead…\n",
+      "originUrl": "https://www.zhihu.com/question/39516424/answer/274374076?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nGenerate random BMP in CLI\n",
+      "desc": "\nThis question shows research effort; it is useful and clear 4 This question does not show any research effort; it is unclear or not useful Bookmark this…\n",
+      "originUrl": "https://stackoverflow.com/questions/29011391/generate-random-bmp-in-cli"
+    },
+    {
+      "title": "\nAlloyTeam 大事件倒计时 3 天干货呈献–React 技术博文 | AlloyTeam\n",
+      "desc": "\nReact 诞生以来，我们团队就对其保持关注。下面是我们博客中有关 React 技术的一些探讨 React 初探 http://www.alloyteam.com/2015/04/react-explore/ React 虚拟 DOM 浅析…\n",
+      "originUrl": "http://www.alloyteam.com/2015/11/alloyteam-event-countdown-3-days-dry-presenting-react-technology-blog/"
+    },
+    {
+      "title": "\nLinux 内核揭密简介\n",
+      "desc": "\n本开源书 forked from Linux 内核揭密 ，作者为 MintCN ，欢迎大家 star 原作者的 repo ，以便获得最新更新，谢谢！ 一系列关于 Linux 内核和其内在机理的帖子。 目的很简单 - 分享我对 Linux 内核内在机理的一点知识，帮助对 Linux…\n",
+      "originUrl": "https://www.cntofu.com/book/114/readme.html"
+    },
+    {
+      "title": "\n程序编译的四部曲\n",
+      "desc": "\n提到编译我们并不陌生，静态编译、动态编译等相关概念也经常出现，那么编译到底是什么，编译的过程又是如何呢？其实我们平时提到的编译，仅仅是编译过程中的一部分，真正的编译过程可总结为如下四步： 预编译 编译 汇编 连接 预编译 删除所有 #define ，展开所有宏定义；删除注释；处理 #include 等等。 编译…\n",
+      "originUrl": "http://runnanzhang.github.io/compile-process/index.html"
+    },
+    {
+      "title": "\n（转） 汇编.section和.text解释 - 熊熊战队的老大 - 博客园\n",
+      "desc": "\n.section .data 汇编程序中以 . 开头的名称并不是指令的助记符，不会被翻译成机器指令，而是给汇编器一些特殊指示，称为汇编指示（Assembler Directive）或伪操作（Pseudo-operation），由于它不是真正的指令所以加个“ 伪”字。 .section…\n",
+      "originUrl": "https://www.cnblogs.com/snail-micheal/p/4189632.html"
+    },
+    {
+      "title": "\nx86-64 下函数调用及栈帧原理\n",
+      "desc": "\n一蓑一笠一扁舟，一丈丝纶一寸钩。 一曲高歌一樽酒，一人独钓一江秋。 —— 题秋江独钓图 缘起 在 C/C++ 程序中，函数调用是十分常见的操作。那么，这一操作的底层原理是怎样的？编译器帮我们做了哪些操作？CPU…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/27339191"
+    },
+    {
+      "title": "\ngdb和gdb-peda安装、使用与调试\n",
+      "desc": "\nhttps://github.com/longld/peda.git\n",
+      "originUrl": "http://flamepeak.com/2019/10/30/gdb-and-gdb-peda-usage-and-debug/index.html"
+    },
+    {
+      "title": "\nNodeSchool\n",
+      "desc": "\n面对面教学 这些是在世界各地所举行的教学（Workshop）活动，通常是免费的。活动中，会有导师（Mentor）随时在旁解惑，帮助参加者完成各种学习课程的练习和挑战。 举办一个活动 查看所有活动 公开活动记录 即将举行的活动场次 加载中... 没有任何活动，你可以查看 之前的活动 ！ 无法加载信息 谁都可以举办…\n",
+      "originUrl": "https://nodeschool.io/zh-cn/"
+    },
+    {
+      "title": "\nReact 运行时优化方案的演进 - 掘金\n",
+      "desc": "\n上周刚在公司进行了一次 React 运行时优化方案的分享，以下是分享的文字版，文章比较长，干货也很多，相信你看完后会对 React 有不一样的理解。 就在前两个月， React 刚刚发布了 18 版本，记得上一次详细阅读 React 源码，还是在三年前，当时读的是 React 的 15…\n",
+      "originUrl": "https://juejin.cn/post/7010539227284766751"
+    },
+    {
+      "title": "\nHow good is Codex?\n",
+      "desc": "\nOpenAI recently released Codex (paper) , a large-scale language generation model trained on public programming source code from GitHub . Its most prominent use…\n",
+      "originUrl": "https://smitop.com/post/codex/"
+    },
+    {
+      "title": "\nAndroid PLT hook 概述\n",
+      "desc": "\n获取代码和资源 你始终可以从 这里 访问本文的最新版本。 文中使用的示例代码可以从 这里 获取。文中提到的 xhook 开源项目可以从 这里 获取。 开始 新的动态库 我们有一个新的动态库：libtest.so。 头文件 test.h # ifndef TEST_H# define TEST_H 1 # ifdef…\n",
+      "originUrl": "https://github.com/iqiyi/xHook/blob/master/docs/overview/android_plt_hook_overview.zh-CN.md"
+    },
+    {
+      "title": "\n模式匹配解题几例\n",
+      "desc": "\n涉及 ___ 的匹配，速度都比较慢。 生成 斐波那契数列 的方法 先做单次匹配 {1, 1} /. {c___, a_, b_} :> {c, a, b, a + b} Flaribbit_自动化_武汉 { 1 , 1 } //. { a___ , b_ , c_ / ; c  { a , b , c , b + c…\n",
+      "originUrl": "https://zhuanlan.zhihu.com/p/139216779"
+    },
+    {
+      "title": "\nUbuntu GUI with WSL2\n",
+      "desc": "\nThis tutorial consists of my efforts to compile the multiple sources and my own findings I had to use to get Ubuntu running on Windows Subsystem for Linux 2.…\n",
+      "originUrl": "https://joelkell.com/blog/ubuntu-gui-wsl2"
+    },
+    {
+      "title": "\n#通过命令行控制模拟器--simctl\n",
+      "desc": "\n要想实现命令行控制模拟器需要用的到命令是 simctl : Simulators Control 看这命令的意思像是这两个单词的缩写，搭载 xcrun 命令，可以通过这个命令实现以下功能 创建、删除、开启 模拟器 添加图片到模拟器 安装、卸载、打开、关闭APP 帮助命令 xcrun simctl --help…\n",
+      "originUrl": "https://www.jianshu.com/p/e772cd75734e"
+    },
+    {
+      "title": "\n写给工程师的 Ubuntu 20.04 最佳配置指南 - 少数派\n",
+      "desc": "\napt install autojump\n",
+      "originUrl": "https://sspai.com/post/60411"
+    },
+    {
+      "title": "\n改变世界的一次代码提交\n",
+      "desc": "\n改变世界的一次代码提交 Git 第一次提交的源代码分析及带来的启示 September 22, 2020 TL;DR 本文较长，如果对 Git 内部实现不感兴趣可以快速跳过中间两个章节。 吾诗已成。无论大神的震怒，还是山崩地裂，都不能把它化为无形！ —— 奥维德《变形记》 背景 Linux…\n",
+      "originUrl": "https://hutusi.com/articles/the-greatest-git-commit"
+    },
+    {
+      "title": "\n(4条消息) 通过再生龙(Clonezilla)备份/还原Ubuntu系统_zhanling1007的博客-CSDN博客\n",
+      "desc": "\nzhanling1007 2021-03-10 13:24:02 527 收藏 2 分类专栏： Ubuntu系统使用 文章标签： ubuntu 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 Ubuntu系统使用 专栏收录该内容 9 篇文章 0 订阅 目录…\n",
+      "originUrl": "https://blog.csdn.net/zhanling1007/article/details/114632916"
+    },
+    {
+      "title": "\n30 second of code 15个有意思的代码段\n",
+      "desc": "\n前言 30-seconds 是一个学习系列， 基本都是通过简短的代码实现某些功能 ， 包含 30-seconds-of-code 满足所有开发需求的简短JavaScript代码片段 30-seconds-of-css 满足所有开发需求的简短CSS代码片段 30-seconds-of-react…\n",
+      "originUrl": "https://juejin.cn/post/7001662835692404773"
+    },
+    {
+      "title": "\n打包你的 Linux 系统\n",
+      "desc": "\n今天教大家如何将你的 Linux 系统打包带走。 是的，就是打包带走，放在 U 盘里带走。 动手之前 根据 Ubuntu 社区官方帮助文档的叙述，备份一个 Ubuntu 系统的方法和工具其实有很多。根据不同的场景和需求，又可分为本地备份、远程备份、全量备份、增量备份、差异备份等等。 Utility Interface…\n",
+      "originUrl": "https://tickrain.com/archives/185"
+    },
+    {
+      "title": "\nhaskell - Mathematica：什么是符号编程？ - ITranslater\n",
+      "desc": "\nhaskell - Mathematica：什么是符号编程？ 我是斯蒂芬·沃尔夫勒姆（Stephen Wolfram）的忠实粉丝，但他绝对不会羞于吹响自己的号角。 在许多参考文献中，他将Mathematica称为不同的符号编程范例。 我不是Mathematica用户。 我的问题是：这个符号编程是什么？…\n",
+      "originUrl": "https://www.itranslater.com/qa/details/2125823339313759232"
+    },
+    {
+      "title": "\nJavaScript深入浅出第4课：V8引擎是如何工作的？\n",
+      "desc": "\n摘要： 性能彪悍的V8引擎。 《 JavaScript深入浅出 》系列 ： JavaScript深入浅出第1课：箭头函数中的this究竟是什么鬼？ JavaScript深入浅出第2课：函数是一等公民是什么意思呢？ JavaScript深入浅出第3课：什么是垃圾回收算法？…\n",
+      "originUrl": "https://kiwenlau.com/2019/07/16/how-does-v8-work/?spm=ata.21736010.0.0.cb5a3c71kzkyaQ"
+    },
+    {
+      "title": "\n1. 引言\n",
+      "desc": "\n本周的精读是有感而发。 笔者接触前端已有八年，观察了不少前端大牛的发展路径，发现成功的人都具有相似的经历： 初期技术热情极大 -> 大量标志性技术项目 -> 转向综合性思考 -> 带团队/关注方法论…\n",
+      "originUrl": "https://github.com/ascoders/weekly/blob/v2/103.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%93%E5%AE%B6%E4%B8%8D%E5%86%8D%E5%85%B3%E5%BF%83%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82%E3%80%8B.md"
+    },
+    {
+      "title": "\n程序员可能必读书单推荐（一） - 面向信仰编程\n",
+      "desc": "\n写在前面 从最开始写博客到今天已经有将近七年的时间了，有很多博客的读者都向作者要过书单，但是一直以来这件事情都没有提上日程。作者一直都觉得分享书单和推荐书籍是一件很严肃的事情，大多数工程师的时间和精力都很有限，不希望因为推荐的不合适书籍而浪费大家的时间。…\n",
+      "originUrl": "https://www.instapaper.com/draveness.me/books-1"
+    },
+    {
+      "title": "\nHarttle Land - 分享技术，共建开放平台\n",
+      "desc": "\nJavaScript 字符串 Number 我们知道 JavaScript 中字符串转为数字有 parseInt , Number() , + 等方式，但它们的转换规则很不一样适用范围也不同。比如 parseInt 可以解析数字字母的混合字符串而 Number 和 + 会直接产生 NaN， Number 和…\n",
+      "originUrl": "https://harttle.land/"
+    },
+    {
+      "title": "\nEspruino Web IDE\n",
+      "desc": "\nLOADING ... Connection Failed. Log TimeFreeMemory TimeFreeMemory 00:00:00 -1.0 -0.5 0.0 0.5 1.0 xxxxxxxxxx 1 1 var on = false ; 2 setInterval ( function () { 3…\n",
+      "originUrl": "https://www.espruino.com/ide/"
+    },
+    {
+      "title": "\n如何评价「线程的本质就是一个正在运行的函数」? - 知乎\n",
+      "desc": "\n如果我的学生问我线程是什么,我的回答基本也会和「线程的本质就是一个正在运行的函数」差不多 因为这是最容易让初学者理解并能够帮助他们应用到实践中的方式。对于我来说，我施教的目的达到了。…\n",
+      "originUrl": "https://www.zhihu.com/question/469947035/answer/1986796093?utm_medium=social&utm_oi=686868376059916288&utm_source=ZHShareTargetIDMore"
+    },
+    {
+      "title": "\nVocal Remover and Isolation\n",
+      "desc": "\nRemove vocals from a song This free online application will help remove vocals from a song by creating karaoke. Once you choose a song, artificial intelligence…\n",
+      "originUrl": "https://vocalremover.org/"
+    }
+  ]
 }

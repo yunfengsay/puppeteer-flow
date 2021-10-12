@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "pcrawl": "bin.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node -P tsconfig.json index.ts",
+    "start": "ts-node -P tsconfig.json ./src/bin.ts",
     "build": "tsc"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "argparse": "^2.0.1",
     "puppeteer": "^10.4.0",
     "yaml": "^1.10.2"
   },

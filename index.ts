@@ -18,7 +18,11 @@ interface IConfigItem {
   authActions?: any[];
 }
 
-const log = (message: string) => {
+const log = (message: any) => {
+  if (typeof message !== "string") {
+    console.log("Unknow type log ---> ", message);
+    return;
+  }
   message = message.trim();
   if (message.startsWith("---")) {
     message = message.replace("---", "");
@@ -27,12 +31,20 @@ const log = (message: string) => {
   }
   console.log(message);
 };
+
 const getConfig = (path = "./config.yml"): IConfig => {
   const file = fs.readFileSync(path, "utf8");
   return YAML.parse(file);
 };
 
+const getFuncString = (func: string) => {
+  if (func.startsWith("/") || func.startsWith("./")) {
+    func = fs.readFileSync(func, "utf-8");
+  }
+  return func;
+};
 const getDataItemFunc = (func: string, args = {}) => {
+  func = getFuncString(func);
   return vm.runInNewContext(func, {
     console,
     ...args,
@@ -56,7 +68,7 @@ class Spider {
     this.bowser = browser;
     const page = await browser.newPage();
     this.page = page;
-    const { authActions, authUrl } = this.config;
+    const { authActions, authUrl, url } = this.config;
     if (authActions) {
       await page.goto(authUrl, { waitUntil: "networkidle0" });
       for (const action of authActions) {
@@ -65,21 +77,23 @@ class Spider {
           .map((v) => v.trim());
         await this.page[actionName](selector, value);
       }
+      await page.goto(url, { waitUntil: "domcontentloaded" });
       return;
     }
-    await this.listenLog();
     if (authUrl) {
       await page.goto(authUrl);
-      await page.waitForTimeout(10000);
+      await page.waitForTimeout(4000);
+      await page.goto(url, { waitUntil: "domcontentloaded" });
     }
+    await this.listenLog();
   }
   async listenLog() {
     this.page.on("console", (msg) => console.log("PAGE LOG:", msg.text()));
-    // this.page.on("pageerror", ({ message }) => console.log(message));
+    this.page.on("pageerror", ({ message }) => console.log(message));
   }
   async addJquery() {
     await this.page.addScriptTag({
-      url: "https://code.jquery.com/jquery-3.2.1.min.js",
+      url: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
     });
   }
   async loadUntil(url: string, until: string) {
@@ -101,40 +115,42 @@ class Spider {
       return false;
     }
   }
-  async getItemData(confing, resultList = []) {
-    const { dataItemFunc } = confing;
+  async getItemData(config: IConfigItem) {
+    const resultList = [];
+    // await this.addJquery();
+    const { dataItemFunc } = config;
     // get data item
-    const _dataItemFunc = getDataItemFunc(dataItemFunc);
+    // const _dataItemFunc = getDataItemFunc(dataItemFunc);
     try {
-      await this.page.exposeFunction("_dataItemFunc", _dataItemFunc);
-      await this.page.exposeFunction("myConsole", console);
-    } catch (e) {}
-    const data = await this.page.evaluate(() => {
+      await this.page.addScriptTag({ content: getFuncString(dataItemFunc) });
+      // await this.page.exposeFunction("_dataItemFunc", _dataItemFunc);
+    } catch (e) {
+      log(e);
+    }
+    const data = await this.page.evaluate(function () {
       // @ts-ignore
-      return window._dataItemFunc({});
+      return $main({});
     });
     console.log(data);
     resultList.push(...(data || []));
+    return resultList;
   }
 
-  async run(config, resultList = []) {
-    const { url, wait } = config;
-
-    // load url and wait until element
-    if (url) {
-      await this.loadUntil(url, wait);
-    }
+  async run(config: IConfigItem) {
+    let resultList = [];
     // if next is not null, run next, else break
-    await this.getItemData(config, resultList);
+    const onePageList = (await this.getItemData(config)) || [];
     // get next page url
     const isOk = await this.gotoNext();
     if (isOk) {
-      await this.run(config, resultList);
+      const list = await this.run(config);
+      resultList = [...list, ...onePageList];
     }
+    return resultList;
   }
   async runAll() {
-    const resultList = [];
-    await this.run({ ...this.config, url: null }, resultList);
+    await this.init();
+    const resultList = await this.run({ ...this.config, url: null });
     return resultList;
   }
 }
@@ -153,7 +169,6 @@ const main = async () => {
     log(`--- start ${key}`);
     const configItem = config[key];
     const instance = new Spider(configItem);
-    await instance.init();
     const data = await instance.runAll();
     result[key] = data;
     console.log(result);

@@ -74,7 +74,7 @@ var log = function (message) {
     console.log(message);
 };
 var getConfig = function (path) {
-    if (path === void 0) { path = "./config.yml"; }
+    if (path === void 0) { path = __dirname + "/../config.yml"; }
     var file = fs.readFileSync(path, "utf8");
     return YAML.parse(file);
 };
@@ -342,7 +342,7 @@ var main = function (args) { return __awaiter(void 0, void 0, void 0, function (
                 _i++;
                 return [3 /*break*/, 1];
             case 4:
-                writeToFile(result, args.out);
+                writeToFile(result, args.output);
                 log("--- done");
                 return [2 /*return*/];
         }

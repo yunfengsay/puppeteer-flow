@@ -15,6 +15,9 @@ parser.add_argument("-v", "--version", {
 parser.add_argument("-c", "--config", {
     help: "配置文件",
 });
+parser.add_argument("-o", "--output", {
+    help: "输出到目标文件",
+});
 parser.add_argument("-j", "--jquery", {
     help: "是否注入jquery到yemain, true| false, defalut false",
 });
